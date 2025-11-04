@@ -1,0 +1,39 @@
+{
+  "domain1": [
+    {
+      "question": "Which risk assessment approach primarily relies on numerical data and mathematical models to evaluate risk?",
+      "answers": [
+        { "text": "Qualitative", "correct": false },
+        { "text": "Quantitative", "correct": true },
+        { "text": "Semiquantitative", "correct": false },
+        { "text": "Descriptive", "correct": false }
+      ]
+    }
+  ],
+  "domain2": [
+    {
+      "question": "What approach focuses first on identifying critical assets and potential impacts?",
+      "answers": [
+        { "text": "Quantitative approach", "correct": false },
+        { "text": "Threat-oriented approach", "correct": false },
+        { "text": "Vulnerability-oriented approach", "correct": false },
+        { "text": "Asset/impact-oriented approach", "correct": true }
+      ]
+    }
+  ],
+  "domain3": [
+    {
+      "question": "Which risk response involves changing behavior or functionality so that the risk conditions no longer exist?",
+      "answers": [
+        { "text": "Risk acceptance", "correct": false },
+        { "text": "Risk mitigation", "correct": false },
+        { "text": "Risk avoidance", "correct": true },
+        { "text": "Risk transfer", "correct": false }
+      ]
+    }
+  ],
+  "domain4": [],
+  "domain5": [],
+  "domain6": [],
+  "domain7": []
+}

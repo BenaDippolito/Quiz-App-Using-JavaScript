@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <title>GRC Quiz</title>
+</head>
+
+<body>
+    <nav class="top-nav container">
+        <div class="brand"><a href="index.html" class="brand-link">GRC Launchpad</a></div>
+        <div class="nav-actions">
+            <a class="btn ghost" href="index.html">Home</a>
+            <a class="btn primary" href="quiz.html">Quizzes</a>
+            <a class="btn outline" href="flashcards.html">Flashcards</a>
+        </div>
+    </nav>
+
+    <!-- Quiz-only page: displays only the quiz section -->
+    <section id="quiz-section">
+        <div class="app app-quiz">
+            <div class="app-header">
+                <h1>CGRC Quiz</h1>
+                <div id="timer" class="timer" aria-live="polite">Time: 15s</div>
+            </div>
+            <div class="quiz">
+                <h2 id="question">Question goes here</h2>
+                <div id="answer-buttons">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+                <button id="next-btn">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="nav.js"></script>
+    <script src="generator.js"></script>
+</body>
+
+</html>

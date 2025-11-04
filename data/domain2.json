@@ -1,0 +1,1644 @@
+[
+  {
+    "question": "How does the system context shape the definition of a system's purpose and functionality?",
+    "answers": [
+      { "text": "The internal components of the system and their roles", "correct": false },
+      { "text": "The external and internal factors that influence system behavior and design", "correct": true },
+      { "text": "The objectives and benefits the system aims to achieve within its context", "correct": false },
+      { "text": "The boundaries and limitations that define the system's operational scope", "correct": false }
+    ]
+  },
+  {
+    "question": "How do system purpose and functionality relate to risk management?",
+    "answers": [
+      { "text": "They are not related", "correct": false },
+      { "text": "They monitor and communicate risks", "correct": false },
+      { "text": "They help identify potential risks", "correct": true },
+      { "text": "They define the risk management framework", "correct": false }
+    ]
+  },
+  {
+    "question": "What element of system purpose and functionality helps identify potential sources of risk?",
+    "answers": [
+      { "text": "System interfaces", "correct": false },
+      { "text": "System standards", "correct": false },
+      { "text": "System stakeholders", "correct": false },
+      { "text": "System dependencies", "correct": true }
+    ]
+  },
+  {
+    "question": "How do system purpose and functionality relate to risk management?",
+    "answers": [
+      { "text": "They are not related", "correct": false },
+      { "text": "They monitor and communicate risks", "correct": false },
+      { "text": "They help identify potential risks", "correct": true },
+      { "text": "They define the risk management framework", "correct": false }
+    ]
+  },
+  {
+    "question": "What are the key elements that determine a system's purpose and functionality according to ISO 31000?",
+    "answers": [
+      { "text": "Context and scope", "correct": true },
+      { "text": "System description and categorization", "correct": false },
+      { "text": "Stakeholder needs and legal requirements", "correct": false },
+      {
+        "text": "Organizational policies and system complexity",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What NIST publication provides guidelines for managing risks to U.S. federal information systems?",
+    "answers": [
+      { "text": "NIST SP 800-37 Rev. 2", "correct": true },
+      { "text": "NIST SP 800-53 Rev. 5", "correct": false },
+      { "text": "NIST SP 800-30", "correct": false },
+      { "text": "NIST SP 800-171", "correct": false }
+    ]
+  },
+  {
+    "question": "What process does NIST SP 800-37 Rev. 2 use to determine system purpose and functionality?",
+    "answers": [
+      { "text": "Defining the context and scope", "correct": false },
+      { "text": "Categorizing the system and describing it", "correct": true },
+      { "text": "Assessing threats and vulnerabilities", "correct": false },
+      { "text": "Reviewing organizational policies", "correct": false }
+    ]
+  },
+  {
+    "question": "What should be included in the system description during the risk management process?",
+    "answers": [
+      { "text": "Only the system's security requirements and controls", "correct": false },
+      { "text": "Only the system's mission and business objectives", "correct": false },
+      { "text": "The system's boundaries, components, architectures, interfaces, data flows, security requirements, and security controls",
+        "correct": true },      
+      { "text": "The system categorization and the operational environment of the organization",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What publication provides guidance on defining a system's scope?",
+    "answers": [
+      { "text": "ISO/IEC 12207", "correct": false },
+      { "text": "IEEE 830", "correct": false },
+      { "text": "ISO 9001", "correct": false },
+      { "text": "NIST SP 800-37 Rev. 2", "correct": true }
+    ]
+  },
+  {
+    "question": "What are the three components that a system name may consist of according to ISO/IEC 11179-5:2015?",
+    "answers": [
+      { "text": "Category, identifier, qualifier", "correct": true },
+      { "text": "Type, name, description", "correct": false },
+      { "text": "Class, version, context", "correct": false },
+      { "text": "Function, component, interface", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the primary purpose of system scoping in the context of the NIST Risk Management Framework (RMF)?",
+    "answers": [
+      {
+        "text": "To define the system's security controls and performance metrics", "correct": false },
+      {
+        "text": "To establish the system's boundaries, interfaces, and dependencies with other systems", "correct": true },
+      {
+        "text": "To identify the system's components, such as hardware and software", "correct": false
+      },
+      {
+        "text": "To create the system's operational environment and business objectives",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of system naming according to the ISO standard?",
+    "answers": [
+      { "text": "To reflect the system's scope", "correct": false },
+      { "text": "To indicate the system's category", "correct": false },
+      { "text": "To specify the system's identifier", "correct": false },
+      { "text": "To assign a unique and meaningful name", "correct": true }
+    ]
+  },
+  {
+    "question": "What are the core functions of the NIST framework?",
+    "answers": [
+      { "text": "Detect, Recover, Respond", "correct": false },
+      {
+        "text": "Identify, Protect, Detect, Respond, Recover",
+        "correct": true
+      },
+      { "text": "Assess, Mitigate, Accept", "correct": false },
+      { "text": "Quantify, Qualify, Manage", "correct": false }
+    ]
+  },
+  {
+    "question": "What does the NIST framework define as risk?",
+    "answers": [
+      { "text": "A potential threat to an organization", "correct": false },
+      { "text": "The likelihood of harm from an event", "correct": false },
+      { "text": "The extent an entity is threatened", "correct": true },
+      { "text": "The impact of unauthorized access", "correct": false }
+    ]
+  },
+  {
+    "question": "What does the NIST framework define as the magnitude of harm from unauthorized actions?",
+    "answers": [
+      { "text": "Risk tolerance", "correct": false },
+      { "text": "Risk impact", "correct": true },
+      { "text": "Risk assessment", "correct": false },
+      { "text": "Risk management", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following steps is involved in determining the risk impact level using the NIST framework?",
+    "answers": [
+      {
+        "text": "Assigning potential impact values for each security objective and aggregating them based on NIST 800-53",
+        "correct": false
+      },
+      {
+        "text": "Identifying the information types processed, stored, or transmitted by the system and their associated security categories",
+        "correct": true
+      },
+      {
+        "text": "Conducting a qualitative analysis based on FIPS 140-2 security standards",
+        "correct": false
+      },
+      {
+        "text": "Establishing the system's security objectives based solely on business requirements",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the three impact levels defined by NIST for categorizing information?",
+    "answers": [
+      { "text": "Low, moderate, high", "correct": true },
+      { "text": "Public, confidential, sensitive", "correct": false },
+      { "text": "Minor, major, critical", "correct": false },
+      { "text": "Green, yellow, red", "correct": false }
+    ]
+  },
+  {
+    "question": "What should organizations consider when determining the impact level of information?",
+    "answers": [
+      { "text": "The potential harm if compromised", "correct": true },
+      { "text": "The number of records", "correct": false },
+      { "text": "The storage location", "correct": false },
+      { "text": "The creation date", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following factors is NOT considered when determining the impact level of information according to NIST's information categorization process?",
+    "answers": [
+      {
+        "text": "The value of the information to the organization and its stakeholders",
+        "correct": false
+      },
+      {
+        "text": "The potential harm or damage if the information is compromised",
+        "correct": false
+      },
+      {
+        "text": "The financial cost of storing the information",
+        "correct": true
+      },
+      {
+        "text": "The legal and regulatory obligations of the organization to protect the information",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "According to NIST, which of the following is true about the \"high\" impact level for information categorization?",
+    "answers": [
+      {
+        "text": "The loss or compromise of the information would have a limited adverse effect on the organization.",
+        "correct": false
+      },
+      {
+        "text": "The loss or compromise of the information would have a serious adverse effect on the organization.",
+        "correct": false
+      },
+      {
+        "text": "The loss or compromise of the information would not affect the organization's operations, assets, or individuals.",
+        "correct": false
+      },
+      {
+        "text": "The loss or compromise of the information would have a severe or catastrophic adverse effect on the organization.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What type of information requires a high level of protection and access only by authorized personnel?",
+    "answers": [
+      { "text": "Personal information", "correct": false },
+      { "text": "Public information", "correct": false },
+      { "text": "Business information", "correct": false },
+      { "text": "Sensitive information", "correct": true }
+    ]
+  },
+  {
+    "question": "According to the ISO, how many types of information should organizations classify?",
+    "answers": [
+      { "text": "Two", "correct": false },
+      { "text": "Three", "correct": true },
+      { "text": "Four", "correct": false },
+      { "text": "Five", "correct": false }
+    ]
+  },
+  {
+    "question": "Why is it important for organizations to classify and protect different types of information?",
+    "answers": [
+      {
+        "text": "To manage the financial costs associated with storing data",
+        "correct": false
+      },
+      {
+        "text": "To ensure data is shared with stakeholders regardless of its sensitivity",
+        "correct": false
+      },
+      {
+        "text": "To apply appropriate controls based on the information's characteristics, risks, and security requirements",
+        "correct": true
+      },
+      {
+        "text": "To streamline the processing of information without considering its value or purpose",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What kind of information relates to the operations and performance of an organization?",
+    "answers": [
+      { "text": "Personal information", "correct": false },
+      { "text": "Confidential information", "correct": false },
+      { "text": "Sensitive information", "correct": false },
+      { "text": "Business information", "correct": true }
+    ]
+  },
+  {
+    "question": "Which of the following factors is NOT typically used in determining the risk impact level of a system or information?",
+    "answers": [
+      { "text": "Severity of impact", "correct": false },
+      { "text": "Likelihood of impact", "correct": false },
+      { "text": "Market share of the organization", "correct": true },
+      { "text": "Duration of impact", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a factor that helps determine the severity of impact in a risk assessment?",
+    "answers": [
+      { "text": "Market competition", "correct": false },
+      { "text": "Magnitude of harm, damage, or loss caused", "correct": true },
+      { "text": "Public perception of the organization", "correct": false },
+      { "text": "Age of the system", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following factors is most closely associated with determining the likelihood of a risk impact?",
+    "answers": [
+      { "text": "Magnitude of harm caused by the risk", "correct": false },
+      { "text": "Duration of the risk's impact", "correct": false },
+      {
+        "text": "Probability or frequency of the risk's occurrence",
+        "correct": true
+      },
+      {
+        "text": "Number of stakeholders affected by the risk",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a factor typically used in determining the risk impact level of a system or information?",
+    "answers": [
+      { "text": "Nature of impact", "correct": false },
+      { "text": "Duration of impact", "correct": false },
+      {
+        "text": "Financial investment required for remediation",
+        "correct": true
+      },
+      { "text": "Severity of impact", "correct": false }
+    ]
+  },
+  {
+    "question": "What does Federal Information Processing Standard (FIPS) 140-2 specify requirements for?",
+    "answers": [
+      { "text": "Cryptographic modules", "correct": true },
+      { "text": "Information systems", "correct": false },
+      { "text": "Data protection", "correct": false },
+      { "text": "Healthcare systems", "correct": false }
+    ]
+  },
+  {
+    "question": "What does a Data Protection Impact Assessment (DPIA) identify and assess?",
+    "answers": [
+      { "text": "Requirements for cryptographic modules", "correct": false },
+      {
+        "text": "Security categorization of information systems",
+        "correct": false
+      },
+      {
+        "text": "Compliance with international security standards",
+        "correct": false
+      },
+      {
+        "text": "Potential risks and impacts of processing personal data",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a key purpose of information classification within an organization?",
+    "answers": [
+      {
+        "text": "To ensure that all information is made publicly available",
+        "correct": false
+      },
+      {
+        "text": "To determine appropriate security measures and controls for different information types",
+        "correct": true
+      },
+      {
+        "text": "To eliminate the need for regulatory compliance",
+        "correct": false
+      },
+      {
+        "text": "To store information in a central location for ease of access",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a KEY step in the security compliance process?",
+    "answers": [
+      {
+        "text": "Determining the organization's mission statement",
+        "correct": false
+      },
+      {
+        "text": "Identifying relevant security standards and regulations",
+        "correct": true
+      },
+      {
+        "text": "Implementing physical security controls like access cards and locks",
+        "correct": false
+      },
+      {
+        "text": "Conducting employee satisfaction surveys to improve security awareness",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the MAIN security objective for internal information?",
+    "answers": [
+      { "text": "Ensuring confidentiality", "correct": true },
+      { "text": "Maintaining availability", "correct": false },
+      { "text": "Restricting access", "correct": false },
+      { "text": "Meeting ethical standards", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the MAIN security objective for public information?",
+    "answers": [
+      { "text": "Ensuring confidentiality", "correct": false },
+      { "text": "Maintaining integrity and availability", "correct": true },
+      { "text": "Restricting access", "correct": false },
+      { "text": "Meeting ethical standards", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is the PRIMARY security objective for personal information?",
+    "answers": [
+      {
+        "text": "Ensuring availability and accessibility to all users",
+        "correct": false
+      },
+      {
+        "text": "Classifying the information to determine its value to the organization",
+        "correct": false
+      },
+      {
+        "text": "Protecting the information from unauthorized or unlawful processing, accidental loss, or damage",
+        "correct": true
+      },
+      {
+        "text": "Ensuring compliance with national and international security and privacy standards",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Why is it important for an organization to follow information classification guidelines?",
+    "answers": [
+      {
+        "text": "To ensure information is always kept confidential, regardless of the situation",
+        "correct": false
+      },
+      {
+        "text": "To identify appropriate security measures for each type of information and comply with standards",
+        "correct": true
+      },
+      {
+        "text": "To make sure personal information is never shared with anyone",
+        "correct": false
+      },
+      {
+        "text": "To reduce the amount of data processed and stored within the organization",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does ISO recommend for determining risk impact level?",
+    "answers": [
+      { "text": "Fixed qualitative descriptors", "correct": false },
+      { "text": "Specific quantitative methods", "correct": false },
+      { "text": "Mandatory stakeholder analysis.", "correct": false },
+      { "text": "Consistency with risk management objectives", "correct": true }
+    ]
+  },
+  {
+    "question": "What factors does ISO suggest should determine risk impact level?",
+    "answers": [
+      { "text": "Sources, outcomes, time frame, resilience", "correct": true },
+      {
+        "text": "Likelihood, duration, uncertainties, preferences",
+        "correct": false
+      },
+      {
+        "text": "Causes, consequences, probability, vulnerabilities",
+        "correct": false
+      },
+      {
+        "text": "Interactions, assumptions, scales, judgments",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the two MAIN methods suggested by ISO for evaluating risk impact level?",
+    "answers": [
+      { "text": "Quantitative and qualitative", "correct": true },
+      { "text": "Scenario analysis and simulation", "correct": false },
+      { "text": "Stakeholder analysis and historical data", "correct": false },
+      { "text": "Descriptive and numerical scales", "correct": false }
+    ]
+  },
+  {
+    "question": "What does ISO framework NOT prescribe for determining risk impact level?",
+    "answers": [
+      { "text": "Specific method and scale", "correct": true },
+      { "text": "Risk assessment process", "correct": false },
+      { "text": "Stakeholder preferences", "correct": false },
+      { "text": "Qualitative analysis", "correct": false }
+    ]
+  },
+  {
+    "question": "The scoping process is essential when seeking to approve a system. What is the starting point for this process?",
+    "answers": [
+      { "text": "Securing budget for technical testing", "correct": false },
+      { "text": "Seeking a formal project mandate", "correct": false },
+      {
+        "text": "Conducting a risk assessment of the system",
+        "correct": false
+      },
+      {
+        "text": "Describing why the system is required and its function",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which response below best describes the MAIN benefit derived from the scoping process? (.)",
+    "answers": [
+      {
+        "text": "A security posture appropriate to the system",
+        "correct": true
+      },
+      {
+        "text": "A completed risk assessment allows risk management process to commence",
+        "correct": false
+      },
+      {
+        "text": "A system authorization following the scoping process",
+        "correct": false
+      },
+      {
+        "text": "Describing why the system is required and its function",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "During system scoping, should the type of data to be used or processed in the system be considered?",
+    "answers": [
+      {
+        "text": "No, although the system interdependencies are considered.",
+        "correct": false
+      },
+      {
+        "text": "No, although cloud service models are considered.",
+        "correct": false
+      },
+      {
+        "text": "Yes, this affects the level of security required.",
+        "correct": true
+      },
+      {
+        "text": "Yes, this affects the interdependencies defined.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When should the Federal Information Processing Standard (FIPS) 199 standard be applied?",
+    "answers": [
+      {
+        "text": "When there is a significant change to network systems",
+        "correct": false
+      },
+      {
+        "text": "At the start of each calendar or financial year",
+        "correct": false
+      },
+      {
+        "text": "Whenever there is a federal requirement to provide categorization of either information or an information system",
+        "correct": true
+      },
+      {
+        "text": "Whenever risk management processes require mitigation or reduction as a course of action",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What security objectives does the Federal Information Security Modernization Act (FISMA) define for information and information systems?",
+    "answers": [
+      { "text": "Governance, risk, and compliance", "correct": false },
+      {
+        "text": "Authentication, authorization, and auditing",
+        "correct": false
+      },
+      {
+        "text": "Recovery point objective, recovery time objective, and maximum tolerable downtime",
+        "correct": false
+      },
+      {
+        "text": "Confidentiality, integrity, and availability",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Under NIST, what information categorization level would describe an impact level as having a serious adverse effect on organizational operations, organizational assets, or individuals?",
+    "answers": [
+      { "text": "Low", "correct": false },
+      { "text": "Moderate", "correct": false },
+      { "text": "High", "correct": true },
+      { "text": "Critical", "correct": false }
+    ]
+  },
+  {
+    "question": "When considering whether to implement a particular control, which of these is NOT a significant influencing factor?",
+    "answers": [
+      {
+        "text": "The value of the asset being protected in financial terms",
+        "correct": false
+      },
+      {
+        "text": "The value of the asset being protected in non-financial terms",
+        "correct": false
+      },
+      {
+        "text": "The value of the control being implemented",
+        "correct": false
+      },
+      { "text": "The value of the baseline being implemented", "correct": true }
+    ]
+  },
+  {
+    "question": "The process of scoping and tailoring baseline catalogs is usually advised. What is the preferred sequence for undertaking this process?",
+    "answers": [
+      {
+        "text": "This process is not advised for baseline catalogues, but instead for control frame works, for example SP800-53.",
+        "correct": false
+      },
+      {
+        "text": "This process can be undertaken in any order depending on organizational context or preference.",
+        "correct": false
+      },
+      {
+        "text": "Scoping should occur first, with tailoring the next process in the sequence.",
+        "correct": true
+      },
+      {
+        "text": "Tailoring should occur first, with scoping the next process in the sequence.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ISO 27005 standard and NIST's Risk Management Framework (RMF) are LEAST likely to consider which elements as part of risk assessment and management?",
+    "answers": [
+      { "text": "The nature of the threat", "correct": false },
+      { "text": "The adverse outcome possible", "correct": false },
+      { "text": "The auditability of logging events", "correct": true },
+      { "text": "The value of the asset", "correct": false }
+    ]
+  },
+  {
+    "question": "A compensating control is best described as what type of control?",
+    "answers": [
+      {
+        "text": "A control that compensates for a weakness in a system",
+        "correct": false
+      },
+      {
+        "text": "A control that compensates for the ineffectiveness of another control",
+        "correct": true
+      },
+      {
+        "text": "A control that compensates for a vulnerability in a system",
+        "correct": false
+      },
+      {
+        "text": "A control that compensates for the excess cost of alternate solutions",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "You are the security officer for your company. A colleague has approached you with concerns over the security offered by a SaaS cloud solution used by your organization. Your colleague is the data owner for the system and makes you aware that it contains large quantities of Personal Health Information (PHI). Your colleague, the data owner, knows that PHI is heavily regulated and wants to ensure that the SaaS cloud hosting provider is directly accountable to the regulator for any potential sanctions or fines arising from any security issues with the cloud service. What advice would you provide?",
+    "answers": [
+      {
+        "text": "Most regulatory frameworks will ensure that the service provider will be held to account as part of any investigation or breach.",
+        "correct": false
+      },
+      {
+        "text": "It is not possible to transfer accountability to another party from the data owner.",
+        "correct": true
+      },
+      {
+        "text": "The contract for services can and should be used to transfer accountability to the cloud service provider.",
+        "correct": false
+      },
+      {
+        "text": "By accessing SOC2 type 2 reports, ISC27001 certification or CSA STAR assurance, accountability can be passed to the service provider.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following does NOT provide a catalog of controls?",
+    "answers": [
+      { "text": "ISO27001", "correct": false },
+      { "text": "COBIT", "correct": false },
+      { "text": "PIPEDA", "correct": true },
+      { "text": "SP800-53", "correct": false }
+    ]
+  },
+  {
+    "question": "When selecting a solution, which party is accountable for defining the minimum security requirements for a web-based Software as a Service (SaaS) application?",
+    "answers": [
+      { "text": "The cloud service provider", "correct": false },
+      { "text": "The cloud service customer", "correct": true },
+      { "text": "The data processor", "correct": false },
+      { "text": "The data custodian", "correct": false }
+    ]
+  },
+  {
+    "question": "System names may consist of the following components: system category, system identifier, and what else?",
+    "answers": [
+      { "text": "System scope", "correct": false },
+      { "text": "System qualifier", "correct": true },
+      { "text": "System stakeholder", "correct": false },
+      { "text": "System owner", "correct": false }
+    ]
+  },
+  {
+    "question": "What definition BEST describes the purpose, value, and alignment of a system with organizational goals and strategies?",
+    "answers": [
+      { "text": "Identify the systems stakeholders", "correct": false },
+      { "text": "Identify the systems components", "correct": false },
+      { "text": "Identify the systems environment", "correct": false },
+      {
+        "text": "Identify the systems mission or business objectives",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "During system development, which official document would include the following: description of the system's characteristics, architecture, security requirements, and security controls?",
+    "answers": [
+      { "text": "System scope", "correct": false },
+      { "text": "System name", "correct": false },
+      { "text": "System environment", "correct": false },
+      { "text": "System security plan", "correct": true }
+    ]
+  },
+  {
+    "question": "An organization's expected outcomes and benefits of implementing a new system, such as the value proposition, performance indicators, quality attributes, and success criteria are considered what?",
+    "answers": [
+      { "text": "System objectives", "correct": true },
+      { "text": "System context", "correct": false },
+      { "text": "System scope", "correct": false },
+      { "text": "System requirements", "correct": false }
+    ]
+  },
+  {
+    "question": "What phase of the system development life cycle (SDLC) involves defining the boundaries and interfaces of the system and its components, as well as the relationships with and dependencies on other systems and entities?",
+    "answers": [
+      { "text": "System context", "correct": false },
+      { "text": "System scoping", "correct": true },
+      { "text": "System objectives", "correct": false },
+      { "text": "System requirements", "correct": false }
+    ]
+  },
+  {
+    "question": "The system scoping phase of the system development life cycle (SDLC) should NOT include which of the following?",
+    "answers": [
+      { "text": "System characteristics", "correct": false },
+      { "text": "System architecture", "correct": false },
+      { "text": "System project cost", "correct": true },
+      { "text": "System security requirements", "correct": false }
+    ]
+  },
+  {
+    "question": "Which term describes organizational information that, if disclosed or modified without authorization, could cause moderate impact or harm to an organization or its stakeholders?",
+    "answers": [
+      { "text": "Confidential information", "correct": true },
+      { "text": "Public information", "correct": false },
+      { "text": "Business information", "correct": false },
+      { "text": "Personal information", "correct": false }
+    ]
+  },
+  {
+    "question": "Organizational information can be classified as personal, sensitive, confidential, public or business. Which of the following criteria is NOT generally used to determine classification?",
+    "answers": [
+      {
+        "text": "File size, document format, and storage location",
+        "correct": true
+      },
+      { "text": "Regulatory or compliance requirements", "correct": false },
+      {
+        "text": "Sensitivity or confidentiality requirements",
+        "correct": false
+      },
+      { "text": "Access control or usage policies", "correct": false }
+    ]
+  },
+  {
+    "question": "An organization holds information that relates to its customers. This information includes customers' dates of birth, health records, and financial information. What classification category should be used for this type of information?",
+    "answers": [
+      { "text": "Confidential", "correct": false },
+      { "text": "Personal", "correct": true },
+      { "text": "Public", "correct": false },
+      { "text": "Business", "correct": false }
+    ]
+  },
+  {
+    "question": "If information held by an organization is lost or stolen, and that information has a severe or catastrophic adverse impact to an organization's business operation, what impact level should that information be categorized as?",
+    "answers": [
+      { "text": "Low", "correct": false },
+      { "text": "Very Low", "correct": false },
+      { "text": "Moderate", "correct": false },
+      { "text": "High", "correct": true }
+    ]
+  },
+  {
+    "question": "Financial data, intellectual property, or trade secrets could cause an organization or its stakeholders significant harm or damage if disclosed or modified without authorization. What type of information is this considered?",
+    "answers": [
+      { "text": "Sensitive", "correct": false },
+      { "text": "Confidential", "correct": true },
+      { "text": "Business Information", "correct": false },
+      { "text": "Secret", "correct": false }
+    ]
+  },
+  {
+    "question": "Which organizational role should determine information compliance and protection needs for system information?",
+    "answers": [
+      { "text": "System owner", "correct": false },
+      { "text": "System security officer", "correct": false },
+      { "text": "Information owner", "correct": true },
+      { "text": "Authorizing Official", "correct": false }
+    ]
+  },
+  {
+    "question": "Information such as business plans, strategies, policies, procedures, contracts, agreements, financial statements, audit reports, customer data, and employee data that relate to an organization's operations, activities, or performance should be considered what type of information?",
+    "answers": [
+      { "text": "Public information", "correct": false },
+      { "text": "Business information", "correct": true },
+      { "text": "Confidential information", "correct": false },
+      { "text": "Sensitive information", "correct": false }
+    ]
+  },
+  {
+    "question": "Which standard specifies the minimum requirements for the security and interoperability of information and systems in the U.S. federal government sector?",
+    "answers": [
+      { "text": "ISO/IEC 27001", "correct": false },
+      {
+        "text": "Federal Information Processing Standards (FIPS)",
+        "correct": true
+      },
+      { "text": "Data Protection Impact Assessment", "correct": false },
+      { "text": "HIPAA", "correct": false }
+    ]
+  },
+  {
+    "question": "A multinational retailer operates in the United States, European Union, and Japan. Given the differing jurisdictional differences relating to security and privacy, identification and assessment of potential risks and the impacts of processing personal data should be undertaken. What is this process called?",
+    "answers": [
+      { "text": "Data Protection Impact Assessment (DPIA)", "correct": true },
+      {
+        "text": "Federal Information Processing Standards (FIPS)",
+        "correct": false
+      },
+      { "text": "PCI", "correct": false },
+      { "text": "HIPAA", "correct": false }
+    ]
+  },
+  {
+    "question": "What phrase is used to refer to the probability or frequency of a risk event and can be described in qualitative terms (e.g., low, medium, or high), quantitative terms (e.g., percentages, statistical data), or a hybrid of qualitative and quantitative terms?",
+    "answers": [
+      { "text": "Nature of impact", "correct": false },
+      { "text": "Likelihood of impact", "correct": true },
+      { "text": "Scope of impact", "correct": false },
+      { "text": "Severity of impact", "correct": false }
+    ]
+  },
+  {
+    "question": "A large financial institution recently migrated its customer records database to a cloud-based infrastructure to enhance accessibility and scalability. During a routine audit, the Chief Information Security Officer (CISO), discovers that customer financial data, including personally identifiable information (PII), was inadvertently stored in an unencrypted format in a cloud repository accessible via publicly exposed API endpoints. The security team quickly restricts access and encrypts the data, but concerns remain regarding regulatory compliance and the organization's overall risk exposure. The CISO must now decide how to reassess the security scope of the system to ensure compliance with data protection regulations and prevent similar lapses. What would be the BEST approach?",
+    "answers": [
+      {
+        "text": "Expand the system scope to include a comprehensive review of cloud data storage configurations, reassess security categorization based on the data types stored, and update system documentation to reflect new security measures.",
+        "correct": true
+      },
+      {
+        "text": "Maintain the existing system scope but introduce additional security controls focused on cloud data storage, implementing enhanced access restrictions and continuous monitoring without modifying the security categorization.",
+        "correct": false
+      },
+      {
+        "text": "Restrict the system scope by offloading financial data to an on-premises environment, ensuring tighter control and regulatory compliance while minimizing reliance on third-party cloud providers.",
+        "correct": false
+      },
+      {
+        "text": "Keep the current system scope unchanged but implement compensating controls, such as tokenization and encryption, without reassessing security categorization or updating documentation.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A midsized financial institution recently expanded its online banking platform to support third-party financial integrations. During a risk assessment, the security team discovered that the new API used for third-party connections was exposing customer account balances in plaintext to external vendors without proper authentication mechanisms. The CIO is now evaluating the scope of the system to determine the appropriate corrective measures and regulatory compliance requirements. What course of action can the CIO BEST take to address security risks while ensuring compliance with financial regulations?",
+    "answers": [
+      {
+        "text": "Maintain the current system scope, but implement stronger authentication mechanisms and API encryption without formally updating security documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce system scope by eliminating third-party integrations to minimize exposure and ensure compliance with financial data protection laws.",
+        "correct": false
+      },
+      {
+        "text": "Keep the system scope unchanged and rely on contractual obligations with third-party vendors to ensure they implement security measures, minimizing internal security overhead.",
+        "correct": false
+      },
+      {
+        "text": "Expand the system scope to formally include third-party integrations, update system boundaries, reassess the security categorization, and enforce new authentication and encryption requirements.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A healthcare technology company provides cloud-based patient management software for hospitals. A recent audit found that patient health records were being stored in an overseas data center not covered by the company's HIPAA compliance framework. Additionally, the system documentation did not reflect the new storage locations. The Compliance Officer must determine how to properly scope the system to ensure regulatory compliance and data protection. What is the BEST way for the Compliance Officer to address this issue?",
+    "answers": [
+      {
+        "text": "Keep the existing system scope but implement additional encryption and access control measures for overseas data centers without updating compliance documentation.",
+        "correct": false
+      },
+      {
+        "text": "Expand the system scope to include all overseas data storage locations, update system categorization, and ensure compliance with international privacy regulations such as GDPR and HIPAA.",
+        "correct": true
+      },
+      {
+        "text": "Modify the system scope to exclude overseas data centers, requiring that all health records be stored within U.S. data centers to comply with HIPAA requirements.",
+        "correct": false
+      },
+      {
+        "text": "Maintain the current system scope and request that the cloud provider certify compliance with HIPAA without making internal documentation updates.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A global supply chain company recently implemented a centralized tracking system to monitor shipments in real time. During an internal security review, analysts discovered that GPS tracking data from high-value shipments was accessible via an unsecured public web interface. The company must now determine how to properly scope the system to mitigate risks while ensuring operational efficiency. What is the BEST approach for addressing this issue?",
+    "answers": [
+      {
+        "text": "Expand the system scope to include all GPS tracking data, update security categorization, and implement authentication and encryption to protect real-time shipment data.",
+        "correct": true
+      },
+      {
+        "text": "Keep the system scope unchanged, but enforce stricter access controls and firewalls to protect the GPS tracking system without modifying documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by limiting GPS tracking to internal use only, eliminating public-facing tracking features to prevent unauthorized access.",
+        "correct": false
+      },
+      {
+        "text": "Maintain the current system scope and require third-party logistics partners to implement security measures on their tracking systems to mitigate risks.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A national e-commerce company recently integrated an AI-powered recommendation engine to personalize customer shopping experiences. During an external penetration test, security researchers discovered that the AI model was storing detailed purchase histories and customer preferences in a publicly accessible database without encryption. The Chief Privacy Officer (CPO) must now determine how to adjust the system scope to align with data protection regulations and reduce exposure. What is the BEST approach for the CPO to take to address this issue?",
+    "answers": [
+      {
+        "text": "Keep the existing system scope but restrict AI model access to authorized personnel and implement database encryption without formally updating system documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by limiting AI data retention and ensuring that customer information is used only for real-time recommendations without persistent storage.",
+        "correct": false
+      },
+      {
+        "text": "Expand the system scope to explicitly include AI-generated customer data, update system boundaries, and implement encryption and access controls to secure stored information.",
+        "correct": true
+      },
+      {
+        "text": "Maintain the current system scope and rely on customer consent policies to address potential privacy concerns without making security changes.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A digital payment platform, recently expanded operations into the European Union (EU). A security review revealed that customer transaction data was being processed through third-party analytics providers without proper pseudonymization or encryption, potentially violating GDPR requirements. The Data Protection Officer (DPO) must now determine how to properly scope the system to align with European data protection laws. What is the BEST approach for the DPO to implement to ensure compliance?",
+    "answers": [
+      {
+        "text": "Expand the system scope to include all third-party data processing activities, update security categorization, and enforce encryption and pseudonymization for customer transaction data.",
+        "correct": true
+      },
+      {
+        "text": "Keep the existing system scope, but implement stricter data handling controls internally, ensuring that transaction data is encrypted before being shared with third parties.",
+        "correct": false
+      },
+      {
+        "text": "Reduce system scope by discontinuing third-party analytics partnerships to minimize regulatory exposure and ensure compliance.",
+        "correct": false
+      },
+      {
+        "text": "Maintain the current system scope and rely on contractual agreements with third-party providers to ensure compliance without making internal changes.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "An airline company recently introduced biometric facial recognition for passenger check-in. A security audit revealed that unencrypted biometric data was being stored on local servers instead of a secure, centralized identity management system. The Chief Information Security Officer (CISO) must now decide how to adjust the system scope to align with data privacy regulations. What can the CISO implement as the BEST course of action?",
+    "answers": [
+      {
+        "text": "Maintain the current system scope, but enforce stricter encryption policies and local storage protections without modifying system documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by discontinuing biometric check-in to eliminate the risks associated with storing and managing sensitive passenger data.",
+        "correct": false
+      },
+      {
+        "text": "Keep the system scope unchanged and rely on passenger consent agreements to mitigate privacy concerns without making security changes.",
+        "correct": false
+      },
+      {
+        "text": "Expand the system scope to formally include biometric data processing, update security documentation, and implement encryption and access controls.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A healthcare provider specializing in telemedicine, recently expanded its platform to allow remote consultations with patients. During a cybersecurity assessment, it was discovered that video call data, including medical discussions, was being temporarily cached on third-party content delivery networks (CDNs) without encryption. The Chief Compliance Officer (CCO) must now determine how to adjust the system scope to address security and regulatory concerns. What is the BEST approach for the CCO to take to resolve this issue?",
+    "answers": [
+      {
+        "text": "Expand the system scope to formally include third-party CDNs, update security categorization, and implement encryption to protect cached medical data in compliance with HIPAA and other regulations.",
+        "correct": true
+      },
+      {
+        "text": "Maintain the current system scope, but enforce stricter security controls on CDN storage, implementing end-to-end encryption without updating documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce system scope by eliminating the use of third-party CDNs and shifting to in-house data storage to ensure compliance with healthcare data protection laws.",
+        "correct": false
+      },
+      {
+        "text": "Keep the system scope unchanged and rely on contractual obligations with the CDN provider to ensure compliance with data protection regulations.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "An investment firm recently implemented an AI-driven risk analysis platform to enhance its trading algorithms. An internal review found that the system was storing market-sensitive data in a cloud environment without proper segmentation, allowing unauthorized internal users to access confidential investment strategies. Luke, the Chief Risk Officer, must now determine how to properly scope the system to ensure data confidentiality. What is the BEST approach for Luke to take?",
+    "answers": [
+      {
+        "text": "Maintain the current system scope but implement stricter access controls to segment sensitive trading data, restricting access to authorized personnel without modifying documentation.",
+        "correct": false
+      },
+      {
+        "text": "Expand the system scope to explicitly include AI data storage, reassess security categorization, and enforce stricter access controls to protect investment data.",
+        "correct": true
+      },
+      {
+        "text": "Reduce the system scope by limiting AI-driven data storage, ensuring that only real-time analysis occurs without persistent records of investment strategies.",
+        "correct": false
+      },
+      {
+        "text": "Keep the system scope unchanged and implement monitoring tools to detect unauthorized access, focusing on detection rather than prevention.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A telecommunications company recently deployed a customer self-service portal for managing phone plans and billing. An external audit found that customer account credentials were being stored in plaintext within backend logs, violating industry security best practices. The Chief Information Security Officer (CISO) must determine the appropriate adjustments to system scope to address this vulnerability. What can the CISO implement to BEST achieve this?",
+    "answers": [
+      {
+        "text": "Maintain the current system scope but implement encryption for stored credentials without modifying security documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by limiting logging capabilities to remove sensitive information, ensuring that customer credentials are not stored at all.",
+        "correct": false
+      },
+      {
+        "text": "Expand the system scope to include log management, update security categorization, and enforce encryption for stored credentials to align with industry standards.",
+        "correct": true
+      },
+      {
+        "text": "Keep the system scope unchanged and introduce stricter access controls for logs, restricting unauthorized access without modifying security documentation.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A global supplier of industrial equipment recently adopted a cloud-based inventory management system. A security audit revealed that confidential supply chain data, including proprietary designs and supplier pricing, was being shared with subcontractors without adequate access controls. The Chief Security Officer (CSO) must determine how to adjust the system scope to mitigate the risks. What can the CSO implement as the BEST course of action?",
+    "answers": [
+      {
+        "text": "Maintain the existing system scope but introduce encryption for shared supply chain data and enforce stricter authentication without modifying documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by restricting subcontractor access to only general inventory information, preventing exposure of proprietary data.",
+        "correct": false
+      },
+      {
+        "text": "Expand the system scope to include subcontractor access, update security categorization, and implement stricter authentication and role-based access controls (RBACs).",
+        "correct": true
+      },
+      {
+        "text": "Keep the system scope unchanged and rely on supplier nondisclosure agreements (NDAs) to address data security concerns.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "An oil and gas company implemented a SCADA (Supervisory Control and Data Acquisition) system to monitor pipelines remotely. A security review found that remote access was not properly segmented, allowing field technicians to access critical control functions beyond their job requirements. The Chief Technology Officer (CTO) must determine how to adjust the system scope to enhance security. What course of action can the CTO take to BEST achieve this?",
+    "answers": [
+      {
+        "text": "Maintain the current system scope but implement stricter authentication controls for remote access without modifying system boundaries or documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by limiting SCADA system access to only on-premises personnel, preventing remote access entirely.",
+        "correct": false
+      },
+      {
+        "text": "Keep the system scope unchanged and implement real-time monitoring of technician activities to detect unauthorized access.",
+        "correct": false
+      },
+      {
+        "text": "Expand the system scope to reassess security categorization, implement network segmentation, and enforce role-based access control to limit remote access to authorized users.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "An airline company recently implemented an IoT-based aircraft maintenance system to predict equipment failures. A security audit found that unencrypted maintenance data was being transmitted over unsecured Wi-Fi networks at airports. The Director of IT Security must determine how to adjust the system scope to manage this risk. What is the BEST course of action?",
+    "answers": [
+      {
+        "text": "Expand the system scope to include all IoT data transmission, update security categorization, and enforce encryption for wireless communications.",
+        "correct": true
+      },
+      {
+        "text": "Keep the system scope unchanged, but introduce VPN and encryption policies to secure IoT data transmission without modifying documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by limiting IoT transmissions to wired networks only, eliminating wireless vulnerabilities.",
+        "correct": false
+      },
+      {
+        "text": "Maintain the current system scope and require airports to implement stricter Wi-Fi security policies instead of internal changes.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A nationwide health insurance provider recently introduced an AI-driven claims processing system. During a security assessment, Emily, the Chief Security Officer, discovered that sensitive customer medical data was being transferred between internal systems without encryption. Emily must now determine the best way to adjust the system scope to ensure compliance with healthcare regulations. What is the BEST approach to resolving this issue?",
+    "answers": [
+      {
+        "text": "Review the system scope to include internal data transfers, update security categorization, and enforce encryption policies for all sensitive customer data.",
+        "correct": true
+      },
+      {
+        "text": "Keep the system scope unchanged, but implement stricter access controls and introduce data masking to protect medical data.",
+        "correct": false
+      },
+      {
+        "text": "Reduce system scope by limiting AI-driven claims processing to nonsensitive data, preventing exposure of medical records.",
+        "correct": false
+      },
+      {
+        "text": "Maintain the current system scope and rely on contractual agreements with healthcare providers to ensure data security compliance.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A private equity firm implemented a cloud-based document management system to streamline investor reporting. During a compliance review, James, the IT Security Manager, discovered that confidential investment reports were being stored in an unencrypted format on a third-party cloud storage provider without proper access controls. What can James implement as the BEST course of action?",
+    "answers": [
+      {
+        "text": "Keep the system scope unchanged but enforce stricter authentication controls for cloud access without modifying system documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by moving all sensitive financial data to an on-premises storage system, eliminating third-party risks.",
+        "correct": false
+      },
+      {
+        "text": "Review the system scope to include cloud storage, update security categorization, and implement encryption and strict access controls for sensitive financial data.",
+        "correct": true
+      },
+      {
+        "text": "Maintain the current system scope and rely on third-party contractual obligations to ensure encryption and access control compliance.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A technology start-up specializing in AI-driven analytics, recently launched a beta version of its customer insights platform. During a security audit, Michael, the Security Manager, found that customer behavioral data was being transmitted to third-party AI processing services without proper encryption or anonymization. What is the BEST approach to address this issue?",
+    "answers": [
+      {
+        "text": "Keep the system scope unchanged but introduce encryption policies for outbound data transfers without modifying system documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by disabling third-party AI processing features, ensuring all analytics are performed internally to minimize risk exposure.",
+        "correct": false
+      },
+      {
+        "text": "Maintain the current system scope and rely on customer consent agreements to justify data sharing with third-party AI services.",
+        "correct": false
+      },
+      {
+        "text": "Expand the system scope to include third-party AI processing, update security categorization, and implement encryption and data anonymization before transmission.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A biotech firm recently transitioned its research data management system to a hybrid cloud environment. During an internal review, Samantha, the IT Compliance Officer, discovered that unpublished clinical trial data was being stored in a public cloud repository with default access settings, making it accessible to unauthorized users. What should Samantha implement to BEST manage this risk?",
+    "answers": [
+      {
+        "text": "Keep the system scope unchanged, but enforce new access control policies to prevent unauthorized data access without modifying documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by limiting cloud usage to nonsensitive research data, storing clinical trial results only in on-premises databases.",
+        "correct": false
+      },
+      {
+        "text": "Maintain the current system scope and require cloud service providers to implement stronger security policies instead of making internal changes.",
+        "correct": false
+      },
+      {
+        "text": "Review the system scope to include all applicable storage types, including hybrid cloud storage; update security categorization; and enforce stricter access controls and encryption for clinical trial data.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A global freight company implemented an IoT-based tracking system to monitor shipments. During a cybersecurity evaluation, Daniel, the Director of Security, found that GPS location data was being transmitted over unencrypted channels, making it vulnerable to interception. What is the BEST approach Daniel can use to mitigate this risk?",
+    "answers": [
+      {
+        "text": "Expand the system scope to include IoT communications, update security categorization, and enforce encryption for GPS tracking data.",
+        "correct": true
+      },
+      {
+        "text": "Keep the system scope unchanged but implement a VPN to secure IoT data transmissions without modifying system documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by discontinuing GPS tracking for high-value shipments to prevent data exposure.",
+        "correct": false
+      },
+      {
+        "text": "Maintain the current system scope and implement intrusion detection systems (IDSs) to monitor for unauthorized data interception.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A private spaceflight company recently upgraded its satellite control system. During a security audit, Chief Information Security Officer Eric discovered that unencrypted telemetry data was being transmitted between ground stations and satellites, posing a risk of interception. What course of action can Eric take to address this risk?",
+    "answers": [
+      {
+        "text": "Expand the system scope to include satellite telemetry communication, update security categorization, and enforce encryption for telemetry data.",
+        "correct": true
+      },
+      {
+        "text": "Keep the system scope unchanged, but introduce secure key management for encryption without modifying system documentation.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by limiting telemetry transmissions to essential data only, reducing the risk of data leaks.",
+        "correct": false
+      },
+      {
+        "text": "Maintain the current system scope and rely on frequency-hopping techniques to make interception more difficult instead of encryption.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A regional bank deployed a customer service chatbot to assist users with account inquiries. During a penetration test, Laura, the Security Architect, discovered that chat logs containing sensitive customer account details were being stored in plaintext without access controls. What is the BEST way for Laura to mitigate this risk?",
+    "answers": [
+      {
+        "text": "Keep the system scope unchanged but implement log rotation and deletion policies to limit retention of sensitive information.",
+        "correct": false
+      },
+      {
+        "text": "Reduce the system scope by disabling the chatbot's ability to store customer interactions, eliminating the risk of data exposure.",
+        "correct": false
+      },
+      {
+        "text": "Review the system scope to include chatbot data storage, update security categorization, and enforce encryption and access controls for stored logs.",
+        "correct": true
+      },
+      {
+        "text": "Maintain the current system scope and introduce monitoring tools to detect unauthorized access to chatbot logs.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of documenting a system's name and scope in the context of security compliance?",
+    "answers": [
+      {
+        "text": "To ensure alignment with organizational procurement processes",
+        "correct": false
+      },
+      {
+        "text": "To define the boundaries and responsibilities for securing the system",
+        "correct": true
+      },
+      {
+        "text": "To comply with software licensing requirements",
+        "correct": false
+      },
+      {
+        "text": "To facilitate integration with third-party systems",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following should be included when documenting the scope of a system?",
+    "answers": [
+      {
+        "text": "Names of all users with access to the system",
+        "correct": false
+      },
+      {
+        "text": "A detailed inventory of physical hardware only",
+        "correct": false
+      },
+      {
+        "text": "The system's purpose, boundaries, and interfaces with other systems",
+        "correct": true
+      },
+      {
+        "text": "The budget allocated for system development",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Why is it important to define a system's purpose and functionality during its description phase?",
+    "answers": [
+      {
+        "text": "To determine the hardware requirements for deployment",
+        "correct": false
+      },
+      {
+        "text": "To comply with international trade regulations",
+        "correct": false
+      },
+      {
+        "text": "To identify security requirements based on its intended use",
+        "correct": true
+      },
+      {
+        "text": "To ensure compatibility with legacy systems",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following best describes how a system's functionality should be documented?",
+    "answers": [
+      {
+        "text": "By listing all software applications installed on the system",
+        "correct": false
+      },
+      {
+        "text": "By outlining how the system processes, stores, or transmits information",
+        "correct": true
+      },
+      {
+        "text": "By describing how users interact with other systems in the network",
+        "correct": false
+      },
+      {
+        "text": "By detailing the physical location of all servers",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the first step in determining security compliance requirements for a system?",
+    "answers": [
+      {
+        "text": "Identifying applicable international standards",
+        "correct": false
+      },
+      {
+        "text": "Assessing risk impact levels for all users",
+        "correct": false
+      },
+      {
+        "text": "Identifying the types of information processed, stored, or transmitted by the system",
+        "correct": true
+      },
+      {
+        "text": "Conducting a penetration test on the system",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following information types would most likely require compliance with HIPAA regulations?",
+    "answers": [
+      { "text": "Financial transaction records", "correct": false },
+      { "text": "Protected Health Information (PHI)", "correct": true },
+      { "text": "Intellectual property data", "correct": false },
+      { "text": "Government classified documents", "correct": false }
+    ]
+  },
+  {
+    "question": "Which framework outlines security objectives based on confidentiality, integrity, and availability for federal systems in the United States?",
+    "answers": [
+      { "text": "ISO/IEC 27001", "correct": false },
+      {
+        "text": "National Institute of Standards and Technology (NIST) Special Publication 800-53",
+        "correct": true
+      },
+      {
+        "text": "General Data Protection Regulation (GDPR) guidelines",
+        "correct": false
+      },
+      {
+        "text": "Payment Card Industry Data Security Standard (PCI DSS)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When outlining security objectives for an information type under GDPR compliance, what key principle must be prioritized?",
+    "answers": [
+      {
+        "text": "Minimizing data processing to only what is necessary",
+        "correct": true
+      },
+      {
+        "text": "Ensuring data portability between organizations",
+        "correct": false
+      },
+      {
+        "text": "Implementing two-factor authentication for all users",
+        "correct": false
+      },
+      {
+        "text": "Encrypting all stored data regardless of sensitivity",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is typically used to determine a system's risk impact level?",
+    "answers": [
+      { "text": "Number of users accessing the system", "correct": false },
+      {
+        "text": "Budget allocated for cybersecurity measures",
+        "correct": false
+      },
+      {
+        "text": "Geographic location where the system operates",
+        "correct": false
+      },
+      {
+        "text": "Sensitivity and criticality of information processed by the system",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A financial institution determines that unauthorized disclosure of customer account numbers could cause significant reputational damage, but minimal operational disruption to their systems overall. What qualitative risk impact level does this scenario likely represent?",
+    "answers": [
+      { "text": "Low impact", "correct": false },
+      { "text": "Moderate impact", "correct": true },
+      { "text": "High impact", "correct": false },
+      { "text": "Critical impact", "correct": false }
+    ]
+  },
+  {
+    "question": "A U.S.-based healthcare provider implements a new patient management system that processes PHI, but it also integrates with financial billing systems that handle credit card transactions via PCI DSS standards. Which compliance framework(s) must they adhere to? (, 2.2)",
+    "answers": [
+      {
+        "text": "Only HIPAA regulations apply since PHI is involved",
+        "correct": false
+      },
+      {
+        "text": "Only PCI DSS standards apply because financial transactions are involved",
+        "correct": false
+      },
+      {
+        "text": "Both HIPAA and PCI DSS compliance is required as PHI and financial transactions are involved",
+        "correct": true
+      },
+      {
+        "text": "Neither framework applies if encryption is implemented",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "During an assessment of a government IT system handling classified information under FIPS standards, what would be a KEY consideration when determining its risk impact level? (2.2, 2.2)",
+    "answers": [
+      {
+        "text": "Potential national security implications if confidentiality were breached",
+        "correct": true
+      },
+      {
+        "text": "Number of employees accessing classified information",
+        "correct": false
+      },
+      {
+        "text": "Cost associated with implementing encryption protocols",
+        "correct": false
+      },
+      {
+        "text": "Geographic location where classified documents are stored",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When defining a system's scope, which of the following should be excluded?",
+    "answers": [
+      { "text": "Interfaces with external systems", "correct": false },
+      {
+        "text": "Software applications used within the system",
+        "correct": false
+      },
+      {
+        "text": "Organizational mission objectives unrelated to the system",
+        "correct": true
+      },
+      {
+        "text": "Data processed, stored, or transmitted by the system",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "DMS Corporation uses an IT system to manage its financial transactions. Which of the following could best describe its purpose and functionality?",
+    "answers": [
+      {
+        "text": "To ensure compliance with GDPR regulations",
+        "correct": false
+      },
+      {
+        "text": "To manage customer data for marketing purposes",
+        "correct": false
+      },
+      {
+        "text": "To facilitate secure processing and storage of payment card information",
+        "correct": true
+      },
+      {
+        "text": "To provide real-time analytics on customer behavior",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is a critical consideration when defining a system's functionality?",
+    "answers": [
+      {
+        "text": "Identifying how the system interacts with other systems",
+        "correct": true
+      },
+      {
+        "text": "Determining the physical location of hardware components",
+        "correct": false
+      },
+      {
+        "text": "Listing all users who will access the system",
+        "correct": false
+      },
+      {
+        "text": "Ensuring that encryption is implemented for all data",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A U.S. government agency processes personally identifiable information (PII) for citizens applying for benefits programs through an online portal. Which regulation is most likely applicable to this system?",
+    "answers": [
+      {
+        "text": "Payment Card Industry Data Security Standard (PCI DSS)",
+        "correct": false
+      },
+      {
+        "text": "Health Insurance Portability and Accountability Act (HIPAA)",
+        "correct": false
+      },
+      {
+        "text": "Federal Information Security Modernization Act (FISMA)",
+        "correct": true
+      },
+      { "text": "General Data Protection Regulation (GDPR)", "correct": false }
+    ]
+  },
+  {
+    "question": "When assessing information types processed by an IT system, which of the following factors is most relevant to determining security controls?",
+    "answers": [
+      {
+        "text": "Geographic location of users accessing the data",
+        "correct": false
+      },
+      {
+        "text": "Sensitivity and criticality of the information being processed",
+        "correct": true
+      },
+      {
+        "text": "Size of the organization managing the data",
+        "correct": false
+      },
+      {
+        "text": "Cost of implementing encryption technologies",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A company based in Belgium determines that unauthorized access to its customer database could result in identity theft and regulatory fines under GDPR, but it would not disrupt operations significantly. What risk impact level does this scenario represent?",
+    "answers": [
+      { "text": "Low", "correct": false },
+      { "text": "Moderate", "correct": true },
+      { "text": "High", "correct": false },
+      { "text": "Critical", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a key benefit of accurately documenting a system's scope during the authorization process?",
+    "answers": [
+      {
+        "text": "It ensures that all hardware components are inventoried",
+        "correct": false
+      },
+      {
+        "text": "It ensures compatibility with external vendor systems",
+        "correct": false
+      },
+      {
+        "text": "It reduces the overall cost of implementing security controls",
+        "correct": false
+      },
+      {
+        "text": "It helps identify potential security gaps and compliance requirements",
+        "correct": true
+      }
+    ]
+  }
+]

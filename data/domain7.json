@@ -1,0 +1,1928 @@
+[
+  {
+    "question": "What is an essential part of planning for system decommissioning?",
+    "answers": [
+      { "text": "Developing a schedule with key milestones", "correct": true },
+      { "text": "Purchasing new hardware", "correct": false },
+      { "text": "Retaining all documentation indefinitely", "correct": false },
+      { "text": "Deciding data migration approach", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a scenario that may require decommissioning a system?",
+    "answers": [
+      {
+        "text": "The system reaches the end of its life cycle and is no longer supported by the vendor or the organization.",
+        "correct": false
+      },
+      {
+        "text": "The system is replaced by a newer or more efficient system that meets business needs.",
+        "correct": false
+      },
+      {
+        "text": "The system is upgraded to enhance its performance and capabilities.",
+        "correct": true
+      },
+      {
+        "text": "The system is no longer compliant with regulatory or legal requirements.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a typical requirement in decommissioning plans?",
+    "answers": [
+      {
+        "text": "Archiving system access logs for performance benchmarking",
+        "correct": false
+      },
+      {
+        "text": "Failing to shut down interconnection or switchover to replacement systems",
+        "correct": false
+      },
+      {
+        "text": "Notifying end users about upcoming maintenance windows",
+        "correct": true
+      },
+      {
+        "text": "Scheduling security awareness training for system administrators",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who should review the disposal of systems with the business process stakeholders for proper decommissioning and disposal?",
+    "answers": [
+      { "text": "System vendor", "correct": false },
+      { "text": "System owner", "correct": true },
+      { "text": "IT support team", "correct": false },
+      { "text": "Financial department", "correct": false }
+    ]
+  },
+  {
+    "question": "When it comes to managing the security and compliance of information systems, what is a KEY component of both ISO 27000 and NIST 800-37 frameworks?",
+    "answers": [
+      {
+        "text": "Specific guidelines for global organizations",
+        "correct": false
+      },
+      {
+        "text": "Certification by an accredited third-party auditor",
+        "correct": false
+      },
+      { "text": "Authorization by a senior official", "correct": false },
+      { "text": "Continuous monitoring process", "correct": true }
+    ]
+  },
+  {
+    "question": "On which continuous improvement approach is ISO 27001 based?",
+    "answers": [
+      { "text": "Risk Management Framework (RMF)", "correct": false },
+      { "text": "Plan-Do-Check-Act (PDCA)", "correct": true },
+      { "text": "Continuous monitoring process", "correct": false },
+      { "text": "Change management process", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a common principle shared by both ISO 27000 and NIST 800-37 frameworks?",
+    "answers": [
+      {
+        "text": "Certification by an accredited third-party auditor",
+        "correct": false
+      },
+      { "text": "Authorization by a senior official", "correct": false },
+      { "text": "Adoption of a risk-based approach", "correct": true },
+      { "text": "Specific guidelines for federal entities", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY emphasis of ISO 27001?",
+    "answers": [
+      {
+        "text": "Establishing a comprehensive security and privacy framework",
+        "correct": false
+      },
+      {
+        "text": "Establishing, implementing, maintaining, and continuously improving an Information Security Management System (ISMS)",
+        "correct": true
+      },
+      {
+        "text": "Authoring and validating information system security",
+        "correct": false
+      },
+      {
+        "text": "Applying technical and administrative measures",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When changes to a system are deployed, what should a rollback plan include?",
+    "answers": [
+      {
+        "text": "Criteria and triggers for initiating the rollback",
+        "correct": true
+      },
+      {
+        "text": "Development and testing methods for changes",
+        "correct": false
+      },
+      { "text": "Approval process for changes", "correct": false },
+      { "text": "Evaluation of outcomes and impacts", "correct": false }
+    ]
+  },
+  {
+    "question": "Which phase of the change deployment process involves validating changes for functionality and performance in the target environment?",
+    "answers": [
+      { "text": "Development and testing", "correct": false },
+      { "text": "Deployment and verification", "correct": true },
+      { "text": "Approval and release", "correct": false },
+      { "text": "Evaluation and closure", "correct": false }
+    ]
+  },
+  {
+    "question": "Which phase of the change deployment process involves preparing release notes, documentation, and training materials for changes?",
+    "answers": [
+      { "text": "Planning and preparation", "correct": true },
+      { "text": "Development and testing", "correct": false },
+      { "text": "Approval and release", "correct": false },
+      { "text": "Deployment and verification", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the KEY outcome of deploying approved changes to the security baseline?",
+    "answers": [
+      {
+        "text": "Updating systems without establishing monitoring processes",
+        "correct": false
+      },
+      {
+        "text": "Modifying controls without assessing new risks",
+        "correct": false
+      },
+      {
+        "text": "Changing configurations without engaging stakeholders",
+        "correct": false
+      },
+      {
+        "text": "Implementing risk responses and updating security reports",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the MINIMUM level of approval required for a normal change to an information system?",
+    "answers": [
+      { "text": "System owner or developer", "correct": true },
+      {
+        "text": "Change control board (CCB) and technical review board (TRB) members",
+        "correct": false
+      },
+      { "text": "Senior management or executive", "correct": false },
+      { "text": "No approval needed", "correct": false }
+    ]
+  },
+  {
+    "question": "What type of change has minimal or no impact on the system or its environment?",
+    "answers": [
+      { "text": "Major change", "correct": false },
+      { "text": "Normal change", "correct": false },
+      { "text": "Minor change", "correct": true },
+      { "text": "Critical change", "correct": false }
+    ]
+  },
+  {
+    "question": "Who are the authorized personnel for approving a major change?",
+    "answers": [
+      { "text": "Project manager", "correct": false },
+      { "text": "System owner or developer", "correct": false },
+      { "text": "Senior management or executive", "correct": true },
+      {
+        "text": "Change control board (CCB) and technical review board (TRB) members",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who must present the change proposal to the change control board (CCB) and technical review board (TRB) for review and approval?",
+    "answers": [
+      { "text": "Project manager", "correct": true },
+      { "text": "System owner or developer", "correct": false },
+      { "text": "Quality assurance manager", "correct": false },
+      { "text": "Customer representative", "correct": false }
+    ]
+  },
+  {
+    "question": "What framework provides best practices for managing IT services?",
+    "answers": [
+      { "text": "ITIL", "correct": true },
+      { "text": "ISO/IEC 27001", "correct": false },
+      { "text": "IEEE 14764", "correct": false },
+      { "text": "NIST SP 800-53", "correct": false }
+    ]
+  },
+  {
+    "question": "What standard defines processes for software maintenance activities?",
+    "answers": [
+      { "text": "ISO/IEC 20000", "correct": false },
+      { "text": "COBIT", "correct": false },
+      { "text": "IEEE 14764", "correct": true },
+      { "text": "ISO/IEC 27001", "correct": false }
+    ]
+  },
+  {
+    "question": "What framework provides a catalog of security controls based on risk management?",
+    "answers": [
+      { "text": "ISO/IEC 20000", "correct": false },
+      { "text": "COBIT", "correct": false },
+      { "text": "ITIL", "correct": false },
+      { "text": "NIST SP 800-53", "correct": true }
+    ]
+  },
+  {
+    "question": "Which standard specifies requirements for establishing and maintaining an information security management system?",
+    "answers": [
+      { "text": "ISO/IEC 27001", "correct": true },
+      { "text": "ITIL", "correct": false },
+      { "text": "IEEE 14764", "correct": false },
+      { "text": "NIST SP 800-53", "correct": false }
+    ]
+  },
+  {
+    "question": "What does a change dashboard provide?",
+    "answers": [
+      { "text": "A summary of change results", "correct": false },
+      { "text": "A record of modifications", "correct": false },
+      { "text": "An overview of key aspects of change", "correct": true },
+      { "text": "A checklist for readiness", "correct": false }
+    ]
+  },
+  {
+    "question": "What does compliance monitoring verify in a system?",
+    "answers": [
+      { "text": "That the system detects security issues", "correct": false },
+      {
+        "text": "That the system conforms to standards, policies, and regulations",
+        "correct": true
+      },
+      {
+        "text": "That stakeholder readiness is demonstrated in the system",
+        "correct": false
+      },
+      { "text": "That the system evaluates change outcomes", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of compliance monitoring?",
+    "answers": [
+      { "text": "To implement new regulations", "correct": false },
+      { "text": "To summarize change outcomes", "correct": false },
+      { "text": "To detect deviations from policies", "correct": true },
+      { "text": "To conduct stakeholder workshops", "correct": false }
+    ]
+  },
+  {
+    "question": "What aspect of change can be measured using surveys and interviews?",
+    "answers": [
+      { "text": "Change progress", "correct": false },
+      { "text": "Change readiness", "correct": true },
+      { "text": "Change outcomes", "correct": false },
+      { "text": "Compliance measurement", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY role of baselines in an organization's risk, operations, and compliance management?",
+    "answers": [
+      {
+        "text": "To establish a common understanding and agreement among stakeholders",
+        "correct": true
+      },
+      {
+        "text": "To provide a detailed list of all security risks and threats",
+        "correct": false
+      },
+      {
+        "text": "To perform continuous security monitoring for all systems",
+        "correct": false
+      },
+      {
+        "text": "To track and resolve individual employee performance issues",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What type of assessment is triggered by an event outside of an information security continuous monitoring (ISCM) strategy?",
+    "answers": [
+      { "text": "Compliance assessment", "correct": false },
+      { "text": "Performance assessment", "correct": false },
+      { "text": "Risk assessment", "correct": false },
+      { "text": "Event-driven assessment", "correct": true }
+    ]
+  },
+  {
+    "question": "What should organizations do to manage changes effectively?",
+    "answers": [
+      { "text": "Ignore unauthorized changes", "correct": false },
+      { "text": "Assess the impact and revise baselines", "correct": true },
+      { "text": "Focus only on external changes", "correct": false },
+      {
+        "text": "Implement changes without stakeholder input",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of an internal change that can affect an organization's risk, operations, and compliance?",
+    "answers": [
+      { "text": "Employee turnover", "correct": true },
+      { "text": "Changes in legal obligations", "correct": false },
+      { "text": "System upgrades", "correct": false },
+      { "text": "Changes in stakeholder expectations", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of having multiple paths for changes in the change control process?",
+    "answers": [
+      { "text": "To restrict emergency changes", "correct": false },
+      { "text": "To bypass testing requirements", "correct": false },
+      { "text": "To implement changes faster", "correct": false },
+      {
+        "text": "To ensure adaptability for different situations",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of the Configuration Management Plan (CMP)?",
+    "answers": [
+      { "text": "To define the organizational structure", "correct": false },
+      {
+        "text": "To manage and keep the official component inventory",
+        "correct": false
+      },
+      {
+        "text": "To guide the management of system configurations throughout their life cycles",
+        "correct": true
+      },
+      {
+        "text": "To document the approval and evidence of changes",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a KEY element of the component inventory?",
+    "answers": [
+      {
+        "text": "Each component is associated with multiple systems",
+        "correct": false
+      },
+      { "text": "Components are not version controlled", "correct": false },
+      {
+        "text": "Components do not require approval for changes",
+        "correct": false
+      },
+      {
+        "text": "Each component falls within an authorization boundary of a single system",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of conducting a security impact analysis (SIA) during the change control process?",
+    "answers": [
+      { "text": "To expedite emergency changes", "correct": false },
+      {
+        "text": "To evaluate the functional impacts of the change",
+        "correct": false
+      },
+      {
+        "text": "To assess the security impacts of the proposed change",
+        "correct": true
+      },
+      { "text": "To document the change request", "correct": false }
+    ]
+  },
+  {
+    "question": "What type of monitoring involves inspecting assets like servers and cables?",
+    "answers": [
+      { "text": "Logical monitoring", "correct": false },
+      { "text": "Physical monitoring", "correct": true },
+      { "text": "Personnel monitoring", "correct": false },
+      { "text": "Change control monitoring", "correct": false }
+    ]
+  },
+  {
+    "question": "What does change control monitoring help to ensure?",
+    "answers": [
+      {
+        "text": "Changes follow proper documentation and testing procedures",
+        "correct": true
+      },
+      {
+        "text": "Assets are protected from unauthorized access or theft",
+        "correct": false
+      },
+      {
+        "text": "Personnel follow appropriate policies and guidelines",
+        "correct": false
+      },
+      {
+        "text": "Physical hardware components are inspected regularly",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What type of monitoring helps ensure that administrators and users are following appropriate policies and procedures?",
+    "answers": [
+      { "text": "Logical monitoring", "correct": false },
+      { "text": "Physical monitoring", "correct": false },
+      { "text": "Personnel monitoring", "correct": true },
+      { "text": "Change control monitoring", "correct": false }
+    ]
+  },
+  {
+    "question": "What type of monitoring helps detect unauthorized access or theft of assets?",
+    "answers": [
+      { "text": "Logical monitoring", "correct": false },
+      { "text": "Physical monitoring", "correct": true },
+      { "text": "Personnel monitoring", "correct": false },
+      { "text": "Change control monitoring", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following documents is included in the documentation of a decommissioned system?",
+    "answers": [
+      { "text": "System design and architecture documents", "correct": false },
+      { "text": "Data destruction certificates", "correct": true },
+      { "text": "Risk management plans", "correct": false },
+      { "text": "Employee performance reviews", "correct": false }
+    ]
+  },
+  {
+    "question": "What is one of the purposes of retaining documentation of a decommissioned system?",
+    "answers": [
+      { "text": "To develop new products", "correct": false },
+      { "text": "To manage employee benefits", "correct": false },
+      { "text": "To increase marketing efforts", "correct": false },
+      {
+        "text": "To ensure the security and privacy of the system data and users",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which guideline provides a framework for the maintenance of software systems, including the documentation of maintenance activities and outcomes?",
+    "answers": [
+      { "text": "ISO/IEC 27001: 2013", "correct": false },
+      { "text": "NIST SP 800-53, Rev. 5", "correct": false },
+      { "text": "ISO/IEC 14764: 2006", "correct": true },
+      { "text": "NIST SP 800-88, Rev. 1", "correct": false }
+    ]
+  },
+  {
+    "question": "Who should coordinate the effort of documenting the decommissioned system?",
+    "answers": [
+      {
+        "text": "System owner, business process owners, and data owners",
+        "correct": true
+      },
+      { "text": "Compliance officers and risk managers", "correct": false },
+      { "text": "Project managers and technical leads", "correct": false },
+      { "text": "IT department and security team", "correct": false }
+    ]
+  },
+  {
+    "question": "Which phase of risk remediation and tracking involves identifying and assessing new or emerging risks?",
+    "answers": [
+      { "text": "Reporting", "correct": false },
+      { "text": "Reviewing", "correct": false },
+      { "text": "Monitoring", "correct": true },
+      { "text": "Implementing", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is included in ongoing assessments for risk remediation?",
+    "answers": [
+      { "text": "Configuration scanning", "correct": false },
+      { "text": "Vulnerability assessments", "correct": true },
+      { "text": "Risk mitigation planning", "correct": false },
+      { "text": "Incident response reviews", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the MAIN focus of the reviewing phase in risk remediation and tracking?",
+    "answers": [
+      { "text": "Assessing the impact of risk treatments", "correct": false },
+      {
+        "text": "Evaluating the effectiveness of risk analysis and treatment",
+        "correct": true
+      },
+      {
+        "text": "Monitoring the status of risk mitigation efforts",
+        "correct": false
+      },
+      { "text": "Conducting periodic system audits", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following activities is part of ongoing risk response in the Risk Management Framework (RMF)?",
+    "answers": [
+      { "text": "Performing risk impact analysis", "correct": false },
+      { "text": "Conducting vulnerability assessments", "correct": false },
+      {
+        "text": "Updating security and privacy assessment reports",
+        "correct": true
+      },
+      { "text": "Performing risk impact analysis", "correct": false }
+    ]
+  },
+  {
+    "question": "Why is it important to revise monitoring strategies periodically?",
+    "answers": [
+      { "text": "To reduce costs", "correct": false },
+      { "text": "To comply with regulations", "correct": false },
+      { "text": "To improve system performance", "correct": false },
+      {
+        "text": "To ensure alignment with stakeholder needs and expectations",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the first step in revising monitoring strategies when requirements change?",
+    "answers": [
+      { "text": "Implement and test the revised strategies", "correct": false },
+      {
+        "text": "Identify the sources of requirement updates",
+        "correct": true
+      },
+      {
+        "text": "Review monitoring roles and responsibilities",
+        "correct": false
+      },
+      {
+        "text": "Evaluate and improve the revised strategies",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are two examples of sources that provide updates to requirements that should be monitored?",
+    "answers": [
+      { "text": "Laws and contracts", "correct": true },
+      { "text": "Guidelines and agreements", "correct": false },
+      { "text": "Standards and policies", "correct": false },
+      { "text": "Regulations and procedures", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the main purpose of reviewing and updating the monitoring methods, tools, and resources when revising monitoring strategies?",
+    "answers": [
+      {
+        "text": "To allocate the necessary budget for the monitoring activities",
+        "correct": false
+      },
+      {
+        "text": "To ensure the methods and tools are appropriate for collecting and analyzing relevant data",
+        "correct": true
+      },
+      {
+        "text": "To define the roles and responsibilities for monitoring activities",
+        "correct": false
+      },
+      {
+        "text": "To evaluate the effectiveness and efficiency of the monitoring strategies",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the intent of the system maintenance process?",
+    "answers": [
+      { "text": "Backing up data files", "correct": false },
+      { "text": "Replacing old systems with new systems", "correct": false },
+      {
+        "text": "Only installing new software patches and updates",
+        "correct": false
+      },
+      {
+        "text": "Keeping the system in good condition through updates, repairs, and backups",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is one of the steps in the system maintenance process?",
+    "answers": [
+      { "text": "Deleting old data", "correct": false },
+      { "text": "Purchasing new hardware", "correct": false },
+      { "text": "Planning the scope and schedule", "correct": true },
+      { "text": "Disabling user accounts", "correct": false }
+    ]
+  },
+  {
+    "question": "What does the verification step of system maintenance involve?",
+    "answers": [
+      { "text": "Backing up data", "correct": false },
+      { "text": "Installing updates", "correct": false },
+      { "text": "Testing system functionality", "correct": true },
+      { "text": "Communicating results", "correct": false }
+    ]
+  },
+  {
+    "question": "During which step of the system maintenance process are patches installed?",
+    "answers": [
+      { "text": "Preparation", "correct": false },
+      { "text": "Execution", "correct": true },
+      { "text": "Verification", "correct": false },
+      { "text": "Submission/communication", "correct": false }
+    ]
+  },
+  {
+    "question": "What artifacts should accompany a change request form?",
+    "answers": [
+      { "text": "Test cases", "correct": false },
+      { "text": "User manuals", "correct": false },
+      { "text": "Rollback plans", "correct": false },
+      { "text": "Relevant documentation", "correct": true }
+    ]
+  },
+  {
+    "question": "What information must a change request form contain?",
+    "answers": [
+      { "text": "Test cases for the proposed change", "correct": false },
+      { "text": "Rollback plan for reversing the change", "correct": false },
+      { "text": "User feedback on the proposed change", "correct": false },
+      { "text": "Description of the change and its impact", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the first step in handling and documenting proposed changes?",
+    "answers": [
+      {
+        "text": "Submit the proposed change to the appropriate authority for approval.",
+        "correct": false
+      },
+      {
+        "text": "Identify and document the source, scope, rationale, and impact of the proposed change.",
+        "correct": true
+      },
+      {
+        "text": "Analyze and evaluate the feasibility, benefits, costs, and risks of the proposed change.",
+        "correct": false
+      },
+      {
+        "text": "Implement the approved change according to the agreed upon plan and schedule.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT included in a change request form?",
+    "answers": [
+      { "text": "The purpose and scope of the change", "correct": false },
+      {
+        "text": "The expected benefits and risks of the change",
+        "correct": false
+      },
+      { "text": "The compliance checklist for the change", "correct": false },
+      { "text": "The budget allocation for the change", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY responsibility of a change control board (CCB) in the change management process?",
+    "answers": [
+      { "text": "Evaluating technical aspects of changes", "correct": false },
+      {
+        "text": "Evaluating business and operational aspects of changes",
+        "correct": true
+      },
+      { "text": "Implementing and testing changes", "correct": false },
+      { "text": "Designing and coding changes", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is the responsibility of a technical review board (TRB)?",
+    "answers": [
+      {
+        "text": "Reviewing the change request form and supporting documentation",
+        "correct": true
+      },
+      {
+        "text": "Evaluating the business and operational aspects of the change",
+        "correct": false
+      },
+      {
+        "text": "Ensuring the change follows best practices and standards for system development",
+        "correct": false
+      },
+      {
+        "text": "Communicating the outcome of the review to the system owner or developer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which stakeholders are typically represented in the CCB and TRB?",
+    "answers": [
+      { "text": "Only developers and testers", "correct": false },
+      {
+        "text": "Business and system owners, developers, testers, auditors, customers, or users",
+        "correct": true
+      },
+      { "text": "Only business and system owners", "correct": false },
+      { "text": "Only auditors and customers", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of including a diverse set of perspectives within the CCB?",
+    "answers": [
+      {
+        "text": "To ensure the change is implemented quickly",
+        "correct": false
+      },
+      { "text": "To reduce the number of changes proposed", "correct": false },
+      {
+        "text": "To enhance decision-making and risk management",
+        "correct": true
+      },
+      {
+        "text": "To focus solely on the technical aspects of the change",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the first step organizations take to establish information security continuous monitoring (ISCM)?",
+    "answers": [
+      { "text": "Establish an ISCM program", "correct": false },
+      { "text": "Define an ISCM strategy", "correct": true },
+      { "text": "Implement an ISCM program", "correct": false },
+      { "text": "Develop security monitoring tools", "correct": false }
+    ]
+  },
+  {
+    "question": "What process begins after authorization to operate has been granted through the Risk Management Framework (RMF) process?",
+    "answers": [
+      {
+        "text": "System compliance maintenance and monitoring",
+        "correct": true
+      },
+      { "text": "Implementing compliance controls", "correct": false },
+      { "text": "Performing compliance audits", "correct": false },
+      { "text": "Reporting compliance findings", "correct": false }
+    ]
+  },
+  {
+    "question": "What tool helps automate compliance tasks and provides a centralized platform for managing compliance activities?",
+    "answers": [
+      { "text": "Compliance monitoring tools", "correct": false },
+      { "text": "Compliance testing tools", "correct": false },
+      { "text": "Compliance reporting tools", "correct": false },
+      { "text": "Compliance management software", "correct": true }
+    ]
+  },
+  {
+    "question": "What process follows the response to findings from the ISCM program?",
+    "answers": [
+      { "text": "System reauthorization", "correct": false },
+      { "text": "Compliance auditing", "correct": false },
+      { "text": "Implementing compliance controls", "correct": true },
+      { "text": "Redefining the ISCM strategy", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the key purpose of ISO 19011 guidelines?",
+    "answers": [
+      { "text": "Managing information security risks", "correct": false },
+      { "text": "Conducting internal and external audits", "correct": true },
+      { "text": "Establishing quality management systems", "correct": false },
+      { "text": "Protecting privacy of personal data", "correct": false }
+    ]
+  },
+  {
+    "question": "Which framework provides best practices for IT service delivery and support?",
+    "answers": [
+      { "text": "ISO 9001", "correct": false },
+      { "text": "ISO 27001", "correct": false },
+      { "text": "COBIT", "correct": false },
+      { "text": "ITIL", "correct": true }
+    ]
+  },
+  {
+    "question": "Which standard provides guidelines for information security risk management?",
+    "answers": [
+      { "text": "ISO 9001", "correct": false },
+      { "text": "ISO 19011", "correct": false },
+      { "text": "ISO/IEC 27005", "correct": true },
+      { "text": "ISO/IEC 38500", "correct": false }
+    ]
+  },
+  {
+    "question": "On what does COBIT provide guidance?",
+    "answers": [
+      { "text": "Auditing management systems", "correct": false },
+      { "text": "Managing privacy of personal information", "correct": false },
+      {
+        "text": "Governance and management of information technologies",
+        "correct": true
+      },
+      {
+        "text": "Requirements for quality management systems",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What determines the frequency of compliance activities review according to ISO 27000?",
+    "answers": [
+      { "text": "The internal audit program", "correct": false },
+      { "text": "Management decision-making process", "correct": false },
+      { "text": "Regulatory compliance obligations", "correct": false },
+      {
+        "text": "Internal audits, management review, and continual improvement processes",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is an internal audit according to ISO 27000?",
+    "answers": [
+      {
+        "text": "A review of the Information Security Management System (ISMS) by top management",
+        "correct": false
+      },
+      { "text": "A process to enhance the ISMS", "correct": false },
+      {
+        "text": "An examination of the ISMS for conformance and effectiveness",
+        "correct": true
+      },
+      {
+        "text": "An evaluation of stakeholder feedback on ISMS performance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In context of ISO 27000, what is the PRIMARY purpose of a management review?",
+    "answers": [
+      { "text": "To conduct internal audits of the ISMS", "correct": false },
+      {
+        "text": "To evaluate the ISMS's performance and identify opportunities for improvement",
+        "correct": true
+      },
+      {
+        "text": "To allocate resources for the internal audit team",
+        "correct": false
+      },
+      {
+        "text": "To assess stakeholder feedback on ISMS performance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "According to ISO 27000, what is the MAIN focus of continual improvement?",
+    "answers": [
+      {
+        "text": "Reacting to the results of internal audits and management reviews",
+        "correct": false
+      },
+      {
+        "text": "Enhancing the ISMS to achieve security objectives and increase stakeholder satisfaction",
+        "correct": true
+      },
+      {
+        "text": "Addressing only corrective actions from past incidents",
+        "correct": false
+      },
+      {
+        "text": "Preventing audits and management reviews from affecting the ISMS",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When are revisions to baselines needed?",
+    "answers": [
+      { "text": "When changes significantly impact systems", "correct": true },
+      { "text": "When goals change", "correct": false },
+      { "text": "When new technologies emerge", "correct": false },
+      { "text": "When there is staff turnover", "correct": false }
+    ]
+  },
+  {
+    "question": "With which of the following should the baseline revisions process align?",
+    "answers": [
+      { "text": "The organization's financial goals", "correct": false },
+      {
+        "text": "The organization's change management framework and best practices",
+        "correct": true
+      },
+      {
+        "text": "The organization's security policies and procedures",
+        "correct": false
+      },
+      { "text": "The organization's IT governance framework", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following impacts would require a revision to the baselines?",
+    "answers": [
+      { "text": "The impact is infrequent and reversible", "correct": false },
+      {
+        "text": "The impact is minor and does not accumulate over time",
+        "correct": false
+      },
+      {
+        "text": "The impact violates the organization's legal, regulatory, or contractual obligations",
+        "correct": true
+      },
+      {
+        "text": "The impact is temporary and does not affect the organization's risk profile",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of monitoring and measuring the performance and progress of the revised baselines?",
+    "answers": [
+      {
+        "text": "To ensure the changes are implemented quickly",
+        "correct": false
+      },
+      {
+        "text": "To identify the baselines that need revision",
+        "correct": false
+      },
+      {
+        "text": "To evaluate the results and outcomes of the revised baselines",
+        "correct": false
+      },
+      {
+        "text": "To track the effectiveness of the revised baselines and ensure they meet the defined criteria",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What does a risk register document?",
+    "answers": [
+      { "text": "The risk management plan", "correct": false },
+      { "text": "The results of risk analysis", "correct": false },
+      { "text": "The financial impact of risks", "correct": false },
+      { "text": "The identified risks and their attributes", "correct": true }
+    ]
+  },
+  {
+    "question": "When is the risk analysis report updated?",
+    "answers": [
+      { "text": "After risk monitoring", "correct": false },
+      { "text": "After each risk analysis", "correct": true },
+      { "text": "After risk evaluation", "correct": false },
+      { "text": "After risk treatment", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of risk analysis?",
+    "answers": [
+      { "text": "To eliminate all risks from a system", "correct": false },
+      { "text": "To calculate financial losses", "correct": false },
+      { "text": "To prioritize risks based on severity", "correct": true },
+      { "text": "To identify potential issues", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of risk analysis documentation?",
+    "answers": [
+      { "text": "To track risk status", "correct": true },
+      { "text": "To prioritize risks", "correct": false },
+      { "text": "To estimate risk impact", "correct": false },
+      { "text": "To define the risk process", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is responsible for reviewing and approving the change request?",
+    "answers": [
+      { "text": "Change owner", "correct": false },
+      { "text": "Change manager", "correct": true },
+      { "text": "Change team", "correct": false },
+      { "text": "System owner", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the role of a change advisory board (CAB) in the change management process?",
+    "answers": [
+      { "text": "To implement the change", "correct": false },
+      { "text": "To test and verify the change", "correct": false },
+      { "text": "To close and evaluate the change", "correct": false },
+      {
+        "text": "To provide input and feedback on the change request",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the post-implementation review (PIR)?",
+    "answers": [
+      { "text": "To implement the change", "correct": false },
+      { "text": "To review and approve the change", "correct": false },
+      {
+        "text": "To identify lessons learned and best practices for future changes",
+        "correct": true
+      },
+      { "text": "To assign a change owner and change team", "correct": false }
+    ]
+  },
+  {
+    "question": "What should the change team do after implementing the change?",
+    "answers": [
+      { "text": "Close the change request", "correct": false },
+      { "text": "Review and approve the change", "correct": false },
+      { "text": "Perform testing and verification", "correct": true },
+      { "text": "Conduct a post-implementation review (PIR)", "correct": false }
+    ]
+  },
+  {
+    "question": "What document defines the scope, objectives, roles, responsibilities, tools, and procedures for configuration management?",
+    "answers": [
+      { "text": "Configuration baseline", "correct": false },
+      { "text": "Configuration audit report", "correct": false },
+      { "text": "Configuration management plan", "correct": true },
+      { "text": "Configuration review board charter", "correct": false }
+    ]
+  },
+  {
+    "question": "What document serves as a reference for verifying and validating the system's configuration?",
+    "answers": [
+      { "text": "Configuration management plan", "correct": false },
+      { "text": "Configuration baseline", "correct": true },
+      { "text": "Configuration audit report", "correct": false },
+      { "text": "Change control board minutes", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of configuration management?",
+    "answers": [
+      { "text": "To implement new system features", "correct": false },
+      {
+        "text": "To ensure the system's configuration is consistent, accurate, and traceable",
+        "correct": true
+      },
+      { "text": "To develop new software applications", "correct": false },
+      { "text": "To manage user access and permissions", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the configuration audit report?",
+    "answers": [
+      {
+        "text": "To document the results of configuration audits and identify any configuration issues or conflicts",
+        "correct": true
+      },
+      { "text": "To manage user access and permissions", "correct": false },
+      { "text": "To develop new software applications", "correct": false },
+      { "text": "To implement new system features", "correct": false }
+    ]
+  },
+  {
+    "question": "What is risk treatment?",
+    "answers": [
+      { "text": "The process of determining risks", "correct": false },
+      { "text": "The process of authorizing systems", "correct": false },
+      {
+        "text": "The process of selecting and implementing measures to modify risks",
+        "correct": true
+      },
+      { "text": "The process of accepting risks", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of risk treatment documentation?",
+    "answers": [
+      { "text": "To provide ongoing authorization", "correct": false },
+      { "text": "To design, execute, and test controls", "correct": false },
+      {
+        "text": "To avoid, reduce, transfer, or accept risks",
+        "correct": true
+      },
+      {
+        "text": "To modify risks affecting system compliance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the risk treatment plan document contain?",
+    "answers": [
+      { "text": "The results of modifying risks", "correct": false },
+      { "text": "Automated tools for ongoing authorization", "correct": false },
+      {
+        "text": "The scope, objectives, roles, and methodology for risk treatment",
+        "correct": true
+      },
+      { "text": "The frequency of risk treatment reporting", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of using automated support tools, metrics, and dashboards in ongoing authorization?",
+    "answers": [
+      {
+        "text": "To eliminate the need for manual risk assessments",
+        "correct": false
+      },
+      {
+        "text": "To provide a clear and actionable view of the system's security posture",
+        "correct": true
+      },
+      {
+        "text": "To delay risk determination and acceptance until a major update occurs",
+        "correct": false
+      },
+      {
+        "text": "To monitor the security posture only after a major event or breach",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "To which phase of the Plan-Do-Check-Act (PDCA) cycle does system compliance monitoring belong?",
+    "answers": [
+      { "text": "Plan", "correct": false },
+      { "text": "Do", "correct": false },
+      { "text": "Check", "correct": true },
+      { "text": "Act", "correct": false }
+    ]
+  },
+  {
+    "question": "What should be included in the system compliance monitoring activities according to ISO 27001?",
+    "answers": [
+      { "text": "Development of new security policies", "correct": false },
+      {
+        "text": "Regular review of ISMS policies and procedures",
+        "correct": true
+      },
+      { "text": "Implementation of new software features", "correct": false },
+      { "text": "Management of user access and permissions", "correct": false }
+    ]
+  },
+  {
+    "question": "Which phase of the PDCA cycle does change management belong to according to ISO 27001?",
+    "answers": [
+      { "text": "Plan", "correct": false },
+      { "text": "Do", "correct": true },
+      { "text": "Check", "correct": false },
+      { "text": "Act", "correct": false }
+    ]
+  },
+  {
+    "question": "What should be done with the results of system compliance monitoring activities according to ISO 27001?",
+    "answers": [
+      { "text": "Discard them after review", "correct": false },
+      { "text": "Archive them without further action", "correct": false },
+      { "text": "Share them only with the IT department", "correct": false },
+      {
+        "text": "Use them as inputs for the Act phase of the PDCA cycle",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is one of the benefits of regular, targeted training sessions for stakeholders?",
+    "answers": [
+      { "text": "Development of new software applications", "correct": false },
+      { "text": "Enhanced resilience against cyber threats", "correct": true },
+      { "text": "Management of network traffic", "correct": false },
+      { "text": "Implementation of new system features", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of awareness and training programs for system and information compliance?",
+    "answers": [
+      { "text": "To develop new software applications", "correct": false },
+      { "text": "To manage user access and permissions", "correct": false },
+      { "text": "To implement new system features", "correct": false },
+      {
+        "text": "To educate stakeholders about compliance requirements, roles, and responsibilities",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is one of the outcomes of the awareness and training program for system and information compliance?",
+    "answers": [
+      {
+        "text": "Reduced incidents and violations of system and information compliance",
+        "correct": true
+      },
+      { "text": "Development of new security policies", "correct": false },
+      { "text": "Management of network traffic", "correct": false },
+      { "text": "Implementation of new software features", "correct": false }
+    ]
+  },
+  {
+    "question": "What is one of the methods used to update and improve the awareness and training program?",
+    "answers": [
+      {
+        "text": "Reviewing training content to reflect current industry threats",
+        "correct": true
+      },
+      {
+        "text": "Monitoring feedback from employees on training effectiveness",
+        "correct": false
+      },
+      {
+        "text": "Reviewing and updating user password policies",
+        "correct": false
+      },
+      {
+        "text": "Implementing multi-factor authentication across systems",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of system compliance?",
+    "answers": [
+      {
+        "text": "To assess which new software applications are needed",
+        "correct": false
+      },
+      {
+        "text": "To ensure the system is secure, reliable, and efficient",
+        "correct": true
+      },
+      { "text": "To manage user access and permissions", "correct": false },
+      { "text": "To implement new system features", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the MAIN difference between manual and automated testing?",
+    "answers": [
+      {
+        "text": "Manual testing is performed by software tools, while automated testing is performed by human testers.",
+        "correct": false
+      },
+      {
+        "text": "Manual testing is useful for testing simple aspects of the system, while automated testing is useful for testing complex aspects.",
+        "correct": false
+      },
+      {
+        "text": "Manual testing requires more time and resources, while automated testing requires less time and fewer resources.",
+        "correct": true
+      },
+      {
+        "text": "Manual testing is used for regression testing, while automated testing is used for exploratory testing.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which type of testing is useful for testing the system's user interface and user experience?",
+    "answers": [
+      { "text": "Automated testing", "correct": false },
+      { "text": "Regression testing", "correct": false },
+      { "text": "Manual testing", "correct": true },
+      { "text": "Performance testing", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of regression testing in automated testing?",
+    "answers": [
+      {
+        "text": "To test the system after changes or updates to ensure it still works as expected",
+        "correct": true
+      },
+      {
+        "text": "To test the system's performance under various conditions",
+        "correct": false
+      },
+      {
+        "text": "To test the system's usability and accessibility",
+        "correct": false
+      },
+      { "text": "To test the system's user interface", "correct": false }
+    ]
+  },
+  {
+    "question": "Which NIST document provides guidance for establishing the frequency of compliance activities review?",
+    "answers": [
+      { "text": "NIST 800-37", "correct": true },
+      { "text": "NIST 800-53", "correct": false },
+      { "text": "NIST 800-171", "correct": false },
+      { "text": "NIST 800-30", "correct": false }
+    ]
+  },
+  {
+    "question": "How often should compliance activities be reviewed according to NIST guidance?",
+    "answers": [
+      { "text": "Yearly", "correct": false },
+      { "text": "Every six months", "correct": false },
+      { "text": "Based on authorized package", "correct": false },
+      { "text": "Based on the monitoring strategy", "correct": true }
+    ]
+  },
+  {
+    "question": "What should the assessment plan specify according to NIST 800-37?",
+    "answers": [
+      { "text": "Development of new software applications", "correct": false },
+      {
+        "text": "Assessment objectives, scope, methods, and responsibilities",
+        "correct": true
+      },
+      { "text": "Management of user access and permissions", "correct": false },
+      { "text": "Implementation of new system features", "correct": false }
+    ]
+  },
+  {
+    "question": "What factors determine the frequency of compliance activities review?",
+    "answers": [
+      {
+        "text": "The organization's budget and financial performance",
+        "correct": false
+      },
+      { "text": "Number of employees in the organization", "correct": false },
+      {
+        "text": "Effectiveness of the organization's risk management strategies",
+        "correct": false
+      },
+      {
+        "text": "Organizational complexity and size, risk exposure, and maturity of the compliance program",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is included in the system maintenance plan?",
+    "answers": [
+      { "text": "System's user interface designs", "correct": false },
+      {
+        "text": "Scope, objectives, schedule, and resources for system maintenance activities",
+        "correct": true
+      },
+      { "text": "Software development life cycle", "correct": false },
+      { "text": "Procedures for system updates and patches", "correct": false }
+    ]
+  },
+  {
+    "question": "What type of testing measures the system's speed, scalability, reliability, and resource consumption after system maintenance activities?",
+    "answers": [
+      { "text": "Functional testing", "correct": false },
+      { "text": "Security testing", "correct": false },
+      { "text": "Usability testing", "correct": false },
+      { "text": "Performance testing", "correct": true }
+    ]
+  },
+  {
+    "question": "Which documents summarize system maintenance activities performed and their outcomes?",
+    "answers": [
+      { "text": "System maintenance reports", "correct": true },
+      { "text": "System maintenance logs", "correct": false },
+      { "text": "System maintenance tests", "correct": false },
+      { "text": "System maintenance documentation", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of regression testing during system maintenance?",
+    "answers": [
+      { "text": "To verify the system's user interface", "correct": false },
+      { "text": "To measure the system's performance", "correct": false },
+      {
+        "text": "To ensure existing functionality and quality are not affected by system maintenance activities",
+        "correct": true
+      },
+      {
+        "text": "To evaluate the system's vulnerability to unauthorized access",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "For what is internal vulnerability scanning useful?",
+    "answers": [
+      {
+        "text": "Detecting vulnerabilities in public-facing web pages",
+        "correct": false
+      },
+      {
+        "text": "Detecting vulnerabilities in the system's components",
+        "correct": true
+      },
+      { "text": "Simulating real-world cyberattacks", "correct": false },
+      { "text": "Managing user access and permissions", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of external scanning?",
+    "answers": [
+      { "text": "To verify the system's user interface", "correct": false },
+      { "text": "To measure the system's performance", "correct": false },
+      {
+        "text": "To detect vulnerabilities in the system's external components",
+        "correct": true
+      },
+      { "text": "To manage user access and permissions", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following techniques is used by vulnerability scanning tools to detect known vulnerabilities?",
+    "answers": [
+      { "text": "Regression testing", "correct": false },
+      { "text": "Usability testing", "correct": false },
+      { "text": "Performance testing", "correct": false },
+      { "text": "Signature-based detection", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the purpose of heuristic detection in vulnerability scanning?",
+    "answers": [
+      { "text": "To measure the system's performance", "correct": false },
+      {
+        "text": "To detect unknown vulnerabilities by analyzing system behavior",
+        "correct": true
+      },
+      { "text": "To verify the system's user interface", "correct": false },
+      { "text": "To manage user access and permissions", "correct": false }
+    ]
+  },
+  {
+    "question": "Which NIST document provides guidance on the processes and procedures for conducting incident handling and analysis?",
+    "answers": [
+      { "text": "NIST SP 800-53", "correct": false },
+      { "text": "NIST SP 800-37", "correct": false },
+      { "text": "NIST SP 800-61", "correct": true },
+      { "text": "NIST SP 800-171", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the FIRST phase of the incident handling and analysis process according to NIST SP 800-61?",
+    "answers": [
+      { "text": "Detection and analysis", "correct": false },
+      { "text": "Containment, eradication, and recovery", "correct": false },
+      { "text": "Preparation", "correct": true },
+      { "text": "Post-incident activity", "correct": false }
+    ]
+  },
+  {
+    "question": "What should be done during the post-incident activity phase according to NIST SP 800-61?",
+    "answers": [
+      { "text": "Review incident response team performance", "correct": false },
+      {
+        "text": "Review and update incident response procedures",
+        "correct": false
+      },
+      {
+        "text": "Conduct a risk assessment of the affected systems",
+        "correct": false
+      },
+      {
+        "text": "Analyze incident causes, effects, and lessons learned",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of containment, eradication, and recovery in the incident response process?",
+    "answers": [
+      {
+        "text": "To isolate and remove affected components, eliminate root causes, and restore normal operations",
+        "correct": true
+      },
+      {
+        "text": "To assess the impact of the incident on business continuity",
+        "correct": false
+      },
+      {
+        "text": "To perform a risk assessment of the affected systems",
+        "correct": false
+      },
+      {
+        "text": "To coordinate communication and updates with stakeholders during the incident",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is a PRIMARY action to take before decommissioning a system?",
+    "answers": [
+      {
+        "text": "Notify relevant stakeholders and back up any data that needs to be retained",
+        "correct": true
+      },
+      { "text": "Reassign user access and permissions", "correct": false },
+      {
+        "text": "Ensure that the system is disconnected from the network",
+        "correct": false
+      },
+      {
+        "text": "Conduct a final security assessment of the system",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the term to \"sanitize\" mean in the context of system decommissioning?",
+    "answers": [
+      { "text": "To develop new security policies", "correct": false },
+      {
+        "text": "To render access to target data on the media infeasible, impractical, or impossible",
+        "correct": true
+      },
+      { "text": "To remove user access and permissions", "correct": false },
+      {
+        "text": "To ensure the system is disconnected from the network",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of purging data during system decommissioning?",
+    "answers": [
+      {
+        "text": "To transfer data to a backup system for future use",
+        "correct": false
+      },
+      {
+        "text": "To remove data using physical or logical techniques that make recovery infeasible",
+        "correct": true
+      },
+      {
+        "text": "To ensure that user access is removed from the system",
+        "correct": false
+      },
+      {
+        "text": "To clean the system for reinstallation of new software",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What should be done with licensed or proprietary software before decommissioning a system?",
+    "answers": [
+      {
+        "text": "Transfer the software licenses to another system",
+        "correct": true
+      },
+      { "text": "Update the software to the latest version", "correct": false },
+      { "text": "Implement new systems features", "correct": false },
+      { "text": "Uninstall the software", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the core concept of cryptographic erase?",
+    "answers": [
+      {
+        "text": "A method of overwriting storage multiple times to destroy data",
+        "correct": false
+      },
+      {
+        "text": "A process of physically destroying a storage device to prevent data retrieval",
+        "correct": false
+      },
+      {
+        "text": "An encryption algorithm to protect data at rest",
+        "correct": false
+      },
+      {
+        "text": "A technique to render encrypted data inaccessible by destroying encryption keys",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is a self-encrypting device (SED) used for in the context of cryptographic erase?",
+    "answers": [
+      {
+        "text": "To ensure only encrypted data is stored and facilitate secure sanitization by erasing the key store",
+        "correct": true
+      },
+      {
+        "text": "To store sensitive data without the need for additional encryption software",
+        "correct": false
+      },
+      {
+        "text": "To perform secure deletion of data by overwriting it multiple times",
+        "correct": false
+      },
+      {
+        "text": "To manage the encryption keys and automatically initiate data destruction",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the advantage of cryptographic erase (CE) over traditional data destruction methods?",
+    "answers": [
+      {
+        "text": "It is faster and more efficient than traditional methods",
+        "correct": false
+      },
+      {
+        "text": "It renders the device permanently unusable",
+        "correct": false
+      },
+      {
+        "text": "It has speed and performance advantages and does not render the device unusable",
+        "correct": true
+      },
+      {
+        "text": "It requires manual intervention for each data block",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What additional element might be required in practical applications to provide data-at-rest protection in a self-encrypting device (SED)?",
+    "answers": [
+      { "text": "A backup storage device", "correct": false },
+      {
+        "text": "An unlock key or code for the secure key store",
+        "correct": true
+      },
+      { "text": "A physical lock on the device", "correct": false },
+      { "text": "A manual data wipe procedure", "correct": false }
+    ]
+  },
+  {
+    "question": "What type of document defines the principles and rules that govern the system operation and maintenance?",
+    "answers": [
+      { "text": "Service-level agreements", "correct": false },
+      { "text": "Third-party contracts", "correct": false },
+      { "text": "Policies", "correct": true },
+      { "text": "Procedures", "correct": false }
+    ]
+  },
+  {
+    "question": "What type of testing verifies that the system performs the expected functions after maintenance?",
+    "answers": [
+      { "text": "Security testing", "correct": false },
+      { "text": "Functional testing", "correct": true },
+      { "text": "Performance testing", "correct": false },
+      { "text": "Regression testing", "correct": false }
+    ]
+  },
+  {
+    "question": "Which entities verify and validate a system's compliance with standards and regulations?",
+    "answers": [
+      { "text": "Users", "correct": false },
+      { "text": "Managers", "correct": false },
+      { "text": "Stakeholders", "correct": false },
+      { "text": "Auditors", "correct": true }
+    ]
+  },
+  {
+    "question": "What documents outline the expected service and support provided by a system?",
+    "answers": [
+      { "text": "Service-level agreements (SLAs)", "correct": true },
+      { "text": "Policies", "correct": false },
+      { "text": "Logs", "correct": false },
+      { "text": "Reports", "correct": false }
+    ]
+  },
+  {
+    "question": "What determines the frequency of compliance activities review according to NIST 800-37?",
+    "answers": [
+      {
+        "text": "The organization's risk management framework",
+        "correct": false
+      },
+      {
+        "text": "The monitoring strategy, assessment plan, and authorization package",
+        "correct": true
+      },
+      {
+        "text": "The maturity level of the organization's security controls",
+        "correct": false
+      },
+      {
+        "text": "The size and complexity of the IT infrastructure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the MAIN processes relied upon by ISO 27000 for compliance activities review?",
+    "answers": [
+      { "text": "Monitoring, assessment, and authorization", "correct": false },
+      {
+        "text": "Internal audit, management review, and continual improvement",
+        "correct": true
+      },
+      { "text": "Development, testing, and deployment", "correct": false },
+      { "text": "Planning, execution, and evaluation", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY focus of ISO 27000 guidelines for compliance activities review?",
+    "answers": [
+      { "text": "Continuous risk assessment and mitigation", "correct": false },
+      {
+        "text": "Alignment of information security with business objectives",
+        "correct": false
+      },
+      {
+        "text": "Implementation, operation, and authorization of security controls",
+        "correct": false
+      },
+      {
+        "text": "Conformity, effectiveness, and information security management system (ISMS) improvement",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the scope of ISO 27000 guidelines for compliance activities review?",
+    "answers": [
+      {
+        "text": "Entire information security management system (ISMS), including policies, procedures, processes, and controls",
+        "correct": true
+      },
+      {
+        "text": "Regular review and updating of incident response protocols",
+        "correct": false
+      },
+      {
+        "text": "Security and risk management practices across all organizational departments",
+        "correct": false
+      },
+      {
+        "text": "Continuous monitoring and auditing of system performance and security controls",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY objective of the planning phase in risk analysis and treatment?",
+    "answers": [
+      { "text": "To identify potential sources of risks", "correct": false },
+      {
+        "text": "To analyze the likelihood and impact of risks",
+        "correct": false
+      },
+      {
+        "text": "To define scope, objectives, criteria, and methodology of the process",
+        "correct": true
+      },
+      {
+        "text": "To select and implement appropriate risk treatment options",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the MAIN focus of the assessment phase in risk analysis and treatment?",
+    "answers": [
+      { "text": "To identify potential sources of risks", "correct": false },
+      {
+        "text": "To implement appropriate risk treatment options",
+        "correct": false
+      },
+      {
+        "text": "To define the scope and objectives of the risk analysis process",
+        "correct": false
+      },
+      {
+        "text": "To analyze and evaluate the likelihood and impact of each risk",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which strategies can be used during the treatment phase to modify the risk level?",
+    "answers": [
+      { "text": "Qualitative and quantitative methods", "correct": false },
+      { "text": "Brainstorming and interviews", "correct": false },
+      {
+        "text": "Reducing, transferring, avoiding, or accepting the risks",
+        "correct": true
+      },
+      { "text": "Risk identification and documentation", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of establishing the risk appetite during the planning phase?",
+    "answers": [
+      { "text": "To identify potential sources of risks", "correct": false },
+      {
+        "text": "To define the level of risk the organization is willing to accept",
+        "correct": true
+      },
+      {
+        "text": "To implement appropriate risk treatment options",
+        "correct": false
+      },
+      {
+        "text": "To analyze the likelihood and impact of risks",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is one MAIN objective of personnel interviews in system compliance and security assessment?",
+    "answers": [
+      {
+        "text": "To confirm accuracy and completeness of system documentation",
+        "correct": false
+      },
+      {
+        "text": "To evaluate the understanding of security policies and procedures",
+        "correct": false
+      },
+      {
+        "text": "To identify potential security risks and vulnerabilities",
+        "correct": true
+      },
+      {
+        "text": "To assess the effectiveness of existing security controls",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What type of questions should interviewers use to elicit relevant and detailed information from interviewees?",
+    "answers": [
+      { "text": "Closed-ended questions", "correct": false },
+      { "text": "Multiple choice questions", "correct": false },
+      { "text": "Open-ended and scenario-based questions", "correct": true },
+      { "text": "True/false questions", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the reporting phase in the interview process?",
+    "answers": [
+      { "text": "To conduct the interviews", "correct": false },
+      {
+        "text": "To analyze and document results and recommendations",
+        "correct": true
+      },
+      {
+        "text": "To prepare and finalize interview questions",
+        "correct": false
+      },
+      {
+        "text": "To follow up and clarify responses with interviewees",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is one of the benefits of conducting personnel interviews for system compliance and security assessment?",
+    "answers": [
+      { "text": "To develop new software applications", "correct": false },
+      { "text": "To manage user access and permissions", "correct": false },
+      { "text": "To implement new system features", "correct": false },
+      {
+        "text": "To uncover unofficial practices, shortcuts, or workarounds",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which ISO standard provides guidance on managing information security incidents?",
+    "answers": [
+      { "text": "ISO 9001", "correct": false },
+      { "text": "ISO 14001", "correct": false },
+      { "text": "ISO 27035", "correct": true },
+      { "text": "ISO 45001", "correct": false }
+    ]
+  },
+  {
+    "question": "What is a KEY component of an incident response policy?",
+    "answers": [
+      { "text": "Defining roles and responsibilities", "correct": true },
+      { "text": "Increasing the number of IT systems", "correct": false },
+      {
+        "text": "Reducing the frequency of employee training",
+        "correct": false
+      },
+      { "text": "Limiting communication channels", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of regular training and awareness programs for the incident response team (IRT)?",
+    "answers": [
+      { "text": "To reduce the number of incidents", "correct": false },
+      {
+        "text": "To ensure they know the policies and best practices",
+        "correct": true
+      },
+      { "text": "To decrease the number of incidents", "correct": false },
+      {
+        "text": "To eliminate the need for incident documentation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is a KEY activity of an incident response team (IRT)?",
+    "answers": [
+      { "text": "Conducting training programs", "correct": true },
+      { "text": "Implementing backup solutions", "correct": false },
+      { "text": "Defining recovery time objectives", "correct": false },
+      { "text": "Establishing redundance", "correct": false }
+    ]
+  }
+]

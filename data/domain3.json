@@ -1,0 +1,3110 @@
+[
+  {
+    "question": "What should be done when a control is identified that could be applicable across multiple systems?",
+    "answers": [
+      {
+        "text": "Make it a hybrid control.",
+        "correct": false
+      },
+      {
+        "text": "Designate it as a common control.",
+        "correct": true
+      },
+      {
+        "text": "Leave it as a system-specific control.",
+        "correct": false
+      },
+      {
+        "text": "Eliminate the control entirely.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the benefit of designating certain security controls as common controls?",
+    "answers": [
+      {
+        "text": "It reduces security costs by centralizing their management",
+        "correct": true
+      },
+      {
+        "text": "It allows controls to be tailored to individual systems",
+        "correct": false
+      },
+      {
+        "text": "It speeds up the adoption of new technologies",
+        "correct": false
+      },
+      {
+        "text": "It provides templates for further refinement",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of a hybrid security control that combines both technical and administrative elements?",
+    "answers": [
+      {
+        "text": "Access control policies with automated user authentication",
+        "correct": true
+      },
+      {
+        "text": "Incident response policy and procedures",
+        "correct": false
+      },
+      {
+        "text": "Physical security measures with access logs and automated alarm systems",
+        "correct": false
+      },
+      {
+        "text": "Employee background checks combined with automated surveillance systems",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is an example of a common security control that is often poorly maintained?",
+    "answers": [
+      {
+        "text": "Firewall rules",
+        "correct": false
+      },
+      {
+        "text": "Access control lists",
+        "correct": false
+      },
+      {
+        "text": "Domain Name System",
+        "correct": true
+      },
+      {
+        "text": "Intrusion detection system",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is essential to reduce the impact of monitoring on system performance?",
+    "answers": [
+      {
+        "text": "Analysis by knowledgeable professionals",
+        "correct": false
+      },
+      {
+        "text": "Fine-tuning reporting processes",
+        "correct": false
+      },
+      {
+        "text": "Validating information sources",
+        "correct": false
+      },
+      {
+        "text": "Automation of ISCM activities",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the KEY purpose of the Information Security Continuous Monitoring (ISCM) architecture?",
+    "answers": [
+      {
+        "text": "To provide storage for monitoring data",
+        "correct": false
+      },
+      {
+        "text": "To enable integration of monitoring systems",
+        "correct": true
+      },
+      {
+        "text": "To eliminate the need for trained staff",
+        "correct": false
+      },
+      {
+        "text": "To completely automate monitoring processes",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY benefit of automating information security continuous monitoring (ISCM) activities?",
+    "answers": [
+      {
+        "text": "It eliminates the need for trained staff",
+        "correct": false
+      },
+      {
+        "text": "It ensures that all security controls are system-specific",
+        "correct": false
+      },
+      {
+        "text": "It allows for manual logging of information",
+        "correct": false
+      },
+      {
+        "text": "It reduces the impact of monitoring system performance and improves monitoring reliability",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is a KEY consideration when analyzing data collected by the Information Security Continuous Monitoring (ISCM) program?",
+    "answers": [
+      {
+        "text": "Ensuring that all data is collected manually",
+        "correct": false
+      },
+      {
+        "text": "Validating the information to ensure correct conclusions are drawn",
+        "correct": true
+      },
+      {
+        "text": "Limiting the data analysis to patch management processes",
+        "correct": false
+      },
+      {
+        "text": "Avoiding the use of automated dashboards for reporting",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is a System of Record Notice (SORN)?",
+    "answers": [
+      {
+        "text": "A system that manages electronic records over time",
+        "correct": false
+      },
+      {
+        "text": "A system that identifies interagency information sharing",
+        "correct": false
+      },
+      {
+        "text": "A system that contains personally identifiable information",
+        "correct": false
+      },
+      {
+        "text": "A system that informs the public about privacy practices",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a benefit of implementing formal records management practices?",
+    "answers": [
+      {
+        "text": "It eliminates the need for backup processes.",
+        "correct": false
+      },
+      {
+        "text": "It ensures that all records are retained indefinitely.",
+        "correct": false
+      },
+      {
+        "text": "It supports organizational efficiency by simplifying the processes for storing and retrieving information.",
+        "correct": true
+      },
+      {
+        "text": "It allows for the destruction of all records after a short period.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a reason why records management programs are necessary outside of government?",
+    "answers": [
+      {
+        "text": "To eliminate the need for backup processes",
+        "correct": false
+      },
+      {
+        "text": "To ensure the destruction of all records",
+        "correct": false
+      },
+      {
+        "text": "To avoid the use of electronic systems",
+        "correct": false
+      },
+      {
+        "text": "To support litigation, intellectual property retention, and compliance obligations",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is one of the benefits of using formal records management practices?",
+    "answers": [
+      {
+        "text": "It eliminates the need for data backups",
+        "correct": false
+      },
+      {
+        "text": "It ensures that all records are destroyed after use",
+        "correct": false
+      },
+      {
+        "text": "It supports organizational efficiency by simplifying the processes for storing and retrieving information",
+        "correct": true
+      },
+      {
+        "text": "It allows for the indefinite retention of all records",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is responsible for integrating common controls into individual systems?",
+    "answers": [
+      {
+        "text": "The system owner",
+        "correct": true
+      },
+      {
+        "text": "The common control provider",
+        "correct": false
+      },
+      {
+        "text": "Both system owner and common control provider",
+        "correct": false
+      },
+      {
+        "text": "Neither system owner nor common control provider",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is responsible for the design, implementation, security assessment, operation, and maintenance of a common control?",
+    "answers": [
+      {
+        "text": "The information system owner",
+        "correct": false
+      },
+      {
+        "text": "The common control provider",
+        "correct": true
+      },
+      {
+        "text": "The organization's CEO",
+        "correct": false
+      },
+      {
+        "text": "The system-specific control owner",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What type of control is typically offered as a hybrid control?",
+    "answers": [
+      {
+        "text": "Physical security",
+        "correct": false
+      },
+      {
+        "text": "Incident response policy",
+        "correct": false
+      },
+      {
+        "text": "Identity and access management (IAM) services",
+        "correct": true
+      },
+      {
+        "text": "Contingency planning",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What determines who is responsible for a control within an organization?",
+    "answers": [
+      {
+        "text": "Type of control (common, hybrid, or system-specific)",
+        "correct": true
+      },
+      {
+        "text": "Size of the organization",
+        "correct": false
+      },
+      {
+        "text": "Location of the information system",
+        "correct": false
+      },
+      {
+        "text": "Budget allocated for security controls",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the three tiers that organize Information Security Continuous Monitoring (ISCM) activities according to the NIST Risk Management Framework?",
+    "answers": [
+      {
+        "text": "Organizational, System, Control",
+        "correct": false
+      },
+      {
+        "text": "Organizational, Mission, System",
+        "correct": true
+      },
+      {
+        "text": "Control, System, Process",
+        "correct": false
+      },
+      {
+        "text": "Mission, Process, Metric",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the MAIN purpose of Information Security Continuous Monitoring (ISCM)?",
+    "answers": [
+      {
+        "text": "To develop system-level procedures",
+        "correct": false
+      },
+      {
+        "text": "To establish automated data collection",
+        "correct": false
+      },
+      {
+        "text": "To define organizational risk tolerance",
+        "correct": false
+      },
+      {
+        "text": "To ensure that security controls are achieving risk reduction",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following NIST publications does NOT provide Information Security Continuous Monitoring (ISCM) program guidance?",
+    "answers": [
+      {
+        "text": "SP 800-137",
+        "correct": false
+      },
+      {
+        "text": "SP 800-137a",
+        "correct": false
+      },
+      {
+        "text": "SP 800-53",
+        "correct": true
+      },
+      {
+        "text": "SP 800-92",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which ISO standard defines the Information Security Continuous Monitoring (ISCM) strategy as a control and provides guidance on establishing an ISCM program?",
+    "answers": [
+      {
+        "text": "ISO/IEC 27004:2016",
+        "correct": false
+      },
+      {
+        "text": "ISO 27002",
+        "correct": true
+      },
+      {
+        "text": "ISO/IEC TS 27008:2019",
+        "correct": false
+      },
+      {
+        "text": "ISO/IEC 27022:2021",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is one of the activities supported by an Information Security Continuous Monitoring (ISCM) program?",
+    "answers": [
+      {
+        "text": "Patch management",
+        "correct": false
+      },
+      {
+        "text": "Software development",
+        "correct": false
+      },
+      {
+        "text": "Vulnerability management",
+        "correct": true
+      },
+      {
+        "text": "Configuration management",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the first step in developing a vulnerability management program?",
+    "answers": [
+      {
+        "text": "Identifying stakeholders",
+        "correct": false
+      },
+      {
+        "text": "Defining the programs scope and measures of success",
+        "correct": false
+      },
+      {
+        "text": "Making a commitment to identifying and remediating weaknesses",
+        "correct": true
+      },
+      {
+        "text": "Establishing a vulnerability classification scale",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What should be defined in an organizational vulnerability management strategy?",
+    "answers": [
+      {
+        "text": "Training requirements",
+        "correct": false
+      },
+      {
+        "text": "Risk tolerance",
+        "correct": true
+      },
+      {
+        "text": "Remediation timeframes",
+        "correct": false
+      },
+      {
+        "text": "Assessment methods",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What should the vulnerability management plan identify to support the enforcement of vulnerability remediation?",
+    "answers": [
+      {
+        "text": "The need for manual vulnerability assessments",
+        "correct": false
+      },
+      {
+        "text": "The elimination of automated vulnerability management processes",
+        "correct": false
+      },
+      {
+        "text": "The exclusion of stakeholders from the planning process",
+        "correct": false
+      },
+      {
+        "text": "A vulnerability classification scale and remediation timeframes",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the KEY purpose of scoping guidance for security controls?",
+    "answers": [
+      {
+        "text": "To allow flexibility in implementing controls based on risk",
+        "correct": true
+      },
+      {
+        "text": "To eliminate controls that are not needed",
+        "correct": false
+      },
+      {
+        "text": "To define common controls across systems",
+        "correct": false
+      },
+      {
+        "text": "To ensure all controls are fully implemented",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which color is used to identify TOP SECRET information in the U.S. government classification system?",
+    "answers": [
+      {
+        "text": "Red",
+        "correct": false
+      },
+      {
+        "text": "Blue",
+        "correct": false
+      },
+      {
+        "text": "Green",
+        "correct": false
+      },
+      {
+        "text": "Orange",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the consequence of having too many classifications in a classification system?",
+    "answers": [
+      {
+        "text": "It simplifies the decision-making process",
+        "correct": false
+      },
+      {
+        "text": "It reduces the need for training",
+        "correct": false
+      },
+      {
+        "text": "It makes it difficult to decide what level of control is needed",
+        "correct": true
+      },
+      {
+        "text": "It eliminates the need for metadata",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the role of metadata in information management?",
+    "answers": [
+      {
+        "text": "To replace the need for classification markings",
+        "correct": false
+      },
+      {
+        "text": "To provide information about the information, making it easier to retrieve, use, and manage",
+        "correct": true
+      },
+      {
+        "text": "To eliminate the need for encryption",
+        "correct": false
+      },
+      {
+        "text": "To reduce the number of security controls required",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the first step in aligning the system classification with baseline controls?",
+    "answers": [
+      {
+        "text": "Selecting the controls baseline",
+        "correct": true
+      },
+      {
+        "text": "Evaluating the controls catalog",
+        "correct": false
+      },
+      {
+        "text": "Implementing the security controls",
+        "correct": false
+      },
+      {
+        "text": "Documenting the system classification decision",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of systems engineering practices in the context of security requirements?",
+    "answers": [
+      {
+        "text": "To deconstruct high-level organizational security objectives into specific requirements",
+        "correct": true
+      },
+      {
+        "text": "To eliminate the need for security controls",
+        "correct": false
+      },
+      {
+        "text": "To reduce the cost of system development",
+        "correct": false
+      },
+      {
+        "text": "To ensure compliance with all regulatory requirements",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is veneer security in the context of system security?",
+    "answers": [
+      {
+        "text": "A highly effective security measure",
+        "correct": false
+      },
+      {
+        "text": "A type of encryption method",
+        "correct": false
+      },
+      {
+        "text": "A compliance-based security approach",
+        "correct": false
+      },
+      {
+        "text": "Security functionality that is assumed but not verified",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the role of compliance in judgments of trustworthiness?",
+    "answers": [
+      {
+        "text": "It is the sole basis for assurance",
+        "correct": false
+      },
+      {
+        "text": "It eliminates the need for verification",
+        "correct": false
+      },
+      {
+        "text": "It has an important informing role but is not sufficient on its own",
+        "correct": true
+      },
+      {
+        "text": "It guarantees the security of the system",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the primary purpose of security baseline controls in an organization?",
+    "answers": [
+      {
+        "text": "To address common security risks and vulnerabilities",
+        "correct": true
+      },
+      {
+        "text": "To increase the complexity of information systems",
+        "correct": false
+      },
+      {
+        "text": "To limit access to all information regardless of sensitivity",
+        "correct": false
+      },
+      {
+        "text": "To confuse employees about security protocols",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of an inherited control?",
+    "answers": [
+      {
+        "text": "Individual system-specific firewall rules",
+        "correct": false
+      },
+      {
+        "text": "Centralized firewall management by a central security team",
+        "correct": true
+      },
+      {
+        "text": "Custom encryption algorithms developed by system owners",
+        "correct": false
+      },
+      {
+        "text": "Ad hoc risk assessments performed by individual users",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is a potential consequence of not having formal architectural standards and clearly defined control boundaries?",
+    "answers": [
+      {
+        "text": "Simplified control selection process",
+        "correct": false
+      },
+      {
+        "text": "Increased efficiency in system deployment",
+        "correct": false
+      },
+      {
+        "text": "Reduced need for system documentation",
+        "correct": false
+      },
+      {
+        "text": "Additional diligence required in controls selection",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Why should privacy controls be integrated into security baseline controls?",
+    "answers": [
+      {
+        "text": "To increase the complexity of security measures",
+        "correct": false
+      },
+      {
+        "text": "To ensure personal data is safeguarded against potential threats",
+        "correct": true
+      },
+      {
+        "text": "To replace the need for encryption",
+        "correct": false
+      },
+      {
+        "text": "To limit access to all information regardless of sensitivity",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the cloud-computing shared-responsibility model, who is responsible for the security of the cloud infrastructure?",
+    "answers": [
+      {
+        "text": "Cloud service customer",
+        "correct": false
+      },
+      {
+        "text": "Cloud service provider",
+        "correct": true
+      },
+      {
+        "text": "Third-party auditors",
+        "correct": false
+      },
+      {
+        "text": "End users",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a KEY consideration in the cloud-computing shared-responsibility model?",
+    "answers": [
+      {
+        "text": "Simplifying the user interface",
+        "correct": false
+      },
+      {
+        "text": "Reducing the cost of cloud services",
+        "correct": false
+      },
+      {
+        "text": "Service-level agreements (SLAs)",
+        "correct": true
+      },
+      {
+        "text": "Eliminating the need for compliance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the primary role of a cloud service customer in the shared-responsibility model?",
+    "answers": [
+      {
+        "text": "To provide physical security for cloud data centers",
+        "correct": false
+      },
+      {
+        "text": "To manage and configure cloud service settings and applications",
+        "correct": true
+      },
+      {
+        "text": "To audit the cloud service provider's (CSP's) infrastructure",
+        "correct": false
+      },
+      {
+        "text": "To develop cloud infrastructure hardware",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the primary purpose of a Privacy Impact Assessment (PIA)?",
+    "answers": [
+      {
+        "text": "To identify, assess, and mitigate potential privacy risks",
+        "correct": true
+      },
+      {
+        "text": "To increase the complexity of data management",
+        "correct": false
+      },
+      {
+        "text": "To replace the need for security controls",
+        "correct": false
+      },
+      {
+        "text": "To confuse stakeholders about privacy practices",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which step is typically the first in the Privacy Impact Assessment (PIA) planning process?",
+    "answers": [
+      {
+        "text": "Conducting the PIA",
+        "correct": false
+      },
+      {
+        "text": "Reporting the PIA",
+        "correct": false
+      },
+      {
+        "text": "Conducting a Privacy Threshold Analysis (PTA)",
+        "correct": true
+      },
+      {
+        "text": "Identifying strategies to address privacy risks",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Why might an organization choose to conduct a Privacy Impact Assessment (PIA) beyond statutory obligations?",
+    "answers": [
+      {
+        "text": "To increase the complexity of privacy controls",
+        "correct": false
+      },
+      {
+        "text": "To identify potential privacy risks and develop mitigation strategies",
+        "correct": true
+      },
+      {
+        "text": "To replace the need for privacy policies",
+        "correct": false
+      },
+      {
+        "text": "To confuse employees about privacy regulations",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is a KEY benefit of integrating privacy controls into an organization's security measures?",
+    "answers": [
+      {
+        "text": "To increase the cost of compliance",
+        "correct": false
+      },
+      {
+        "text": "To eliminate the need for privacy training",
+        "correct": false
+      },
+      {
+        "text": "To reduce the need for stakeholder communication",
+        "correct": false
+      },
+      {
+        "text": "To ensure personal data is safeguarded against potential threats",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which framework is specifically designed to support cloud customers and providers by mapping controls from legacy frameworks to cloud environments?",
+    "answers": [
+      {
+        "text": "HITRUST CSF",
+        "correct": false
+      },
+      {
+        "text": "PCI DSS",
+        "correct": false
+      },
+      {
+        "text": "CSA CCM",
+        "correct": true
+      },
+      {
+        "text": "GDPR",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which framework was originally developed to address compliance obligations in the healthcare industry but has since broadened its scope?",
+    "answers": [
+      {
+        "text": "PCI DSS",
+        "correct": false
+      },
+      {
+        "text": "HITRUST CSF",
+        "correct": true
+      },
+      {
+        "text": "NIS2 Directive",
+        "correct": false
+      },
+      {
+        "text": "Singapore's Cybersecurity Act",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which regulation requires financial institutions operating in New York to implement cybersecurity policies, risk assessments, and data governance practices?",
+    "answers": [
+      {
+        "text": "HIPAA",
+        "correct": false
+      },
+      {
+        "text": "GDPR",
+        "correct": false
+      },
+      {
+        "text": "DFS-500",
+        "correct": true
+      },
+      {
+        "text": "NIS2 Directive",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which regulation emphasizes the use of pseudonymization as a technique to achieve data minimization?",
+    "answers": [
+      {
+        "text": "HIPAA",
+        "correct": false
+      },
+      {
+        "text": "GDPR",
+        "correct": true
+      },
+      {
+        "text": "PCI DSS",
+        "correct": false
+      },
+      {
+        "text": "Singapore's Cybersecurity Act",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of creating a consolidated Security Plan and Privacy Plan?",
+    "answers": [
+      {
+        "text": "To minimize the cost of documentation",
+        "correct": false
+      },
+      {
+        "text": "To reduce the number of documents required",
+        "correct": false
+      },
+      {
+        "text": "To ensure compliance with international standards",
+        "correct": false
+      },
+      {
+        "text": "To simplify the production of the plan and clarify the relationship between privacy objectives and security controls",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the role of traceability in control selection documentation?",
+    "answers": [
+      {
+        "text": "To ensure compliance with vendor requirements",
+        "correct": false
+      },
+      {
+        "text": "To document decisions associated with control objectives and aid in troubleshooting and systems integration",
+        "correct": true
+      },
+      {
+        "text": "To reduce the need for audits",
+        "correct": false
+      },
+      {
+        "text": "To enhance the visual appeal of documentation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Why is it important to reference existing documentation from vendors or similar organizations?",
+    "answers": [
+      {
+        "text": "To reduce the workload of security professionals",
+        "correct": false
+      },
+      {
+        "text": "To ensure the documentation is visually appealing",
+        "correct": false
+      },
+      {
+        "text": "To enhance and augment the documentation prepared for the security plan",
+        "correct": true
+      },
+      {
+        "text": "To comply with international standards",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What should be considered in the development of plans and related documentation to ensure they reflect the current state of the system?",
+    "answers": [
+      {
+        "text": "The visual design of the documents",
+        "correct": false
+      },
+      {
+        "text": "The organization's knowledge management activities and change management control",
+        "correct": true
+      },
+      {
+        "text": "The cost of documentation",
+        "correct": false
+      },
+      {
+        "text": "The preferences of individual security professionals",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of program audits and assessments?",
+    "answers": [
+      {
+        "text": "To reduce operational costs",
+        "correct": false
+      },
+      {
+        "text": "To increase the number of artifacts",
+        "correct": false
+      },
+      {
+        "text": "To eliminate the need for internal audits",
+        "correct": false
+      },
+      {
+        "text": "To ensure compliance, meet organizational standards, and identify weaknesses in controls",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is an artifact in the context of an audit?",
+    "answers": [
+      {
+        "text": "A historical document",
+        "correct": false
+      },
+      {
+        "text": "A piece of software",
+        "correct": false
+      },
+      {
+        "text": "Evidence demonstrating the level of compliance with a standard",
+        "correct": true
+      },
+      {
+        "text": "A physical security control",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT one of the five characterizations of a typical audit finding?",
+    "answers": [
+      {
+        "text": "Cost",
+        "correct": true
+      },
+      {
+        "text": "Cause",
+        "correct": false
+      },
+      {
+        "text": "Criteria",
+        "correct": false
+      },
+      {
+        "text": "Condition",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the benefit of conducting informal assessments before formal compliance audits?",
+    "answers": [
+      {
+        "text": "To reduce the number of required artifacts",
+        "correct": false
+      },
+      {
+        "text": "To identify and address potential vulnerabilities or noncompliance issues early",
+        "correct": true
+      },
+      {
+        "text": "To eliminate the need for formal audits",
+        "correct": false
+      },
+      {
+        "text": "To increase the complexity of the audit process",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the first step in bringing trustworthy people into an organization?",
+    "answers": [
+      {
+        "text": "Conducting background checks",
+        "correct": true
+      },
+      {
+        "text": "Defining job responsibilities",
+        "correct": false
+      },
+      {
+        "text": "Performing reference checks",
+        "correct": false
+      },
+      {
+        "text": "Onboarding new hires",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What should be included in the onboarding process for new hires?",
+    "answers": [
+      {
+        "text": "Job history review",
+        "correct": false
+      },
+      {
+        "text": "Salary negotiations",
+        "correct": false
+      },
+      {
+        "text": "Acceptable Use policies",
+        "correct": true
+      },
+      {
+        "text": "Performance evaluations",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of an employee probationary period?",
+    "answers": [
+      {
+        "text": "To finalize salary details",
+        "correct": false
+      },
+      {
+        "text": "To conduct additional interviews",
+        "correct": false
+      },
+      {
+        "text": "To complete background checks",
+        "correct": false
+      },
+      {
+        "text": "To monitor compliance with expectations",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is a KEY component of insider threat programs?",
+    "answers": [
+      {
+        "text": "Conducting exit interviews",
+        "correct": false
+      },
+      {
+        "text": "Educating employees on identifying threats",
+        "correct": true
+      },
+      {
+        "text": "Increasing employee salaries",
+        "correct": false
+      },
+      {
+        "text": "Reducing job responsibilities",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which controls are established before a risk event to provide guidance to system operators?",
+    "answers": [
+      {
+        "text": "Detective controls",
+        "correct": false
+      },
+      {
+        "text": "Directive controls",
+        "correct": true
+      },
+      {
+        "text": "Corrective controls",
+        "correct": false
+      },
+      {
+        "text": "Recovery controls",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY function of detective controls?",
+    "answers": [
+      {
+        "text": "To deter threat actors",
+        "correct": false
+      },
+      {
+        "text": "To prevent risk events",
+        "correct": false
+      },
+      {
+        "text": "To recover from risk events",
+        "correct": false
+      },
+      {
+        "text": "To identify that a risk event has occurred",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which controls are designed to limit further damage after a risk event?",
+    "answers": [
+      {
+        "text": "Preventive controls",
+        "correct": false
+      },
+      {
+        "text": "Compensating controls",
+        "correct": false
+      },
+      {
+        "text": "Corrective controls",
+        "correct": true
+      },
+      {
+        "text": "Directive controls",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the role of compensating controls?",
+    "answers": [
+      {
+        "text": "To replace primary controls if they fail",
+        "correct": true
+      },
+      {
+        "text": "To provide guidance before a risk event",
+        "correct": false
+      },
+      {
+        "text": "To identify risk events",
+        "correct": false
+      },
+      {
+        "text": "To recover systems to normal operation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of Key Performance Indicators (KPIs) in information security?",
+    "answers": [
+      {
+        "text": "To predict future risks",
+        "correct": false
+      },
+      {
+        "text": "To measure control effectiveness",
+        "correct": true
+      },
+      {
+        "text": "To reduce operational costs",
+        "correct": false
+      },
+      {
+        "text": "To enhance user satisfaction",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which metric measures the amount of time a system is operational and available for use?",
+    "answers": [
+      {
+        "text": "System uptime",
+        "correct": true
+      },
+      {
+        "text": "Incident response",
+        "correct": false
+      },
+      {
+        "text": "Patch management",
+        "correct": false
+      },
+      {
+        "text": "User satisfaction",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the role of Key Risk Indicators (KRIs) in an organization?",
+    "answers": [
+      {
+        "text": "To measure system performance",
+        "correct": false
+      },
+      {
+        "text": "To enhance user satisfaction",
+        "correct": false
+      },
+      {
+        "text": "To reduce operational costs",
+        "correct": false
+      },
+      {
+        "text": "To predict changes in threats or vulnerabilities",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which metric is crucial for maintaining system security and functionality by applying necessary updates?",
+    "answers": [
+      {
+        "text": "Compliance rate",
+        "correct": false
+      },
+      {
+        "text": "Change management efficiency",
+        "correct": false
+      },
+      {
+        "text": "Patch management",
+        "correct": true
+      },
+      {
+        "text": "Cost efficiency",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of establishing maximum tolerable downtime (MTD) in availability planning?",
+    "answers": [
+      {
+        "text": "To reduce operational costs",
+        "correct": false
+      },
+      {
+        "text": "To ensure data localization",
+        "correct": false
+      },
+      {
+        "text": "To determine acceptable downtime",
+        "correct": true
+      },
+      {
+        "text": "To enhance user satisfaction",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which type of replication involves synchronizing data bidirectionally in real time?",
+    "answers": [
+      {
+        "text": "Merge replication",
+        "correct": true
+      },
+      {
+        "text": "Journal replication",
+        "correct": false
+      },
+      {
+        "text": "Snapshot replication",
+        "correct": false
+      },
+      {
+        "text": "Asynchronous replication",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is a KEY benefit of offline, disconnected backups?",
+    "answers": [
+      {
+        "text": "Reducing storage costs",
+        "correct": false
+      },
+      {
+        "text": "Enhancing data localization",
+        "correct": false
+      },
+      {
+        "text": "Improving system performance",
+        "correct": false
+      },
+      {
+        "text": "Protecting against data corruption",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY argument against data localization measures?",
+    "answers": [
+      {
+        "text": "They increase data security",
+        "correct": false
+      },
+      {
+        "text": "They reduce operational costs",
+        "correct": false
+      },
+      {
+        "text": "They add significant costs",
+        "correct": true
+      },
+      {
+        "text": "They enhance user satisfaction",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of ISO 27001 in the ISO 27000 series?",
+    "answers": [
+      {
+        "text": "To certify an organization's information security management system (ISMS)",
+        "correct": true
+      },
+      {
+        "text": "To manage physical security",
+        "correct": false
+      },
+      {
+        "text": "To develop software standards",
+        "correct": false
+      },
+      {
+        "text": "To create network protocols",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which standard provides a code of practice for certifying an information security management system (ISMS)?",
+    "answers": [
+      {
+        "text": "ISO 27000",
+        "correct": false
+      },
+      {
+        "text": "ISO 27001",
+        "correct": true
+      },
+      {
+        "text": "NIST CSF",
+        "correct": false
+      },
+      {
+        "text": "NIST RMF",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a control family defined in NIST SP 800-53, Revision 5?",
+    "answers": [
+      {
+        "text": "System and Communications Protection",
+        "correct": true
+      },
+      {
+        "text": "Data Privacy",
+        "correct": false
+      },
+      {
+        "text": "Risk Assessment Management",
+        "correct": false
+      },
+      {
+        "text": "Cybersecurity Operations",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which standard defines minimum security requirements across 17 security-related areas?",
+    "answers": [
+      {
+        "text": "ISO 27001",
+        "correct": false
+      },
+      {
+        "text": "NIST CSF 2.0",
+        "correct": false
+      },
+      {
+        "text": "FIPS 200",
+        "correct": true
+      },
+      {
+        "text": "NIST SP 800-53",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which framework aligns the privacy criteria of the SOC2 report with General Data Protection Regulation (GDPR) requirements?",
+    "answers": [
+      {
+        "text": "NIST Privacy Framework",
+        "correct": false
+      },
+      {
+        "text": "AICPA Privacy Management Framework",
+        "correct": true
+      },
+      {
+        "text": "MITRE Privacy Engineering Tools",
+        "correct": false
+      },
+      {
+        "text": "U.S.-EU Data Privacy Framework",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY focus of MITRE's Privacy Engineering Tools?",
+    "answers": [
+      {
+        "text": "Aligning privacy with security activities",
+        "correct": false
+      },
+      {
+        "text": "Evaluating customer privacy practices",
+        "correct": false
+      },
+      {
+        "text": "Implementing privacy goals through methods",
+        "correct": true
+      },
+      {
+        "text": "Legal transfer of personal information",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which framework was issued an adequacy decision by the European Commission on July 17, 2023?",
+    "answers": [
+      {
+        "text": "Safe Harbor program",
+        "correct": false
+      },
+      {
+        "text": "Privacy Shield program",
+        "correct": false
+      },
+      {
+        "text": "U.S.-EU Data Privacy Framework",
+        "correct": true
+      },
+      {
+        "text": "Singapore's PDPA",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the regulatory authority responsible for enforcing Singapore's PDPA?",
+    "answers": [
+      {
+        "text": "Personal Data Protection Commission",
+        "correct": true
+      },
+      {
+        "text": "European Commission",
+        "correct": false
+      },
+      {
+        "text": "Federal Trade Commission",
+        "correct": false
+      },
+      {
+        "text": "Data Protection Authority",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What must an organization demonstrate when using compensating controls?",
+    "answers": [
+      {
+        "text": "Reduced transaction overhead",
+        "correct": false
+      },
+      {
+        "text": "Equal or comparable protection",
+        "correct": true
+      },
+      {
+        "text": "Enhanced system performance",
+        "correct": false
+      },
+      {
+        "text": "Simplified control implementation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of security overlays?",
+    "answers": [
+      {
+        "text": "To reduce encryption overhead",
+        "correct": false
+      },
+      {
+        "text": "To enhance system performance",
+        "correct": false
+      },
+      {
+        "text": "To provide specialized baselines",
+        "correct": true
+      },
+      {
+        "text": "To simplify documentation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How do overlays differ from tailoring in control implementation?",
+    "answers": [
+      {
+        "text": "Overlays are for single systems",
+        "correct": false
+      },
+      {
+        "text": "Tailoring is for multiple systems",
+        "correct": false
+      },
+      {
+        "text": "Tailoring simplifies control selection",
+        "correct": false
+      },
+      {
+        "text": "Overlays address groups of systems",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which publication provides specific guidance for U.S. government organizations implementing overlays?",
+    "answers": [
+      {
+        "text": "NIST SP 800-53B",
+        "correct": true
+      },
+      {
+        "text": "NIST SP 800-53A",
+        "correct": false
+      },
+      {
+        "text": "NIST SP 800-37",
+        "correct": false
+      },
+      {
+        "text": "NIST SP 800-30",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY benefit of having fewer identity stores in an IAM environment?",
+    "answers": [
+      {
+        "text": "Enhanced system performance",
+        "correct": false
+      },
+      {
+        "text": "Consistency in identity proofing",
+        "correct": true
+      },
+      {
+        "text": "Reduced logging requirements",
+        "correct": false
+      },
+      {
+        "text": "Simplified user interfaces",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What do User and Entity Behavior Analytics (UEBA) tools monitor to protect against identity misuse?",
+    "answers": [
+      {
+        "text": "Network traffic patterns",
+        "correct": false
+      },
+      {
+        "text": "System error logs",
+        "correct": false
+      },
+      {
+        "text": "User behavior templates",
+        "correct": true
+      },
+      {
+        "text": "Software update schedules",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What action is taken if substantial differences are found in a user's behavior template?",
+    "answers": [
+      {
+        "text": "Access is immediately revoked",
+        "correct": false
+      },
+      {
+        "text": "User is logged out of the system",
+        "correct": false
+      },
+      {
+        "text": "System performance is optimized",
+        "correct": false
+      },
+      {
+        "text": "Additional authentication is required",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Why is enhanced logging and monitoring important for privileged identities?",
+    "answers": [
+      {
+        "text": "To reduce system overhead",
+        "correct": false
+      },
+      {
+        "text": "To verify proper use of privileges",
+        "correct": true
+      },
+      {
+        "text": "To simplify system administration",
+        "correct": false
+      },
+      {
+        "text": "To enhance user experience",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are two factors that influence how frequently security controls should be monitored?",
+    "answers": [
+      {
+        "text": "Cost and risk tolerance",
+        "correct": true
+      },
+      {
+        "text": "Assessment templates and metrics",
+        "correct": false
+      },
+      {
+        "text": "Sampling methods and automation capabilities",
+        "correct": false
+      },
+      {
+        "text": "Classification level and identified vulnerabilities",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are three activities that comprise system-level Information Security Continuous Monitoring (ISCM)?",
+    "answers": [
+      {
+        "text": "Defining metrics, modifying strategies, assessing system risks",
+        "correct": false
+      },
+      {
+        "text": "Analyzing data, reusing assessments, determining frequencies",
+        "correct": false
+      },
+      {
+        "text": "Establishing templates, managing sampling, implementing tools",
+        "correct": false
+      },
+      {
+        "text": "Assessing control effectiveness, monitoring security status, reporting findings",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What are some key factors that influence how frequently security controls should be monitored?",
+    "answers": [
+      {
+        "text": "Criticality of the controls, whether they change often, and identified risks",
+        "correct": true
+      },
+      {
+        "text": "Cost of monitoring and staff availability",
+        "correct": false
+      },
+      {
+        "text": "Legal requirements and auditor recommendations",
+        "correct": false
+      },
+      {
+        "text": "There are no guidelines provided",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a PRIMARY purpose of control objectives in Information Security Continuous Monitoring (ISCM)?",
+    "answers": [
+      {
+        "text": "To define the specific technologies to be used in securing the system",
+        "correct": false
+      },
+      {
+        "text": "To ensure compliance with all legal and regulatory requirements",
+        "correct": false
+      },
+      {
+        "text": "To establish the desired outcomes of security controls and guide their implementation",
+        "correct": true
+      },
+      {
+        "text": "To monitor the financial performance of security investments",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following best describes intellectual property (IP)?",
+    "answers": [
+      {
+        "text": "Physical property that can be bought or sold, such as land or buildings",
+        "correct": false
+      },
+      {
+        "text": "Creations of the mind, such as inventions, designs, and artistic works, protected by law",
+        "correct": true
+      },
+      {
+        "text": "Financial assets, including stocks, bonds, and investments",
+        "correct": false
+      },
+      {
+        "text": "Software and hardware that make up the infrastructure of an organization",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Why is threat modeling important for protecting intellectual property (IP)?",
+    "answers": [
+      {
+        "text": "It helps identify potential hardware failures that could affect IP security",
+        "correct": false
+      },
+      {
+        "text": "It helps determine effective controls to protect IP from both insider and external threats",
+        "correct": true
+      },
+      {
+        "text": "It focuses on reducing the cost of managing IP within an organization",
+        "correct": false
+      },
+      {
+        "text": "It ensures compliance with all intellectual property laws and regulations",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the four main forms of intellectual property?",
+    "answers": [
+      {
+        "text": "Copyrights, trademarks, secrets, codes",
+        "correct": false
+      },
+      {
+        "text": "Patents, logos, slogans, secrets",
+        "correct": false
+      },
+      {
+        "text": "Formulas, designs, brands, passwords",
+        "correct": false
+      },
+      {
+        "text": "Patents, copyrights, trademarks, trade secrets",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which form of intellectual property lacks legal protection when compromised?",
+    "answers": [
+      {
+        "text": "Copyrights",
+        "correct": false
+      },
+      {
+        "text": "Patents",
+        "correct": false
+      },
+      {
+        "text": "Trade secrets",
+        "correct": true
+      },
+      {
+        "text": "Trademarks",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What do the system security and system privacy plans provide?",
+    "answers": [
+      {
+        "text": "An overview of requirements and controls",
+        "correct": true
+      },
+      {
+        "text": "A record of control selection decisions",
+        "correct": false
+      },
+      {
+        "text": "Stakeholder agreement with plans",
+        "correct": false
+      },
+      {
+        "text": "Approval for implementation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of having stakeholders review the system security and privacy plans?",
+    "answers": [
+      {
+        "text": "To agree with control selections",
+        "correct": false
+      },
+      {
+        "text": "To understand system controls",
+        "correct": false
+      },
+      {
+        "text": "To provide comprehensive documentation",
+        "correct": false
+      },
+      {
+        "text": "To determine if plans are complete",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Who plays a key role in reviewing and determining whether security and privacy plans are complete, consistent, and meet security and privacy requirements for the system?",
+    "answers": [
+      {
+        "text": "Senior accountable official for risk management",
+        "correct": false
+      },
+      {
+        "text": "Risk executive (function)",
+        "correct": true
+      },
+      {
+        "text": "IT department staff",
+        "correct": false
+      },
+      {
+        "text": "External auditors",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What role does the authorizing official play regarding the system security and privacy plans?",
+    "answers": [
+      {
+        "text": "Implements controls",
+        "correct": false
+      },
+      {
+        "text": "Writes the plans",
+        "correct": false
+      },
+      {
+        "text": "Reviews and approves plans",
+        "correct": true
+      },
+      {
+        "text": "Select controls",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the key components of a vulnerability management plan?",
+    "answers": [
+      {
+        "text": "Scanning, reporting, remediation",
+        "correct": true
+      },
+      {
+        "text": "Identification, monitoring, response",
+        "correct": false
+      },
+      {
+        "text": "Detection, analysis, improvement",
+        "correct": false
+      },
+      {
+        "text": "Implementation, reporting, continuous improvement",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is responsible for establishing remediation plans to address system vulnerabilities?",
+    "answers": [
+      {
+        "text": "The vulnerability management team",
+        "correct": false
+      },
+      {
+        "text": "System owners",
+        "correct": true
+      },
+      {
+        "text": "Senior leadership",
+        "correct": false
+      },
+      {
+        "text": "Cloud providers",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What should be established to assess system security and identify deviations from organizational baselines?",
+    "answers": [
+      {
+        "text": "Vulnerability scanning results",
+        "correct": true
+      },
+      {
+        "text": "Remediation plans",
+        "correct": false
+      },
+      {
+        "text": "Reporting metrics",
+        "correct": false
+      },
+      {
+        "text": "Continuous improvement practices",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What issue can cause inaccuracies in vulnerability reporting?",
+    "answers": [
+      {
+        "text": "Failure to establish metrics",
+        "correct": false
+      },
+      {
+        "text": "Not integrating new systems",
+        "correct": false
+      },
+      {
+        "text": "False positives from scans",
+        "correct": true
+      },
+      {
+        "text": "Lack of stakeholder communication",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "You are the lead governance and compliance officer for your organization. Jack, a junior colleague, asks you about how baselines relate to controls. According to NIST, which response below BEST summarizes your response?",
+    "answers": [
+      {
+        "text": "Baselines are a type of control, and they are mandated for use within federal agencies.",
+        "correct": false
+      },
+      {
+        "text": "Baselines are not a type of control, but they are mandated for use within federal agencies.",
+        "correct": false
+      },
+      {
+        "text": "Baselines can be formed from a group of controls, and they are mandated for use within federal agencies",
+        "correct": true
+      },
+      {
+        "text": "Baselines can be formed from a group of controls, and they are not mandated for use within federal agencies",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Jean, a security administrator, has proposed a labelling system for your organization, suggesting classification levels Secret and Private. No marking is required for any lower classification items such as items in the public realm. What potential issue will likely arise from the proposed approach?",
+    "answers": [
+      {
+        "text": "The approach does not contain sufficient levels to meet the requirements of SP800-53 or PCI-DSS.",
+        "correct": false
+      },
+      {
+        "text": "The approach does not contain sufficient granularity to provide meaningful protection to the organization's information.",
+        "correct": true
+      },
+      {
+        "text": "The approach does not label all information which can lead to inadvertent misclassification.",
+        "correct": false
+      },
+      {
+        "text": "The approach does not describe how the labels should be applied to assets.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the U.S., federal systems are required to adhere to formal risk management processes. When selecting security controls for a system, which role is PRIMARILY responsible for making that selection?",
+    "answers": [
+      {
+        "text": "System owner",
+        "correct": true
+      },
+      {
+        "text": "Data controller",
+        "correct": false
+      },
+      {
+        "text": "Authorizing officer",
+        "correct": false
+      },
+      {
+        "text": "C-level officer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When selecting security controls, baselines provide an effective starting point for determining appropriate safeguards. Which of the following responses is NOT typically a feature or purpose of a baseline?",
+    "answers": [
+      {
+        "text": "The ability to apply them to a particular architecture",
+        "correct": false
+      },
+      {
+        "text": "The ability to supplement them with controls not included in the baseline",
+        "correct": false
+      },
+      {
+        "text": "To create common control schedules",
+        "correct": false
+      },
+      {
+        "text": "To allow for solutions that consistently exceed the baseline security configuration requirements",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Luke, a security architect, has asked why your organization annually reviews all controls, from firewalls to governance documentation. What answer BEST summarizes your response?",
+    "answers": [
+      {
+        "text": "To ensure that controls remain effective, relevant, and aligned with the organization's current risk environment, regulatory obligations, and evolving threat landscape",
+        "correct": true
+      },
+      {
+        "text": "To fulfill a traditional IT audit requirement that has no bearing on control effectiveness",
+        "correct": false
+      },
+      {
+        "text": "Because updating firewalls annually is a regulatory requirement regardless of risk context",
+        "correct": false
+      },
+      {
+        "text": "To automatically ensure compliance with international standards without requiring a risk assessment",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a recognized approach to help to improve the privacy of Personal Identifiable Information (PII) or Protected Health Information (PHI) stored in structured datasets?",
+    "answers": [
+      {
+        "text": "Tokenization",
+        "correct": false
+      },
+      {
+        "text": "Anonymization",
+        "correct": false
+      },
+      {
+        "text": "Range re-distribution",
+        "correct": true
+      },
+      {
+        "text": "Perturbation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Your organization is migrating from an on-premises hosting solution to disparate outsourced SaaS and PaaS solution providers. The acquisitions team has requested support in the process to help ensure regulatory compliance is maintained. What core principle would you propose to guide this migration?",
+    "answers": [
+      {
+        "text": "An established set of minimum-security requirements that addresses compliance should be defined across all systems based on the information assets stored and processed.",
+        "correct": true
+      },
+      {
+        "text": "An established set of specific security requirements that addresses compliance should be defined across all systems based on system usage.",
+        "correct": false
+      },
+      {
+        "text": "The organization should seek to transfer risk to the cloud service provider by stipulating the transfer of any fines related to non-regulatory performance.",
+        "correct": false
+      },
+      {
+        "text": "The organization should seek to transfer risk using insurance policies related to the increased adoption of cloud-based services.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "NIST requires the use of a specific document to describe the control environment and how it relates to the risk assessment. Which document serves this process?",
+    "answers": [
+      {
+        "text": "The contract specified with a service provider",
+        "correct": false
+      },
+      {
+        "text": "The requirements specification described for internal or external implementation teams",
+        "correct": false
+      },
+      {
+        "text": "The testing plan",
+        "correct": false
+      },
+      {
+        "text": "The system security plan",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "An intern you are mentoring in your role as compliance officer asks what an inherited control is. Which of the following BEST answers their question?",
+    "answers": [
+      {
+        "text": "A control inherited from an external mandate, for example a regulatory requirement",
+        "correct": false
+      },
+      {
+        "text": "A control that is provided by default to an organization from an external entity, such as a cloud service provider",
+        "correct": true
+      },
+      {
+        "text": "A control that provides a benefit to a system but indirectly, such as a firewall",
+        "correct": false
+      },
+      {
+        "text": "A control that is implemented to provide a mitigation common to all assets",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "GDPR as a privacy regulation impacts jurisdictions within the European Economic Area (EEA), organizations are required to report privacy breaches within what period?",
+    "answers": [
+      {
+        "text": "24 hours",
+        "correct": false
+      },
+      {
+        "text": "48 hours",
+        "correct": false
+      },
+      {
+        "text": "72 hours",
+        "correct": true
+      },
+      {
+        "text": "96 hours",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Of the following, which frameworks require continuous levels of monitoring?",
+    "answers": [
+      {
+        "text": "ISO/IEC 27001",
+        "correct": false
+      },
+      {
+        "text": "NIST SP800-37",
+        "correct": false
+      },
+      {
+        "text": "NIST's RMF",
+        "correct": false
+      },
+      {
+        "text": "All major frameworks including ISO/ISC 27001, NIST SP 800-37 and NIST RMF",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following frameworks is NOT typically considered voluntary in its application?",
+    "answers": [
+      {
+        "text": "PCI-DSS",
+        "correct": true
+      },
+      {
+        "text": "ISO27001",
+        "correct": false
+      },
+      {
+        "text": "HIPAA",
+        "correct": false
+      },
+      {
+        "text": "CSF",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What organizational controls are specifically assembled to address the protection needs of a group, organization, or community of interest?",
+    "answers": [
+      {
+        "text": "Control enhancements",
+        "correct": false
+      },
+      {
+        "text": "Compensating control",
+        "correct": false
+      },
+      {
+        "text": "Baseline controls",
+        "correct": true
+      },
+      {
+        "text": "Environmental controls",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "As a governance, risk, and compliance (GRC) team member, you collaborate with system developers to customize security and privacy controls to meet a specific mission or business functions. What is this called?",
+    "answers": [
+      {
+        "text": "Controls tailoring",
+        "correct": true
+      },
+      {
+        "text": "Baseline development",
+        "correct": false
+      },
+      {
+        "text": "Compensating control",
+        "correct": false
+      },
+      {
+        "text": "Supplemental control",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "This organizational process helps the engineering and security teams to understand the scope, basis, and drivers of the business or mission problems or opportunities. What is this called?",
+    "answers": [
+      {
+        "text": "Stakeholder management",
+        "correct": false
+      },
+      {
+        "text": "System requirements definition",
+        "correct": false
+      },
+      {
+        "text": "Design definition process",
+        "correct": false
+      },
+      {
+        "text": "Business or mission analysis",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Organization systems that require greater protection than the protection provided by the baseline controls are defined as:",
+    "answers": [
+      {
+        "text": "Control enhancements",
+        "correct": true
+      },
+      {
+        "text": "Compensating controls",
+        "correct": false
+      },
+      {
+        "text": "Risk management",
+        "correct": false
+      },
+      {
+        "text": "Adjustable controls",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the term used to describe organizational policies that educate employees on how to identify individuals who are potentially or actually compromising the organization's information security posture?",
+    "answers": [
+      {
+        "text": "Security clearance",
+        "correct": false
+      },
+      {
+        "text": "Insider threat management",
+        "correct": true
+      },
+      {
+        "text": "Advanced persistent threats (ATPs)",
+        "correct": false
+      },
+      {
+        "text": "Intellectual property lost",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What term describes the actions taken to ensure that identified requirements are captured in sufficient detail to allow developers to understand why a decision was made?",
+    "answers": [
+      {
+        "text": "Traceability",
+        "correct": true
+      },
+      {
+        "text": "Consolidated plan",
+        "correct": false
+      },
+      {
+        "text": "Scoping",
+        "correct": false
+      },
+      {
+        "text": "Context",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following processes do NOT assist in consistently reassessing organizational risk, changes in system controls performance, and changes to the organizational environment?",
+    "answers": [
+      {
+        "text": "Continuous monitoring",
+        "correct": false
+      },
+      {
+        "text": "Vulnerability management",
+        "correct": false
+      },
+      {
+        "text": "Assessment and audit",
+        "correct": false
+      },
+      {
+        "text": "Scoping",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Organizational controls allocation is undertaken to provide a specific security or privacy capability to a given system element. Which of the following is NOT a way to determine allocation?",
+    "answers": [
+      {
+        "text": "System-specific",
+        "correct": false
+      },
+      {
+        "text": "Hybrid",
+        "correct": false
+      },
+      {
+        "text": "Common",
+        "correct": false
+      },
+      {
+        "text": "Special",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A national real estate firm specializing in settlement services suffered a data breach... Which approach should he take?",
+    "answers": [
+      {
+        "text": "Strengthen compensating controls to mitigate cloud misconfigurations while maintaining the existing baseline, as modifying a preestablished control framework may introduce operational complexity.",
+        "correct": false
+      },
+      {
+        "text": "Implement a control enhancement strategy by augmenting the baseline with tailored security measures specific to data classification, while maintaining alignment with regulatory and organizational requirements.",
+        "correct": true
+      },
+      {
+        "text": "Rely on inherited controls from the cloud service provider's security infrastructure, as their compliance programs meet industry standards, and focus on additional administrative policies to reinforce security awareness.",
+        "correct": false
+      },
+      {
+        "text": "Develop a security overlay that mandates additional control objectives beyond the standard baseline, ensuring a comprehensive risk mitigation strategy for financial data protection.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A regional investment firm experienced a security incident when an unauthorized third party gained access to its client data portal... Which approach should she take?",
+    "answers": [
+      {
+        "text": "Implement a compensating control by requiring employees to use VPN access for authentication rather than modifying the existing MFA enforcement policy.",
+        "correct": false
+      },
+      {
+        "text": "Tailor the existing control baseline by enhancing enforcement of MFA requirements and defining a formal audit record retention policy aligned with regulatory expectations.",
+        "correct": true
+      },
+      {
+        "text": "Rely on detective controls by increasing logging and monitoring of failed login attempts rather than enforcing stricter authentication measures.",
+        "correct": false
+      },
+      {
+        "text": "Implement a directive control requiring employees to undergo mandatory security training on authentication best practices, ensuring they understand proper access management.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A cloud-based analytics company recently suffered a data breach... How should he proceed?",
+    "answers": [
+      {
+        "text": "Implement a hybrid control combining inherited authentication controls with a system-specific access revocation process to ensure timely removal of credentials.",
+        "correct": true
+      },
+      {
+        "text": "Strengthen deterrent controls by implementing strict penalties for unauthorized access, making employees less likely to attempt accessing systems post-termination.",
+        "correct": false
+      },
+      {
+        "text": "Enhance compensating controls by requiring terminated employees to sign affidavits confirming that they have not retained access, rather than modifying existing technical controls.",
+        "correct": false
+      },
+      {
+        "text": "Rely on the common controls provided by the identity provider, ensuring that all authentication processes are centralized without additional system-specific modifications.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A company specializing in point-of-sale solutions for major retail chains suffered a security breach... Which action should she take?",
+    "answers": [
+      {
+        "text": "Strengthen compensating controls by increasing network segmentation and access control policies, minimizing the impact of exposed payment data rather than modifying the encryption process.",
+        "correct": false
+      },
+      {
+        "text": "Focus on directive controls by introducing stricter compliance training programs for IT personnel to ensure they follow security configuration best practices.",
+        "correct": false
+      },
+      {
+        "text": "Apply controls tailoring to align PCI DSS encryption requirements with the company's system architecture, ensuring that encryption is implemented effectively for payment data security.",
+        "correct": true
+      },
+      {
+        "text": "Implement detective controls by enhancing logging and monitoring to identify misconfigurations and unauthorized access to payment data.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A U.S.-based telehealth provider was recently found to be out of compliance with HIPAA... Which strategy should he adopt?",
+    "answers": [
+      {
+        "text": "Establish a security baseline to define minimum security controls for all systems handling PHI, ensuring uniform protection across the organization.",
+        "correct": true
+      },
+      {
+        "text": "Implement recovery controls to ensure that patient data can be restored after a breach, minimizing operational disruption in case of future incidents.",
+        "correct": false
+      },
+      {
+        "text": "Strengthen deterrent controls by implementing strict penalties for unauthorized access, discouraging employees from mishandling patient data.",
+        "correct": false
+      },
+      {
+        "text": "Focus on compensating controls by requiring third-party vendors to provide additional security measures to offset weaknesses in internal security practices.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A supplier of aerospace components discovered that sensitive proprietary designs had been accessed by unauthorized personnel... Which approach should he take?",
+    "answers": [
+      {
+        "text": "Rely on inherited controls from the enterprise IAM system, as it meets industry standards and already includes authentication and authorization mechanisms.",
+        "correct": false
+      },
+      {
+        "text": "Focus on directive controls by requiring employees to undergo additional training on handling sensitive data and reporting access violations.",
+        "correct": false
+      },
+      {
+        "text": "Strengthen detective controls by enhancing logging and monitoring to identify unauthorized access attempts more quickly.",
+        "correct": false
+      },
+      {
+        "text": "Implement system-specific controls by defining granular role-based access policies tailored to the organization's sensitive data requirements.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A national provider of home and auto insurance recently experienced a security incident where customer policy data was exposed due to an unpatched vulnerability in a third-party claims processing system... What should he do?",
+    "answers": [
+      {
+        "text": "Rely on compensating controls by implementing network segmentation to limit exposure of policy data if vendor security fails.",
+        "correct": false
+      },
+      {
+        "text": "Strengthen directive controls by requiring security awareness training for employees handling third-party systems.",
+        "correct": false
+      },
+      {
+        "text": "Establish a service-level agreement (SLA) with vendors to define security responsibilities and require timely patching of vulnerabilities.",
+        "correct": true
+      },
+      {
+        "text": "Implement detective controls by enhancing log monitoring and alerting for vendor system vulnerabilities.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A biotech firm specializing in drug research suffered an intellectual property breach... Which strategy should she implement?",
+    "answers": [
+      {
+        "text": "Apply system-specific controls to restrict access to proprietary research data while maintaining common controls for general IT operations.",
+        "correct": true
+      },
+      {
+        "text": "Implement compensating controls such as requiring employees to sign nondisclosure agreements (NDAs) to deter unauthorized access attempts.",
+        "correct": false
+      },
+      {
+        "text": "Strengthen recovery controls to ensure that intellectual property can be restored if compromised, minimizing business impact.",
+        "correct": false
+      },
+      {
+        "text": "Increase deterrent controls by imposing stricter disciplinary measures for unauthorized data access.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A regional financial institution faced compliance challenges when an internal audit revealed gaps in audit record retention... What action should he take?",
+    "answers": [
+      {
+        "text": "Rely on detective controls by implementing real-time alerts for any unauthorized deletion of logs, ensuring visibility into premature data loss.",
+        "correct": false
+      },
+      {
+        "text": "Strengthen directive controls by providing additional policy training to IT staff to reinforce the importance of log retention.",
+        "correct": false
+      },
+      {
+        "text": "Apply compensating controls by leveraging third-party forensic services to reconstruct missing audit data when needed.",
+        "correct": false
+      },
+      {
+        "text": "Implement a security baseline requiring a minimum retention period and storage solutions to enforce consistent log management across all systems.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A provider of cloud-hosted data storage was fined for noncompliance with the GDPR due to improper handling of PII... What approach should he take?",
+    "answers": [
+      {
+        "text": "Strengthen deterrent controls by increasing legal penalties for employees who fail to process data deletion requests properly.",
+        "correct": false
+      },
+      {
+        "text": "Implement a reversibility process to ensure customer data can be deleted within required time frames and that storage locations are tracked systematically.",
+        "correct": true
+      },
+      {
+        "text": "Rely on recovery controls to ensure data can be restored if improperly deleted during processing, reducing the risk of accidental data loss.",
+        "correct": false
+      },
+      {
+        "text": "Apply compensating controls by implementing additional encryption mechanisms to protect customer data instead of focusing on data deletion timelines.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a source for identifying baseline security controls?",
+    "answers": [
+      {
+        "text": "Industry standards and frameworks (e.g., NIST CSF, ISO/IEC 27001)",
+        "correct": false
+      },
+      {
+        "text": "Organizational policies and procedures",
+        "correct": false
+      },
+      {
+        "text": "Regulatory requirements (e.g., HIPAA, GDPR)",
+        "correct": false
+      },
+      {
+        "text": "Internal audit findings from the previous year",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A company is developing a new cloud-based application. Which of the following factors is LEAST important when determining applicable baseline security controls?",
+    "answers": [
+      {
+        "text": "Sensitivity of the data processed by the application",
+        "correct": false
+      },
+      {
+        "text": "Programming language used to develop the application",
+        "correct": true
+      },
+      {
+        "text": "Regulatory requirements applicable to the application",
+        "correct": false
+      },
+      {
+        "text": "Deployment model of the cloud service (e.g., SaaS, PaaS, IaaS)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of a compensating control?",
+    "answers": [
+      {
+        "text": "Implementing multi-factor authentication for all user accounts",
+        "correct": false
+      },
+      {
+        "text": "Conducting annual security awareness training for employees",
+        "correct": false
+      },
+      {
+        "text": "Using regular data backups to mitigate the risk of data loss due to ransomware",
+        "correct": true
+      },
+      {
+        "text": "Encrypting sensitive data at rest and in transit",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a typical data handling requirement?",
+    "answers": [
+      {
+        "text": "Data retention policies",
+        "correct": false
+      },
+      {
+        "text": "Data encryption algorithms",
+        "correct": true
+      },
+      {
+        "text": "Data access restrictions",
+        "correct": false
+      },
+      {
+        "text": "Data disposal procedures",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What information should be included in control selection documentation?",
+    "answers": [
+      {
+        "text": "Cost of implementing each control",
+        "correct": false
+      },
+      {
+        "text": "Vendor that provides each control",
+        "correct": false
+      },
+      {
+        "text": "Rationale for selecting or rejecting specific controls",
+        "correct": true
+      },
+      {
+        "text": "Technical specifications of each control",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a KEY component of a continuous monitoring program?",
+    "answers": [
+      {
+        "text": "Establishing performance metrics and key risk indicators (KRIs)",
+        "correct": true
+      },
+      {
+        "text": "Conducting annual penetration testing exercises",
+        "correct": false
+      },
+      {
+        "text": "Implementing a security information and event management (SIEM) system",
+        "correct": false
+      },
+      {
+        "text": "Performing regular security awareness training for employees",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Why is stakeholder agreement crucial in control allocation?",
+    "answers": [
+      {
+        "text": "To ensure that all employees are satisfied with the chosen security controls",
+        "correct": false
+      },
+      {
+        "text": "To avoid conflicts with vendor contracts",
+        "correct": false
+      },
+      {
+        "text": "To promote accountability, responsibility, and commitment to security",
+        "correct": true
+      },
+      {
+        "text": "To simplify the process of control implementation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A company is implementing a new customer relationship management (CRM) system that will store sensitive personal datIts IT department has proposed using a cloud-based solution. What should be the FIRST step in selecting and approving security controls for this new system?",
+    "answers": [
+      {
+        "text": "Implement multi-factor authentication for all CRM users",
+        "correct": false
+      },
+      {
+        "text": "Identify and document applicable baseline security controls based on industry standards, regulatory requirements, and company policies",
+        "correct": true
+      },
+      {
+        "text": "Conduct a risk assessment to identify potential threats and vulnerabilities",
+        "correct": false
+      },
+      {
+        "text": "Develop a data retention and disposal policy for customer data",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A small startup company is developing a mobile app that collects user health data. The company has limited resources and is concerned about the cost of implementing security controls. How should it approach control selection?",
+    "answers": [
+      {
+        "text": "Implement only the most basic security controls to minimize costs.",
+        "correct": false
+      },
+      {
+        "text": "Prioritize controls based on a risk assessment, focusing on protecting the most sensitive data and critical functionalities.",
+        "correct": true
+      },
+      {
+        "text": "Rely solely on open-source security tools to avoid licensing fees.",
+        "correct": false
+      },
+      {
+        "text": "Postpone implementing security controls until the app generates revenue.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When documenting inherited controls, what is MOST crucial to record?",
+    "answers": [
+      {
+        "text": "Date the control was last updated",
+        "correct": false
+      },
+      {
+        "text": "Name of the person responsible for the control",
+        "correct": false
+      },
+      {
+        "text": "Source and justification for inheriting the control",
+        "correct": true
+      },
+      {
+        "text": "Technical details of how the control is implemented",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When would it be appropriate to deviate from an inherited control?",
+    "answers": [
+      {
+        "text": "When the inherited control is not applicable to the specific environment or risk profile",
+        "correct": true
+      },
+      {
+        "text": "When implementing the inherited control is too costly",
+        "correct": false
+      },
+      {
+        "text": "When a newer version of the control is available",
+        "correct": false
+      },
+      {
+        "text": "When the inherited control conflicts with a preferred vendor solution",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of a security overlay?",
+    "answers": [
+      {
+        "text": "To replace existing security controls with more advanced ones",
+        "correct": false
+      },
+      {
+        "text": "To document the justification for selecting specific security controls",
+        "correct": false
+      },
+      {
+        "text": "To reduce the overall number of security controls",
+        "correct": false
+      },
+      {
+        "text": "To provide additional security measures on top of existing controls for unique requirements",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Why is it essential to define data marking requirements?",
+    "answers": [
+      {
+        "text": "To simplify data storage and retrieval processes",
+        "correct": false
+      },
+      {
+        "text": "To ensure compliance with data encryption standards",
+        "correct": false
+      },
+      {
+        "text": "To enable appropriate handling and protection of data based on its sensitivity",
+        "correct": true
+      },
+      {
+        "text": "To reduce the cost of data management",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a benefit of comprehensive control selection documentation?",
+    "answers": [
+      {
+        "text": "Facilitates communication and collaboration among stakeholders",
+        "correct": false
+      },
+      {
+        "text": "Guarantees the complete elimination of security risks",
+        "correct": true
+      },
+      {
+        "text": "Supports compliance with regulatory and industry standards",
+        "correct": false
+      },
+      {
+        "text": "Enables effective control monitoring and assessment",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How does vulnerability management contribute to continued compliance?",
+    "answers": [
+      {
+        "text": "By ensuring all software is updated to the latest versions",
+        "correct": false
+      },
+      {
+        "text": "By preventing all cyberattacks",
+        "correct": false
+      },
+      {
+        "text": "By proactively identifying and mitigating security weaknesses",
+        "correct": true
+      },
+      {
+        "text": "By eliminating the need for security audits",
+        "correct": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,2051 @@
+[
+  {
+    "question": "What is the PRIMARY purpose of security and privacy documentation for a system?",
+    "answers": [
+      {
+        "text": "To establish the system's operational procedures",
+        "correct": false
+      },
+      { "text": "To assess and determine risk", "correct": true },
+      { "text": "To define the system's user interface", "correct": false },
+      { "text": "To manage the system's financial budget", "correct": false }
+    ]
+  },
+  {
+    "question": "Which document is used in both planning and implementation within the NIST 800-37 Risk Management Framework (RMF)?",
+    "answers": [
+      { "text": "Risk assessment report (RAR)", "correct": false },
+      { "text": "System security plan (SSP)", "correct": true },
+      { "text": "Incident response plan (IRP)", "correct": false },
+      { "text": "Business continuity plan (BCP)", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the equivalent document to the system security plan (SSP) in ISO 27001?",
+    "answers": [
+      { "text": "Statement of applicability (SoA)", "correct": true },
+      { "text": "Risk treatment plan (RTP)", "correct": false },
+      { "text": "Security policy document (SPD)", "correct": false },
+      { "text": "Control implementation plan (CIP)", "correct": false }
+    ]
+  },
+  {
+    "question": "What must security and privacy plans, controls, and assessment criteria align with?",
+    "answers": [
+      { "text": "Organizational risk management strategy", "correct": true },
+      { "text": "System's user requirements", "correct": false },
+      { "text": "Financial performance metrics", "correct": false },
+      { "text": "Software development life cycle", "correct": false }
+    ]
+  },
+  {
+    "question": "What do the system risk acceptance criteria provide for an organization?",
+    "answers": [
+      {
+        "text": "The criteria for selecting risk mitigation strategies",
+        "correct": false
+      },
+      { "text": "The process for managing system upgrades", "correct": false },
+      {
+        "text": "The timeline for addressing security vulnerabilities",
+        "correct": false
+      },
+      { "text": "The acceptable level of risk", "correct": true }
+    ]
+  },
+  {
+    "question": "Which method can be used to evaluate risk in the system risk acceptance criteria?",
+    "answers": [
+      {
+        "text": "Cost-benefit analysis for mitigation strategies",
+        "correct": false
+      },
+      { "text": "Employee performance reviews", "correct": false },
+      { "text": "Qualitative and quantitative risk analysis", "correct": true },
+      { "text": "Vendor risk assessments", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the role of a governance, risk, and compliance (GRC) professional in determining the acceptable level of risk?",
+    "answers": [
+      {
+        "text": "Conducting employee training on risk management",
+        "correct": false
+      },
+      {
+        "text": "Analyzing market trends to predict future risk",
+        "correct": false
+      },
+      { "text": "Developing incident response plans", "correct": false },
+      {
+        "text": "Comparing risk to the organizational risk tolerance",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is a KEY step in both ISO and NIST risk management processes?",
+    "answers": [
+      { "text": "Creating risk mitigation strategies", "correct": false },
+      {
+        "text": "Identifying system risk sources, events, scenarios, and factors",
+        "correct": true
+      },
+      {
+        "text": "Performing a market analysis to predict future risks",
+        "correct": false
+      },
+      { "text": "Establishing a disaster recovery plan", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of security and privacy assessments in the context of residual risk determination?",
+    "answers": [
+      {
+        "text": "To assess the effectiveness of risk mitigation strategies",
+        "correct": true
+      },
+      { "text": "To identify market trends impacting risk", "correct": false },
+      {
+        "text": "To verify and validate security and privacy controls",
+        "correct": false
+      },
+      {
+        "text": "To evaluate compliance with industry standards and regulations",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "On which of the following is the process of deciding whether to accept, reject, or transfer the residual risk based?",
+    "answers": [
+      {
+        "text": "The organization's legal compliance requirements",
+        "correct": false
+      },
+      {
+        "text": "The estimated cost of risk mitigation measures",
+        "correct": false
+      },
+      {
+        "text": "Risk tolerance and appetite of the system stakeholders",
+        "correct": true
+      },
+      {
+        "text": "The effectiveness of system performance monitoring",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which activity is NOT part of evaluating the residual risk of the system?",
+    "answers": [
+      { "text": "Reviewing incident response procedures", "correct": false },
+      {
+        "text": "Testing and verifying the implementation and operation of the controls",
+        "correct": false
+      },
+      {
+        "text": "Analyzing the residual likelihood and impact of threats",
+        "correct": false
+      },
+      {
+        "text": "Documenting and communicating the residual risk and the risk acceptance decision",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What becomes the basis for determining system compliance when all risk has been handled?",
+    "answers": [
+      {
+        "text": "The system's security controls and policies",
+        "correct": true
+      },
+      {
+        "text": "Organizational risk tolerance toward risk treatment and residual risk",
+        "correct": false
+      },
+      {
+        "text": "Regulatory and legal compliance requirements",
+        "correct": false
+      },
+      { "text": "Operational performance metrics", "correct": false }
+    ]
+  },
+  {
+    "question": "What document describes the system's security objectives, controls, and procedures?",
+    "answers": [
+      { "text": "System security plan (SSP)", "correct": true },
+      { "text": "System test plan", "correct": false },
+      { "text": "System configuration guide", "correct": false },
+      { "text": "System audit report", "correct": false }
+    ]
+  },
+  {
+    "question": "Which document provides an inventory of all systems within the enterprise architecture?",
+    "answers": [
+      { "text": "System security plan", "correct": false },
+      { "text": "System registry", "correct": true },
+      { "text": "System test plan", "correct": false },
+      { "text": "Compliance certification documents", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the role of compliance certification documents?",
+    "answers": [
+      {
+        "text": "To describe security and compliance training programs",
+        "correct": false
+      },
+      {
+        "text": "To define actions and resources needed for system restoration",
+        "correct": false
+      },
+      {
+        "text": "To provide instructions on configuring the system's hardware and software",
+        "correct": false
+      },
+      {
+        "text": "To indicate the system has been independently evaluated and meets specific standards",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which document outlines the testing methods, criteria, and results for verifying the system's functionality and compliance?",
+    "answers": [
+      { "text": "System test plan", "correct": true },
+      { "text": "System audit report", "correct": false },
+      { "text": "System contingency plan", "correct": false },
+      {
+        "text": "Incident response and breach notification records",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who are considered stakeholders in the context of system risk treatment?",
+    "answers": [
+      { "text": "Only system developers and managers", "correct": false },
+      { "text": "Only customers and regulators", "correct": false },
+      {
+        "text": "Individuals and groups influencing the system and its information",
+        "correct": true
+      },
+      { "text": "Only users and data owners", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY guide for the treatment of risk and overall system compliance?",
+    "answers": [
+      {
+        "text": "Regulatory and legal compliance requirements",
+        "correct": false
+      },
+      {
+        "text": "Organizational risk management strategy and risk tolerance",
+        "correct": true
+      },
+      { "text": "The system's cybersecurity posture", "correct": false },
+      { "text": "Budget allocation for security initiatives", "correct": false }
+    ]
+  },
+  {
+    "question": "How does stakeholder concurrence influence risk treatment?",
+    "answers": [
+      { "text": "By developing a system maintenance plan", "correct": false },
+      {
+        "text": "By identifying and prioritizing risks based on potential impact",
+        "correct": false
+      },
+      {
+        "text": "By deciding on the system's user interface design",
+        "correct": false
+      },
+      {
+        "text": "By ensuring alignment on risk treatment decisions and resource allocation",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "To what does stakeholder concurrence refer?",
+    "answers": [
+      { "text": "Level of agreement on objectives and risks", "correct": true },
+      { "text": "Agreement on system requirements", "correct": false },
+      { "text": "Influence on risk treatment", "correct": false },
+      { "text": "Identification of stakeholders", "correct": false }
+    ]
+  },
+  {
+    "question": "What is one reason formal notification of system compliance is important?",
+    "answers": [
+      { "text": "To obtain ISO 27001 certification", "correct": false },
+      { "text": "To communicate audit results", "correct": false },
+      { "text": "To inform stakeholders of changes", "correct": false },
+      { "text": "To maintain security and reliability", "correct": true }
+    ]
+  },
+  {
+    "question": "What must a governance, risk, and compliance (GRC) professional do upon completion of formal documentation?",
+    "answers": [
+      { "text": "Display ISO 27001 certification", "correct": false },
+      { "text": "Inform authorizing official of changes", "correct": false },
+      {
+        "text": "Notify stakeholders of system compliance status",
+        "correct": true
+      },
+      { "text": "Conduct surveillance audits", "correct": false }
+    ]
+  },
+  {
+    "question": "What must a system owner do according to NIST 800-37's formal notification requirements?",
+    "answers": [
+      {
+        "text": "Inform authorizing official of changes and provide security documentation",
+        "correct": true
+      },
+      {
+        "text": "Get system authorized and communicate audit results",
+        "correct": false
+      },
+      {
+        "text": "Assess functionality and display authorization status",
+        "correct": false
+      },
+      {
+        "text": "Remediate findings and imply system compliance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are two formal notification criteria for system compliance according to ISO 27001?",
+    "answers": [
+      { "text": "Assess threats and remediate findings", "correct": false },
+      {
+        "text": "Get certification and make changes to scope",
+        "correct": false
+      },
+      {
+        "text": "Display certification and imply expanded scope",
+        "correct": false
+      },
+      {
+        "text": "Inform stakeholders of changes, and provide access to documentation",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What element of risk documentation defines whether more treatment is needed to reduce the risk?",
+    "answers": [
+      { "text": "Risk identification", "correct": false },
+      { "text": "Residual risk rating", "correct": true },
+      { "text": "Residual risk acceptance", "correct": false },
+      { "text": "Residual risk monitoring", "correct": false }
+    ]
+  },
+  {
+    "question": "What aspect of residual risk indicates potential benefits from accepting some risk exposure?",
+    "answers": [
+      { "text": "Risk analysis", "correct": false },
+      { "text": "Risk treatment", "correct": false },
+      { "text": "Residual risk rating", "correct": true },
+      { "text": "Residual risk level", "correct": false }
+    ]
+  },
+  {
+    "question": "What elements should be included when documenting residual risk?",
+    "answers": [
+      {
+        "text": "Only the risk identification and treatment",
+        "correct": false
+      },
+      {
+        "text": "The risk identification, treatment, rating, acceptance, and monitoring",
+        "correct": true
+      },
+      { "text": "Only the risk treatment and acceptance", "correct": false },
+      {
+        "text": "The risk rating and residual risk monitoring",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is residual risk important for in risk management?",
+    "answers": [
+      { "text": "Identifying new risks", "correct": false },
+      { "text": "Calculating total risk exposure", "correct": false },
+      {
+        "text": "Determining whether additional risk treatment is needed",
+        "correct": true
+      },
+      { "text": "Reporting risk status to auditors", "correct": false }
+    ]
+  },
+  {
+    "question": "Which document lists all identified risks, their sources, causes, impacts, likelihood, and mitigation strategies?",
+    "answers": [
+      { "text": "Risk report", "correct": false },
+      { "text": "Risk matrix", "correct": false },
+      { "text": "Risk register", "correct": true },
+      { "text": "Risk dashboard", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of a risk matrix?",
+    "answers": [
+      {
+        "text": "To provide a summary of key risks and mitigation actions",
+        "correct": false
+      },
+      {
+        "text": "To plot risks on a grid based on their impact and likelihood",
+        "correct": true
+      },
+      {
+        "text": "To display key risk indicators and metrics",
+        "correct": false
+      },
+      {
+        "text": "To show the risk exposure of a project or organization",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which tool displays key risk indicators, metrics, or trends using charts, graphs, tables, or gauges?",
+    "answers": [
+      { "text": "Risk dashboard", "correct": true },
+      { "text": "Risk profile", "correct": false },
+      { "text": "Risk register", "correct": false },
+      { "text": "Risk report", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of a risk report?",
+    "answers": [
+      {
+        "text": "To list all identified risks and their mitigation strategies",
+        "correct": false
+      },
+      {
+        "text": "To plot risks on a grid based on their impact and likelihood",
+        "correct": false
+      },
+      {
+        "text": "To display key risk indicators and metrics",
+        "correct": false
+      },
+      {
+        "text": "To provide a snapshot of the current risk situation and compare it to previous or expected situations",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What type of risk treatment involves shifting the burden of the risk to another party?",
+    "answers": [
+      { "text": "Avoiding", "correct": false },
+      { "text": "Accepting", "correct": false },
+      { "text": "Mitigating", "correct": false },
+      { "text": "Transferring", "correct": true }
+    ]
+  },
+  {
+    "question": "What is done when the residual risk is below the risk tolerance level of the organization?",
+    "answers": [
+      { "text": "The risk is transferred", "correct": false },
+      { "text": "The risk is accepted", "correct": true },
+      { "text": "The risk is mitigated", "correct": false },
+      { "text": "The risk is avoided", "correct": false }
+    ]
+  },
+  {
+    "question": "Which risk treatment option involves eliminating the source of the risk or changing the plan that causes the risk?",
+    "answers": [
+      { "text": "Accept", "correct": false },
+      { "text": "Avoid", "correct": true },
+      { "text": "Transfer", "correct": false },
+      { "text": "Mitigate", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the goal of mitigating risk?",
+    "answers": [
+      { "text": "To eliminate the risk completely", "correct": false },
+      { "text": "To shift the risk to another party", "correct": false },
+      {
+        "text": "To reduce the likelihood or impact of the risk",
+        "correct": true
+      },
+      {
+        "text": "To acknowledge the risk without taking action",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the four authorization decisions defined in NIST 800-37?",
+    "answers": [
+      {
+        "text": "Authorize, authorize with conditions, deny, and revoke",
+        "correct": true
+      },
+      {
+        "text": "Approve, approve with changes, reject, and remove",
+        "correct": false
+      },
+      {
+        "text": "Accept, accept with updates, refuse, and eliminate",
+        "correct": false
+      },
+      {
+        "text": "Permit, permit with revisions, decline, and cancel",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What process helps create and update system compliance documentation?",
+    "answers": [
+      { "text": "Compliance framework", "correct": false },
+      { "text": "Authorization framework", "correct": true },
+      { "text": "Security controls framework", "correct": false },
+      { "text": "Risk management framework", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the role of ISO 27001 in system compliance?",
+    "answers": [
+      { "text": "To define the system's user requirements", "correct": false },
+      {
+        "text": "To specify requirements and best practices for an Information Security Management System (ISMS)",
+        "correct": true
+      },
+      {
+        "text": "To define information security controls and risk management processes",
+        "correct": false
+      },
+      {
+        "text": "To develop software development life cycle plans",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of system compliance documentation?",
+    "answers": [
+      {
+        "text": "To design the system's user interface and improve the user experience",
+        "correct": false
+      },
+      {
+        "text": "To ensure alignment with legal, regulatory, and security requirements",
+        "correct": true
+      },
+      {
+        "text": "To provide formal guidance on handling risk within the system",
+        "correct": false
+      },
+      {
+        "text": "To define the organization's incident response and security controls",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which organizational stakeholder approves the system compliance documentation before submittal to the risk approval official?",
+    "answers": [
+      { "text": "System owner", "correct": true },
+      { "text": "Control accessor", "correct": false },
+      { "text": "System security officer", "correct": false },
+      { "text": "GRC team", "correct": false }
+    ]
+  },
+  {
+    "question": "Which role accepts the compliance documentation for risk acceptance?",
+    "answers": [
+      { "text": "System owner", "correct": false },
+      { "text": "Authorizing official", "correct": true },
+      { "text": "System privacy officer", "correct": false },
+      { "text": "Common control provider", "correct": false }
+    ]
+  },
+  {
+    "question": "Your organization is aiming to achieve ISO/IEC 27001 certification. How should your organization proceed to accomplish this goal?",
+    "answers": [
+      { "text": "Create a statement of applicability", "correct": true },
+      { "text": "Create a risk register", "correct": false },
+      { "text": "Create a POA&M", "correct": false },
+      { "text": "Create a system security plan", "correct": false }
+    ]
+  },
+  {
+    "question": "Which system compliance documentation defines the actions and resources needed to restore system operations in case of a system disruption or disaster?",
+    "answers": [
+      { "text": "System test plan", "correct": false },
+      { "text": "System contingency plan", "correct": true },
+      { "text": "System registry", "correct": false },
+      { "text": "System audit report", "correct": false }
+    ]
+  },
+  {
+    "question": "Configuration instructions for system hardware, software, and network settings could assist with the development of which document?",
+    "answers": [
+      { "text": "System configuration guide", "correct": true },
+      { "text": "System test plan", "correct": false },
+      { "text": "System registry", "correct": false },
+      { "text": "POA&M", "correct": false }
+    ]
+  },
+  {
+    "question": "Organizational risk accepted criteria that is based on numerical data is considered what kind of risk analysis?",
+    "answers": [
+      { "text": "Transfer", "correct": false },
+      { "text": "Qualitative", "correct": false },
+      { "text": "Quantitative", "correct": true },
+      { "text": "Semiqualitative", "correct": false }
+    ]
+  },
+  {
+    "question": "Organizational risk can be classified as qualitative or what else?",
+    "answers": [
+      { "text": "Low", "correct": false },
+      { "text": "Moderate", "correct": false },
+      { "text": "High", "correct": false },
+      { "text": "Quantitative", "correct": true }
+    ]
+  },
+  {
+    "question": "Findings from a risk assessment have identified a low-level noncompliant control that has been classified as a residual risk. Which role within the organization can approve this action?",
+    "answers": [
+      { "text": "System owner", "correct": false },
+      { "text": "Authorizing official", "correct": true },
+      { "text": "System privacy officer", "correct": false },
+      { "text": "Information owner", "correct": false }
+    ]
+  },
+  {
+    "question": "Which role in an organization would be assigned the duties of remediating residual risk?",
+    "answers": [
+      { "text": "System owner", "correct": true },
+      { "text": "Common control provider", "correct": false },
+      { "text": "System administrator", "correct": false },
+      { "text": "System security office", "correct": false }
+    ]
+  },
+  {
+    "question": "For an organization that handles HIPAA data, which role would be the BEST one to identify system level residual risks dealing with HIPAA data?",
+    "answers": [
+      { "text": "System owner", "correct": false },
+      { "text": "System privacy officer", "correct": true },
+      { "text": "System security officer", "correct": false },
+      { "text": "Business owner", "correct": false }
+    ]
+  },
+  {
+    "question": "Following a third-party assessment, it was determined that a specific security control in operation was unnecessary. Which risk response option is being applied?",
+    "answers": [
+      { "text": "Transfer", "correct": false },
+      { "text": "Mitigation", "correct": false },
+      { "text": "Avoidance", "correct": false },
+      { "text": "Acceptance", "correct": true }
+    ]
+  },
+  {
+    "question": "Which organizational role should approve the selected risk treatment?",
+    "answers": [
+      { "text": "System owner", "correct": true },
+      { "text": "System security officer", "correct": false },
+      { "text": "System administrator", "correct": false },
+      { "text": "CIO", "correct": false }
+    ]
+  },
+  {
+    "question": "After the formal third-party security assessment is provided, where should identified residual risks be recorded if the organization is the U.S. State Department?",
+    "answers": [
+      { "text": "Plan of Action and Milestones (POA&M)", "correct": false },
+      { "text": "Risk register", "correct": true },
+      { "text": "System security plan", "correct": false },
+      { "text": "Configuration management plan", "correct": false }
+    ]
+  },
+  {
+    "question": "What type of authorization allows an organizational system to operate under a specified set of conditions or limitations that must be addressed or mitigated?",
+    "answers": [
+      { "text": "Revoke", "correct": false },
+      { "text": "Deny", "correct": false },
+      { "text": "Authorize with conditions", "correct": true },
+      { "text": "Authorize", "correct": false }
+    ]
+  },
+  {
+    "question": "Once ISO/IEC 27001 certification is achieved, which organizational stakeholder should be notified first?",
+    "answers": [
+      { "text": "CIO", "correct": false },
+      {
+        "text": "Governance, risk, and compliance (GRC) team",
+        "correct": true
+      },
+      { "text": "CEO", "correct": false },
+      { "text": "System owner", "correct": false }
+    ]
+  },
+  {
+    "question": "When changes or events that may affect system security and risk posture—such as changes in system functionality, architecture, environment, threats, vulnerabilities or incidents—who in the organization must a system owner notify to obtain formal approval?",
+    "answers": [
+      { "text": "Authorizing official", "correct": true },
+      { "text": "System security officer", "correct": false },
+      { "text": "System privacy officer", "correct": false },
+      { "text": "CIO", "correct": false }
+    ]
+  },
+  {
+    "question": "HVAC and electrical systems within a U.S. federal government facility have been certified in compliance with Federal Information Security Modernization Act (FISMA) requirements. Which role should keep the authorizing official updated on HVAC or electrical control issues?",
+    "answers": [
+      { "text": "System owner", "correct": false },
+      { "text": "System security officer", "correct": false },
+      { "text": "Common control provider", "correct": true },
+      { "text": "System privacy officer", "correct": false }
+    ]
+  },
+  {
+    "question": "Which organizational document summarizes the findings and recommendations of an audit conducted on the system?",
+    "answers": [
+      { "text": "Risk matrix", "correct": false },
+      { "text": "System audit report", "correct": true },
+      { "text": "Risk profile", "correct": false },
+      { "text": "Risk register", "correct": false }
+    ]
+  },
+  {
+    "question": "Which supporting documents indicate that a system has been independently evaluated and meets the requirements of specific standards such as SOC 2 or ISO/IEC 27001?",
+    "answers": [
+      { "text": "Plan of Action and Milestones (POA&M)", "correct": false },
+      { "text": "Risk register", "correct": false },
+      { "text": "Compliance certification documents", "correct": true },
+      { "text": "Risk matrix", "correct": false }
+    ]
+  },
+  {
+    "question": "What formal notification criteria are required for system compliance against ISO/IEC 27001?",
+    "answers": [
+      { "text": "ISMS documentation", "correct": false },
+      { "text": "Vendor documents", "correct": false },
+      { "text": "Stakeholder concurrence", "correct": true },
+      { "text": "Risk register", "correct": false }
+    ]
+  },
+  {
+    "question": "According to NIST 800-37R2, which organizational role is responsible for reporting system and common control authorization decisions to designated officials to support organization-wide security and privacy risk management?",
+    "answers": [
+      { "text": "System owner", "correct": false },
+      { "text": "CIO", "correct": false },
+      { "text": "Authorizing official", "correct": true },
+      { "text": "Senior agency information security officer", "correct": false }
+    ]
+  },
+  {
+    "question": "Which organizational role is informed by the authorization decision on whether a system is authorized or not authorized to operate or use?",
+    "answers": [
+      { "text": "Authorizing Official", "correct": false },
+      { "text": "System security officer", "correct": false },
+      { "text": "CIO", "correct": false },
+      { "text": "System owner", "correct": true }
+    ]
+  },
+  {
+    "question": "Which organizational role must communicate the results of the security assessments and audits, including any findings, recommendations, and remediation actions, to relevant stakeholders such as top management, system users, and oversight authorities?",
+    "answers": [
+      { "text": "System owner", "correct": true },
+      { "text": "Authorizing Official", "correct": false },
+      { "text": "Common control provider", "correct": false },
+      { "text": "CEO", "correct": false }
+    ]
+  },
+  {
+    "question": "Which organization role is responsible for communicating and displaying system authorization status in a transparent and compliant manner?",
+    "answers": [
+      { "text": "Common control", "correct": false },
+      { "text": "System security officer", "correct": false },
+      { "text": "System owner", "correct": true },
+      { "text": "Privacy architect", "correct": false }
+    ]
+  },
+  {
+    "question": "Which primary organizational role reviews the authorization package for systems that process PII/HIPAA to ensure compliance with applicable privacy requirements and to manage privacy risks before Authorizing Officials making risk determination and acceptance decisions?",
+    "answers": [
+      { "text": "CIO", "correct": false },
+      { "text": "Senior agency official for privacy", "correct": true },
+      {
+        "text": "Senior agency information security officer",
+        "correct": false
+      },
+      { "text": "System owner", "correct": false }
+    ]
+  },
+  {
+    "question": "What is essential for maintaining the security, reliability, and performance of the system and protecting the data and privacy of users and stakeholders?",
+    "answers": [
+      { "text": "System compliance", "correct": true },
+      { "text": "Meeting FISMA", "correct": false },
+      { "text": "HIPAA status", "correct": false },
+      { "text": "Security monitoring and incident response", "correct": false }
+    ]
+  },
+  {
+    "question": "Which organizational role must inform the authorizing official and security team of any changes or events that might affect system security and risk posture, such as changes in system functionality, architecture, environment, threats, vulnerabilities, or incidents?",
+    "answers": [
+      { "text": "System owner", "correct": true },
+      { "text": "System administrator", "correct": false },
+      { "text": "System security engineer", "correct": false },
+      { "text": "Information owner", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following ensures that the system meets relevant standards and regulations, communicates its compliance status to the appropriate authorities and stakeholders, and helps maintain consistent system compliance across the organization?",
+    "answers": [
+      { "text": "Formal notification", "correct": true },
+      { "text": "Risk register", "correct": false },
+      { "text": "POA&M", "correct": false },
+      { "text": "System security plan", "correct": false }
+    ]
+  },
+  {
+    "question": "A leading investment firm recently discovered a massive data exposure... What is the MOST appropriate action for Michael to take?",
+    "answers": [
+      {
+        "text": "Recommend commencement of an updated risk assessment and include a POA&M to address misconfigurations, allowing the system to remain operational under a conditional authorization.",
+        "correct": true
+      },
+      {
+        "text": "Advise the senior leadership team that it should accept the residual risk, given that controls are in place and an incident response plan is being executed, focusing on preventing future breaches.",
+        "correct": false
+      },
+      {
+        "text": "Suggest to the senior leadership team that the risk should be transferred to the cloud service provider by updating contractual agreements to hold them accountable for future misconfigurations.",
+        "correct": false
+      },
+      {
+        "text": "Recommend to senior leadership that the system's authorization should be revoked until a full security assessment is completed, a POA&M is established, and misconfigurations are remediated.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A regional healthcare provider experienced a data breach... What is the BEST course of action for Sophia to take?",
+    "answers": [
+      {
+        "text": "Submit a formal incident response and breach notification reports, update the plan of action and milestones (POA&M) to reflect remediation efforts, and ensure ongoing monitoring of third-party systems.",
+        "correct": true
+      },
+      {
+        "text": "Accept the residual risk since the vulnerability was previously identified, focusing on updating security awareness training for employees to prevent similar incidents in the future.",
+        "correct": false
+      },
+      {
+        "text": "Revoke the third-party billing system's authorization, immediately terminating its use and shifting all billing operations back to an internal system until a full security reassessment is completed.",
+        "correct": false
+      },
+      {
+        "text": "Transfer the risk to the third-party vendor by updating the contract to require liability coverage for future breaches and ensuring they perform independent security audits.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A nationwide property management firm suffered a cyberattack... What is the BEST approach for David to take?",
+    "answers": [
+      {
+        "text": "Immediately submit a system security plan (SSP); conduct a risk assessment; and ensure that encryption controls are updated following the risk assessment, while keeping the portal operational under a conditional authorization.",
+        "correct": true
+      },
+      {
+        "text": "Accept the risk and focus on compensating controls, such as multi-factor authentication (MFA), to reduce the likelihood of unauthorized access while planning a long-term encryption upgrade.",
+        "correct": false
+      },
+      {
+        "text": "Revoke the portal's authorization to operate; conduct a full risk assessment; document compliance gaps; and reauthorize only after encryption updates are fully implemented.",
+        "correct": false
+      },
+      {
+        "text": "Transfer liability to the software vendor responsible for maintaining the encryption standards, requiring them to undergo independent security testing and provide certification of compliance.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A midsized financial institution recently failed a compliance audit... What is the MOST appropriate course of action for Laura?",
+    "answers": [
+      {
+        "text": "Accept the risk, noting that the systems are already operational and compensating controls such as firewalls and intrusion detection systems are in place to reduce potential threats.",
+        "correct": false
+      },
+      {
+        "text": "Revoke the affected systems' authorization, require a full review of system configuration documentation, and ensure that future system implementations follow compliance guidelines before reauthorization.",
+        "correct": false
+      },
+      {
+        "text": "Implement missing security patches, immediately document the current system configurations, and submit an updated system security plan (SSP) before the next audit.",
+        "correct": true
+      },
+      {
+        "text": "Transfer responsibility to the IT operations team, requiring them to create compliance documentation while security leadership focuses on improving the overall security posture.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A global supplier of industrial components suffered a ransomware attack... What is the MOST appropriate course of action for Zachary to proceed with?",
+    "answers": [
+      {
+        "text": "Accept the residual risk since backups were available, while enhancing employee training to reduce the likelihood of ransomware infections.",
+        "correct": false
+      },
+      {
+        "text": "Revoke authorization for affected systems, conduct a full forensic investigation, and prevent operations from resuming until a validated recovery process is in place.",
+        "correct": false
+      },
+      {
+        "text": "Develop and implement incident response and system contingency plans, conduct regular disaster recovery tests, and ensure formal compliance documentation is maintained.",
+        "correct": true
+      },
+      {
+        "text": "Transfer the risk by purchasing cyber insurance to cover future ransomware incidents and ensuring third-party backup providers are contractually responsible for data integrity.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A national freight carrier was recently notified by a regulatory body that its security policies failed to meet compliance requirements... Which action should Daniel take to BEST align with compliance requirements?",
+    "answers": [
+      {
+        "text": "Update the organization's compliance certification documents, clearly defining risk treatment options and residual risks, and submit them for review.",
+        "correct": true
+      },
+      {
+        "text": "Accept the current risk posture and focus on training employees to improve adherence to security policies, ensuring compliance with operational best practices.",
+        "correct": false
+      },
+      {
+        "text": "Revoke the compliance certification and undergo a full recertification process to ensure that the organization meets all ISO 27001 documentation requirements.",
+        "correct": false
+      },
+      {
+        "text": "Transfer compliance responsibilities to an external auditing firm, ensuring that an independent evaluation is conducted before taking further action.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A cloud storage provider recently detected unauthorized access... What should Jessica do next?",
+    "answers": [
+      {
+        "text": "Accept the risk because access control policies were documented and implement security awareness training for administrators to reduce future authentication risks.",
+        "correct": false
+      },
+      {
+        "text": "Update the system risk assessment to reflect the authentication gap, enforce MFA, and submit an updated plan of action and milestones (POA&M) for compliance review.",
+        "correct": true
+      },
+      {
+        "text": "Revoke system authorization until a revised system risk assessment is conducted, and MFA is properly enforced for all administrative accounts.",
+        "correct": false
+      },
+      {
+        "text": "Transfer risk to an identity management provider by outsourcing authentication services, ensuring that MFA enforcement is handled externally.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A nationwide internet service provider experienced a security breach... What course of action should Ethan pursue next?",
+    "answers": [
+      {
+        "text": "Accept the risk since vulnerability reports had already been issued and focus on security training to improve compliance with patch management policies.",
+        "correct": false
+      },
+      {
+        "text": "Revoke system authorization until a full security assessment is conducted, ensuring that patch management processes align with compliance requirements.",
+        "correct": false
+      },
+      {
+        "text": "Update the system security plan (SSP) to include stricter patch management controls, validate compliance through security audits, and submit a formal compliance report.",
+        "correct": true
+      },
+      {
+        "text": "Transfer responsibility to the IT operations team, requiring them to maintain patching compliance while security leadership monitors regulatory obligations.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A nationwide e-commerce platform recently suffered a data breach due to an exposed API... What is the MOST appropriate action for Mark to take?",
+    "answers": [
+      {
+        "text": "Accept the risk since a system risk assessment was conducted, focusing instead on improving employee training to raise awareness of third-party security risks.",
+        "correct": false
+      },
+      {
+        "text": "Disable the e-commerce platform until all API security concerns are resolved and a new audit is performed to validate compliance.",
+        "correct": false
+      },
+      {
+        "text": "Conduct an updated system risk assessment, implement additional security controls for API access, and document findings in a plan of action and milestones (POA&M).",
+        "correct": true
+      },
+      {
+        "text": "Transfer risk by requiring third-party vendors to assume liability for API security failures, ensuring that they meet compliance requirements through independent certification.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A biotech company conducting clinical trials was found to be non-compliant... Which action should Emily take to BEST address compliance gaps?",
+    "answers": [
+      {
+        "text": "Accept the risk since data classification efforts had been attempted and improve internal training programs to prevent future mismanagement of sensitive records.",
+        "correct": false
+      },
+      {
+        "text": "Revoke authorization for all noncompliant systems, require immediate data migration to secured environments, and conduct a full compliance reassessment.",
+        "correct": false
+      },
+      {
+        "text": "Implement a system registry to maintain an accurate inventory of all data storage locations, classify research data appropriately, and document updates in a system risk assessment.",
+        "correct": true
+      },
+      {
+        "text": "Transfer the risk to an external auditor, requiring them to manage data classification and system inventory, while internal teams focus on content delivery.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A large provider of financial protection services recently identified an issue with its breach notification process... What is the MOST appropriate action for Ryan to take?",
+    "answers": [
+      {
+        "text": "Accept the risk since the breach notification plan existed and focus on training employees to recognize and respond to phishing threats more effectively.",
+        "correct": false
+      },
+      {
+        "text": "Revoke system authorization until breach notification procedures are fully tested and validated, preventing further operations until compliance is confirmed.",
+        "correct": false
+      },
+      {
+        "text": "Transfer liability for breach notification delays to the company's legal team, ensuring that future compliance requirements are reviewed externally.",
+        "correct": false
+      },
+      {
+        "text": "Update and test the incident response and breach notification plan, ensure compliance with reporting timelines, and document findings in the system audit report.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A software development firm recently failed a compliance review due to gaps in its system test plan... What is the MOST appropriate action for Ryan to take?",
+    "answers": [
+      {
+        "text": "Accept the risk since a security review had already been conducted and focus on post-deployment monitoring to identify any remaining vulnerabilities.",
+        "correct": false
+      },
+      {
+        "text": "Develop a comprehensive system test plan, validate security controls through testing, and document results before submitting for compliance approval.",
+        "correct": true
+      },
+      {
+        "text": "Revoke authorization for all production systems, requiring full retesting and compliance verification before allowing further software deployments.",
+        "correct": false
+      },
+      {
+        "text": "Transfer security testing responsibilities to an external audit firm, ensuring that future compliance reviews meet independent verification standards.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A regional airline recently experienced a cybersecurity incident... What is the MOST appropriate action for Olivia to take?",
+    "answers": [
+      {
+        "text": "Update the system security plan (SSP) to include access control enforcement procedures, enable MFA for all administrative accounts and verify implementation, and submit findings for compliance review.",
+        "correct": true
+      },
+      {
+        "text": "Accept the risk, given that the breach was caused by a misconfiguration rather than a systemic security failure and focus on training administrators to avoid similar issues in the future.",
+        "correct": false
+      },
+      {
+        "text": "Revoke the system's authorization to operate until all access control mechanisms are verified and the organization's compliance documentation is updated.",
+        "correct": false
+      },
+      {
+        "text": "Transfer the risk by requiring the airline's cloud service provider to enforce MFA at the infrastructure level and ensure compliance with regulatory standards.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A higher education institution recently failed a security audit due to missing training records... What is the BEST course of action for Noah?",
+    "answers": [
+      {
+        "text": "Accept the risk, given that security training is already in place; focus on improving employee engagement to ensure future training completion rates.",
+        "correct": false
+      },
+      {
+        "text": "Implement a formal training records management system; require all high-risk employees to complete outstanding training; and submit compliance documentation for review.",
+        "correct": true
+      },
+      {
+        "text": "Revoke access to sensitive student data for employees who have not completed training, ensuring that only trained personnel handle high-risk information.",
+        "correct": false
+      },
+      {
+        "text": "Transfer responsibility to department managers, requiring them to oversee training compliance while security leadership focuses on broader policy improvements.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A contractor providing cybersecurity solutions to government agencies was recently informed that its ISO 27001 compliance certification is at risk... What is the MOST appropriate action for Jacob to take?",
+    "answers": [
+      {
+        "text": "Accept the risk since risk assessments were conducted regularly and implement compensating controls to reduce exposure without updating formal documentation.",
+        "correct": false
+      },
+      {
+        "text": "Revoke system authorization for all projects until risk treatment documentation is fully aligned with compliance requirements.",
+        "correct": false
+      },
+      {
+        "text": "Transfer compliance responsibilities to an external risk management consultant, ensuring independent verification before submitting updated documents.",
+        "correct": false
+      },
+      {
+        "text": "Update compliance certification documents to include risk treatment mappings, clearly define residual risks, and submit them for review.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A wealth management firm recently discovered that one of its legacy systems continued to process sensitive client transactions despite failing a security compliance review... What is the BEST course of action for Olivia to pursue?",
+    "answers": [
+      {
+        "text": "Accept the residual risk since the system has remained operational without reported incidents and allocate resources toward upgrading the next-generation platform.",
+        "correct": false
+      },
+      {
+        "text": "Allow the system to continue running under conditional authorization while requiring encryption upgrades and an improved authentication mechanism over the next six months.",
+        "correct": false
+      },
+      {
+        "text": "Revoke the system's authorization immediately; conduct a risk assessment; require a formal plan of action and milestones (POA&M) before considering reauthorization.",
+        "correct": true
+      },
+      {
+        "text": "Transfer the risk to a third-party security provider, requiring them to implement additional security controls and conduct independent testing.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A national healthcare diagnostics provider recently failed an external audit due to inadequate system contingency planning... What is the MOST appropriate course of action for David?",
+    "answers": [
+      {
+        "text": "Develop a comprehensive system contingency plan, conduct regular disaster recovery tests, and document results in compliance reports.",
+        "correct": true
+      },
+      {
+        "text": "Accept the risk since a disaster recovery plan exists and prioritize strengthening network security to prevent future cyberattacks instead.",
+        "correct": false
+      },
+      {
+        "text": "Revoke authorization for critical systems until a validated recovery process is established and tested, ensuring compliance before operations resume.",
+        "correct": false
+      },
+      {
+        "text": "Transfer responsibility to an external disaster recovery service provider, ensuring they conduct system recovery tests and maintain compliance documentation.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A financial technology start-up recently identified a security vulnerability in its trading platform... What is the BEST course of action for Emma to undertake?",
+    "answers": [
+      {
+        "text": "Accept the risk, since the vulnerability has not been exploited, and prioritize efforts to secure future platform upgrades rather than auditing past controls.",
+        "correct": false
+      },
+      {
+        "text": "Revoke system authorization; remediate security vulnerability and document efforts; reauthorize system; conduct a new system audit ensuring status of security controls and compliance actions is documented; submit findings for compliance review.",
+        "correct": true
+      },
+      {
+        "text": "Revoke system authorization until security vulnerabilities are addressed; require a complete audit before reauthorizing system and allowing trading operations to resume.",
+        "correct": false
+      },
+      {
+        "text": "Transfer responsibility to the IT security team, requiring them to conduct access control testing while compliance leadership focuses on external regulatory reviews.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A supply chain management company recently identified an issue with its system registry... How can Sarah BEST address these issues?",
+    "answers": [
+      {
+        "text": "Accept the risk since the company has security controls in place and focus on future risk assessments rather than revisiting past registry omissions.",
+        "correct": false
+      },
+      {
+        "text": "Update the system registry to reflect all cloud-based infrastructure; conduct a new system risk assessment; and submit updated compliance documentation for review.",
+        "correct": true
+      },
+      {
+        "text": "Revoke authorization for all cloud-based systems until their compliance status is validated, preventing further operations until updates are complete.",
+        "correct": false
+      },
+      {
+        "text": "Transfer responsibility for system tracking to the cloud service provider, requiring them to maintain system inventory and compliance records.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A national hospital network recently experienced a data breach involving unauthorized access to patient records... What is the MOST appropriate course of action for Rachel to pursue?",
+    "answers": [
+      {
+        "text": "Implement a risk dashboard to monitor access anomalies; conduct regular log reviews; and ensure compliance documentation reflects updated monitoring procedures.",
+        "correct": true
+      },
+      {
+        "text": "Accept the risk since access logs were maintained and focus on improving employee awareness of security monitoring instead of implementing new technical controls.",
+        "correct": false
+      },
+      {
+        "text": "Revoke system authorization for the affected patient record system until monitoring tools are implemented and compliance requirements are met.",
+        "correct": false
+      },
+      {
+        "text": "Transfer responsibility to an external security monitoring provider, requiring them to detect and respond to suspicious access patterns.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A payment processing company recently faced regulatory scrutiny after a compliance review revealed that encryption keys were being stored improperly... What is the BEST course of action for Daniel to consider?",
+    "answers": [
+      {
+        "text": "Accept the risk since encryption key misuse had not been detected and focus on monitoring for future unauthorized access attempts.",
+        "correct": false
+      },
+      {
+        "text": "Revoke authorization for all payment processing systems until encryption key management procedures are fully compliant and documented.",
+        "correct": false
+      },
+      {
+        "text": "Develop and submit a POA&M that outlines remediation steps for encryption key storage, implement improved security controls, and ensure that compliance documentation is updated.",
+        "correct": true
+      },
+      {
+        "text": "Transfer responsibility to the third-party encryption provider, requiring them to ensure compliance with key management policies.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A digital content distribution company recently discovered a data exposure issue in its customer subscription database... What is the MOST appropriate course of action for Sophia?",
+    "answers": [
+      {
+        "text": "Accept the risk since no data breach occurred and focus on employee training to ensure better adherence to security policies.",
+        "correct": false
+      },
+      {
+        "text": "Revoke system authorization until all access controls are validated and compliance documentation is fully updated.",
+        "correct": false
+      },
+      {
+        "text": "Transfer responsibility to the IT department, requiring them to enforce access controls while compliance leadership monitors policy enforcement.",
+        "correct": false
+      },
+      {
+        "text": "Update the system configuration guide to include access control settings; enforce RBAC; and document findings in compliance reports.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A renewable energy provider recently experienced a cybersecurity incident involving unauthorized remote access to its control systems... What is the MOST appropriate action for Michael?",
+    "answers": [
+      {
+        "text": "Accept the risk since remote access had been restricted to specific employees and focus on monitoring for unusual login activity instead of enforcing MFA.",
+        "correct": false
+      },
+      {
+        "text": "Revoke authorization for all remote access systems until compliance documentation is updated and authentication controls are validated.",
+        "correct": false
+      },
+      {
+        "text": "Transfer responsibility to an external identity management provider, requiring them to handle authentication security and compliance enforcement.",
+        "correct": false
+      },
+      {
+        "text": "Enforce MFA for all remote access; update the system security plan (SSP) to document authentication requirements; and submit findings for compliance review.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A manufacturer of healthcare equipment recently failed an audit due to missing system test plans for newly deployed software... What is the MOST appropriate action for Lisa?",
+    "answers": [
+      {
+        "text": "Develop a system test plan; validate security controls through testing; and document test results before submitting them for compliance approval.",
+        "correct": true
+      },
+      {
+        "text": "Accept the risk since no security incidents have been reported; focus on strengthening network defenses rather than testing individual software updates.",
+        "correct": false
+      },
+      {
+        "text": "Revoke authorization for all medical device software until test plans are developed and compliance documentation is fully aligned with audit findings.",
+        "correct": false
+      },
+      {
+        "text": "Transfer responsibility to an external software testing firm, requiring them to conduct security evaluations before approving future deployments.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A prominent online retailer recently experienced unauthorized access to its customer loyalty database... What should Karen do?",
+    "answers": [
+      {
+        "text": "Update privacy policies and develop a formal incident response plan that includes documented risk treatment options, then submit the updated documents for compliance review.",
+        "correct": true
+      },
+      {
+        "text": "Accept the risk since the breach did not result in immediate financial loss; focus on enhancing employee cybersecurity training.",
+        "correct": false
+      },
+      {
+        "text": "Revoke authorization for systems handling customer data until all privacy documentation and incident response procedures are thoroughly updated and validated.",
+        "correct": false
+      },
+      {
+        "text": "Transfer responsibility for incident response planning to a third-party vendor while maintaining current internal policies.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A regional credit union recently uncovered vulnerabilities in its system risk assessment process... What is the BEST course of action for Thomas?",
+    "answers": [
+      {
+        "text": "Accept the current state since encryption vulnerabilities have not been exploited further, while emphasizing enhanced security monitoring instead.",
+        "correct": false
+      },
+      {
+        "text": "Revoke authorization for affected systems until the encryption controls are fully reassessed and documented in a new risk report.",
+        "correct": false
+      },
+      {
+        "text": "Perform a comprehensive risk assessment focused on encryption controls; document residual risks clearly; and update compliance certification documents for review.",
+        "correct": true
+      },
+      {
+        "text": "Transfer the responsibility for encryption risk assessment to an external consultant, who will update documentation on behalf of the organization.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A community bank with a strong local presence recently faced an external audit that revealed discrepancies in its system audit reports... What is the MOST appropriate action for Angela?",
+    "answers": [
+      {
+        "text": "Accept the risk because periodic audits had been conducted and focus on addressing any future discrepancies rather than updating past documentation.",
+        "correct": false
+      },
+      {
+        "text": "Update the system security plans to incorporate the latest risk assessment findings and ensure all system configuration guides are current, then submit the revised documents for audit review.",
+        "correct": true
+      },
+      {
+        "text": "Revoke system authorization for systems with outdated configuration guides until updated SSPs are provided and verified.",
+        "correct": false
+      },
+      {
+        "text": "Transfer the responsibility for updating SSPs to the IT department, while compliance focuses on external reporting.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A cybersecurity firm recently encountered issues during a client audit when it was revealed that its training records for security personnel were incomplete... What is the MOST appropriate action for Lisa to undertake?",
+    "answers": [
+      {
+        "text": "Accept the risk since training sessions were held regularly. Focus instead on future training improvements rather than rectifying past recordkeeping issues.",
+        "correct": false
+      },
+      {
+        "text": "Revoke current security certifications for personnel until comprehensive training records are produced and verified, halting all client engagements.",
+        "correct": false
+      },
+      {
+        "text": "Transfer the responsibility for maintaining training records to an external certification body, allowing internal teams to concentrate on delivering training content.",
+        "correct": false
+      },
+      {
+        "text": "Implement a centralized training records management system to document all training sessions and competency assessments, ensuring records are updated and accessible for compliance reviews.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A midsized telecom provider recently underwent a compliance audit that exposed a lack of formal notification procedures for security incidents... What is the MOST appropriate action for Ryan to take?",
+    "answers": [
+      {
+        "text": "Accept the risk, as long as internal incident logs are maintained, and rely on ad hoc communication methods when incidents occur.",
+        "correct": false
+      },
+      {
+        "text": "Revoke authorization for systems until a formal notification process is implemented and fully integrated into existing compliance procedures.",
+        "correct": false
+      },
+      {
+        "text": "Develop and formalize a security incident notification process that includes clear guidelines for stakeholder and regulatory communication, then update compliance documentation accordingly.",
+        "correct": true
+      },
+      {
+        "text": "Transfer the responsibility for incident notifications to the public relations team, focusing on external communication while internal compliance continues as before.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A content streaming service recently faced a breach that exposed user data due to a failure in properly categorizing and securing its content management systems... What is the MOST appropriate course of action for Ethan to adopt?",
+    "answers": [
+      {
+        "text": "Update the system registry to include all content management systems; reclassify data according to sensitivity; and document these changes in an updated system risk assessment.",
+        "correct": true
+      },
+      {
+        "text": "Accept the residual risk, given that no significant data loss occurred; focus on preventing future breaches through improved network security measures.",
+        "correct": false
+      },
+      {
+        "text": "Revoke authorization for the affected systems until data categorization and system registry documentation are fully updated and validated.",
+        "correct": false
+      },
+      {
+        "text": "Transfer the risk to an external auditor, requiring them to manage data classification and system inventory, while internal teams focus on content delivery.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a PRIMARY purpose of compiling and submitting security and privacy documentation to an authorizing official?",
+    "answers": [
+      {
+        "text": "To ensure the system meets operational performance benchmarks",
+        "correct": false
+      },
+      {
+        "text": "To provide evidence supporting a compliance decision",
+        "correct": true
+      },
+      {
+        "text": "To validate the system's financial cost-effectiveness",
+        "correct": false
+      },
+      {
+        "text": "To document user satisfaction with the system",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following documents is typically required to support a compliance decision?",
+    "answers": [
+      { "text": "System security and privacy plan (SSP)", "correct": true },
+      { "text": "Incident response plan (IRP)", "correct": false },
+      { "text": "Business continuity plan (BCP)", "correct": false },
+      { "text": "Network topology diagram", "correct": false }
+    ]
+  },
+  {
+    "question": "What does residual risk represent in the context of system compliance?",
+    "answers": [
+      {
+        "text": "Risks that have been completely eliminated through controls",
+        "correct": false
+      },
+      {
+        "text": "Risks that remain after implementing security controls",
+        "correct": true
+      },
+      {
+        "text": "Risks that are shared with third-party vendors",
+        "correct": false
+      },
+      {
+        "text": "Risks identified during initial risk assessments",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following BEST describes stakeholder concurrence in risk treatment?",
+    "answers": [
+      {
+        "text": "Stakeholders formally agree on how residual risks will be managed.",
+        "correct": true
+      },
+      {
+        "text": "Stakeholders provide funding for additional security measures.",
+        "correct": false
+      },
+      {
+        "text": "Stakeholders assess the technical feasibility of security controls.",
+        "correct": false
+      },
+      {
+        "text": "Stakeholders approve changes to operational workflows.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of issuing a formal notification of compliance decision?",
+    "answers": [
+      {
+        "text": "To inform stakeholders of system vulnerabilities",
+        "correct": false
+      },
+      { "text": "To initiate a new risk assessment process", "correct": false },
+      {
+        "text": "To document approval for continued system operation",
+        "correct": true
+      },
+      {
+        "text": "To request additional funding for security enhancements",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is typically included in a formal notification of compliance decision?",
+    "answers": [
+      {
+        "text": "A list of unresolved incidents from previous audits",
+        "correct": false
+      },
+      {
+        "text": "A summary of accepted residual risks and mitigation plans",
+        "correct": true
+      },
+      {
+        "text": "A detailed budget for future security investments",
+        "correct": false
+      },
+      {
+        "text": "A report on user satisfaction with system performance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "An organization has undertaken a security assessment and determined that certain risks remain even after implementing all planned controls... What should be done next?",
+    "answers": [
+      {
+        "text": "Remove all remaining risks before proceeding with operations.",
+        "correct": false
+      },
+      {
+        "text": "Delay system authorization until all risks are eliminated.",
+        "correct": false
+      },
+      {
+        "text": "Reassess the entire system for new vulnerabilities before continuing operations.",
+        "correct": false
+      },
+      {
+        "text": "Document the residual risks in formal compliance documentation and obtain stakeholder concurrence.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "During an audit, it is discovered that certain required privacy documents were not submitted to the authorizing official as part of the compliance package for a new system deployment. What is the most appropriate course of action?",
+    "answers": [
+      {
+        "text": "Halt system operations until all documents are submitted and reviewed.",
+        "correct": false
+      },
+      {
+        "text": "Submit an updated package with missing documentation immediately for review by the authorizing official.",
+        "correct": true
+      },
+      {
+        "text": "Proceed with deployment since most other documents were already submitted.",
+        "correct": false
+      },
+      {
+        "text": "Request an extension from auditors to delay compliance requirements.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a typical step in identifying and gathering required documentation for system compliance?",
+    "answers": [
+      {
+        "text": "Reviewing applicable laws, regulations, and standards",
+        "correct": false
+      },
+      {
+        "text": "Consulting with stakeholders to understand specific requirements",
+        "correct": false
+      },
+      {
+        "text": "Collecting system configuration settings and security control implementations",
+        "correct": false
+      },
+      {
+        "text": "Conducting user acceptance testing to gather feedback on system usability",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following documents is most critical for demonstrating compliance with security and privacy requirements?",
+    "answers": [
+      { "text": "Disaster recovery plan (DRP)", "correct": false },
+      { "text": "System security and privacy plan (SSP)", "correct": true },
+      { "text": "Incident response plan (IRP)", "correct": false },
+      { "text": "Service level agreement (SLA)", "correct": false }
+    ]
+  },
+  {
+    "question": "An organization is preparing to submit its compliance package for a newly developed system to an authorizing official. During the review process, it is discovered that some privacy impact assessments are incomplete. What should the organization do next?",
+    "answers": [
+      {
+        "text": "Submit the package without the privacy impact assessments and let the authorizing official know that they will be addressed later.",
+        "correct": false
+      },
+      {
+        "text": "Halt operations until all documentation is completed and reviewed.",
+        "correct": false
+      },
+      {
+        "text": "Notify the authorizing official and complete the privacy impact assessments immediately and include them in the submission package.",
+        "correct": true
+      },
+      {
+        "text": "Request a waiver from the authorizing official for missing documentation.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following documents is LEAST likely to be required for demonstrating system compliance?",
+    "answers": [
+      { "text": "System security plan (SSP)", "correct": false },
+      { "text": "Privacy impact assessment (PIA)", "correct": false },
+      {
+        "text": "Marketing brochures describing the system's features",
+        "correct": true
+      },
+      { "text": "Vulnerability scan reports", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following BEST describes stakeholder concurrence in risk treatment?",
+    "answers": [
+      {
+        "text": "Stakeholders formally agree on how residual risks will be managed.",
+        "correct": true
+      },
+      {
+        "text": "Stakeholders assess technical feasibility of security controls.",
+        "correct": false
+      },
+      {
+        "text": "Stakeholders approve changes to operational workflows.",
+        "correct": false
+      },
+      {
+        "text": "Stakeholders provide funding for additional security measures.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "During a risk assessment, your team identifies several vulnerabilities that cannot be fully mitigated due to budget constraints but are within acceptable limits as defined by organizational policy. What should you do next?",
+    "answers": [
+      {
+        "text": "Document these residual risks in formal compliance documents and obtain stakeholder concurrence.",
+        "correct": true
+      },
+      {
+        "text": "Delay system authorization until all vulnerabilities are resolved.",
+        "correct": false
+      },
+      {
+        "text": "Transfer these risks to a third party for management.",
+        "correct": false
+      },
+      {
+        "text": "Reassess the system for additional vulnerabilities.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "During the review of a system security plan (SSP), which of the following is NOT a primary aspect to consider?",
+    "answers": [
+      {
+        "text": "Completeness of the SSP in addressing all relevant security controls",
+        "correct": false
+      },
+      {
+        "text": "Accuracy of the information provided about the system and its environment",
+        "correct": false
+      },
+      {
+        "text": "The aesthetic appeal and formatting of the SSP document",
+        "correct": true
+      },
+      {
+        "text": "Alignment of the SSP with organizational policies and regulatory requirements",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following documents is essential for demonstrating how a system complies with security and privacy requirements?",
+    "answers": [
+      { "text": "Business continuity plan (BCP)", "correct": false },
+      { "text": "Configuration management plan", "correct": false },
+      { "text": "Incident response plan (IRP)", "correct": false },
+      { "text": "System security and privacy plan (SSP)", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the primary purpose of submitting security and privacy documentation to an authorizing official?",
+    "answers": [
+      {
+        "text": "To inform stakeholders about system performance metrics",
+        "correct": false
+      },
+      {
+        "text": "To validate the system's financial cost-effectiveness",
+        "correct": false
+      },
+      {
+        "text": "To provide evidence supporting a compliance decision",
+        "correct": true
+      },
+      {
+        "text": "To document user satisfaction with the system",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Your organization is preparing to submit a compliance package for a new cloud-based application. During the review process, it is discovered that the privacy impact assessment (PIA) has not been completed. What should you do next?",
+    "answers": [
+      {
+        "text": "Submit the package without the PIA and address it later.",
+        "correct": false
+      },
+      {
+        "text": "Advise the authorizing official of this issue, complete the PIA immediately and include it in the submission package.",
+        "correct": true
+      },
+      {
+        "text": "Request an exception from the authorizing official for the missing documentation.",
+        "correct": false
+      },
+      {
+        "text": "Halt operations until all documentation is reviewed.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is most likely to review submitted security and privacy documentation for compliance purposes?",
+    "answers": [
+      { "text": "Authorizing official", "correct": true },
+      { "text": "System administrators", "correct": false },
+      { "text": "End users of the system", "correct": false },
+      { "text": "Third-party vendors", "correct": false }
+    ]
+  },
+  {
+    "question": "A third-party assessment organization has requested additional details about your system's encryption methods as part of their review process for compliance certification. What document should you provide?",
+    "answers": [
+      { "text": "Business impact analysis (BIA)", "correct": false },
+      { "text": "System security and privacy plan (SSP)", "correct": true },
+      { "text": "Disaster recovery plan (DRP)", "correct": false },
+      { "text": "Incident response plan", "correct": false }
+    ]
+  },
+  {
+    "question": "What does residual risk represent in a risk management framework?",
+    "answers": [
+      {
+        "text": "Risks that have been completely eliminated through controls",
+        "correct": false
+      },
+      {
+        "text": "Risks identified during initial risk assessments",
+        "correct": false
+      },
+      { "text": "Risks shared with third-party vendors", "correct": false },
+      {
+        "text": "Risks that remain after implementing security controls",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following BEST describes stakeholder concurrence in risk treatment?",
+    "answers": [
+      {
+        "text": "Stakeholders approve changes to operational workflows",
+        "correct": false
+      },
+      {
+        "text": "Stakeholders provide funding for additional security measures",
+        "correct": false
+      },
+      {
+        "text": "Stakeholders assess technical feasibility of security controls",
+        "correct": false
+      },
+      {
+        "text": "Stakeholders formally agree on how residual risks will be managed",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is typically included in a formal risk acceptance decision?",
+    "answers": [
+      {
+        "text": "A list of unresolved incidents from previous audits",
+        "correct": false
+      },
+      {
+        "text": "A summary of accepted residual risks and mitigation plans",
+        "correct": true
+      },
+      {
+        "text": "A detailed budget for future security investments",
+        "correct": false
+      },
+      {
+        "text": "A report on user satisfaction with system performance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How are system risk acceptance criteria typically defined?",
+    "answers": [
+      {
+        "text": "By technical teams during vulnerability scanning",
+        "correct": false
+      },
+      {
+        "text": "By regulatory agencies without input from stakeholders",
+        "correct": false
+      },
+      {
+        "text": "By organizational policies based on business objectives and regulations",
+        "correct": true
+      },
+      { "text": "By end users during testing phases", "correct": false }
+    ]
+  },
+  {
+    "question": "What is included in a formal notification of compliance decision?",
+    "answers": [
+      {
+        "text": "A detailed budget for future security investments",
+        "correct": false
+      },
+      {
+        "text": "A summary of unresolved incidents from previous audits",
+        "correct": false
+      },
+      {
+        "text": "A report on user satisfaction with system performance",
+        "correct": false
+      },
+      {
+        "text": "A list of accepted residual risks and mitigation plans",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "After completing all required assessments, an authorizing official issues an Authorization to Operate (ATO) for your system but includes conditions related to specific unresolved vulnerabilities that must be addressed within six months. What does this signify?",
+    "answers": [
+      {
+        "text": "The system cannot operate until all vulnerabilities are resolved.",
+        "correct": false
+      },
+      {
+        "text": "The authorizing official has rejected your compliance package.",
+        "correct": false
+      },
+      {
+        "text": "The system is authorized to operate but requires ongoing remediation efforts within specified time frames.",
+        "correct": true
+      },
+      {
+        "text": "The authorizing official has accepted all identified risks permanently.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is responsible for issuing formal notifications of compliance decisions?",
+    "answers": [
+      { "text": "System administrators", "correct": false },
+      { "text": "Internal auditors", "correct": false },
+      { "text": "End users of the system", "correct": false },
+      { "text": "Authorizing official (AO)", "correct": true }
+    ]
+  },
+  {
+    "question": "Your organization has received a Denial of Authorization to Operate (DATO) due to significant noncompliance issues identified during an assessment process. What should your team prioritize next?",
+    "answers": [
+      {
+        "text": "Begin decommissioning all affected systems immediately.",
+        "correct": false
+      },
+      {
+        "text": "Address identified deficiencies and resubmit updated documentation.",
+        "correct": true
+      },
+      {
+        "text": "Escalate the decision to senior management for review.",
+        "correct": false
+      },
+      {
+        "text": "Request an exemption from compliance requirements.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A healthcare organization is launching a new patient portal... What is the MOST appropriate risk treatment option to address weak patient passwords?",
+    "answers": [
+      {
+        "text": "Accept the risk, as it is within the organization's defined risk appetite.",
+        "correct": false
+      },
+      {
+        "text": "Mitigate the risk by implementing multi-factor authentication (MFA) for portal access.",
+        "correct": true
+      },
+      {
+        "text": "Transfer the risk by purchasing cyber insurance to cover potential data breaches.",
+        "correct": false
+      },
+      {
+        "text": "Avoid the risk by not implementing the patient portal system.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A healthcare organization, after implementing the risk treatment measures, reassesses the risks associated with the patient portal and determines that residual risk remains... What is the MOST appropriate risk treatment option to address this residual risk?",
+    "answers": [
+      {
+        "text": "Accept the risk, as it is within the organization's defined risk appetite.",
+        "correct": true
+      },
+      {
+        "text": "Mitigate the risk by implementing multi-factor authentication (MFA) for portal access.",
+        "correct": false
+      },
+      {
+        "text": "Transfer the risk by purchasing cyber insurance to cover potential data breaches.",
+        "correct": false
+      },
+      {
+        "text": "Avoid the risk by not implementing the patient portal system.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a recommended practice for communicating the system authorization decision to stakeholders?",
+    "answers": [
+      {
+        "text": "Issuing a formal notification of the decision, including any conditions or limitations",
+        "correct": false
+      },
+      {
+        "text": "Conducting briefings or presentations to explain the decision and its implications",
+        "correct": false
+      },
+      {
+        "text": "Sharing the detailed vulnerability scan reports with all system users",
+        "correct": true
+      },
+      {
+        "text": "Providing access to relevant documentation, such as the System Security and Privacy Plan (SSP) and risk assessment reports",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY goal of communicating the system authorization decision with stakeholders?",
+    "answers": [
+      {
+        "text": "To ensure that all stakeholders are aware of the system's technical specifications",
+        "correct": false
+      },
+      {
+        "text": "To provide detailed instructions on how to configure security controls",
+        "correct": false
+      },
+      {
+        "text": "To foster a shared understanding of the system's risk posture and authorization status",
+        "correct": true
+      },
+      {
+        "text": "To solicit feedback on the user experience and system functionality",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following stakeholders should be included in the communication of the system authorization decision?",
+    "answers": [
+      {
+        "text": "System administrators and technical support staff",
+        "correct": false
+      },
+      {
+        "text": "System owners, users, management, relevant security personnel and those with a direct interest in the operation, and security and compliance of their organizations systems",
+        "correct": true
+      },
+      {
+        "text": "All employees of the organization, regardless of their role or system access",
+        "correct": false
+      },
+      {
+        "text": "External vendors and contractors who may interact with the system",
+        "correct": false
+      }
+    ]
+  }
+]

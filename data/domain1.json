@@ -1,0 +1,1622 @@
+[
+  {
+    "question": "Which risk assessment approach PRIMARILY relies on numerical data and mathematical models to evaluate risk?",
+    "answers": [
+      { "text": "Qualitative", "correct": false },
+      { "text": "Quantitative", "correct": true },
+      { "text": "Semiquantitative", "correct": false },
+      { "text": "Descriptive", "correct": false }
+    ]
+  },
+  {
+    "question": "What approach focuses first on identifying critical assets and potential impacts?",
+    "answers": [
+      { "text": "Quantitative approach", "correct": false },
+      { "text": "Threat-oriented approach", "correct": false },
+      { "text": "Vulnerability-oriented approach", "correct": false },
+      { "text": "Asset/impact-oriented approach", "correct": true }
+    ]
+  },
+  {
+    "question": "What type of risk assessment approach uses descriptive analysis rather than numerical data?",
+    "answers": [
+      { "text": "Qualitative approach", "correct": true },
+      { "text": "Quantitative approach", "correct": false },
+      { "text": "Threat-oriented approach", "correct": false },
+      { "text": "Semiquantitative approach", "correct": false }
+    ]
+  },
+  {
+    "question": "Which risk assessment approach provides the MOST objective basis for decision-making?",
+    "answers": [
+      { "text": "Qualitative", "correct": false },
+      { "text": "Quantitative", "correct": true },
+      { "text": "Semiquantitative", "correct": false },
+      { "text": "Threat-oriented assessment", "correct": false }
+    ]
+  },
+  {
+    "question": "According to NIST SP 800-39, which tier of risk management addresses risk from an organizational perspective?",
+    "answers": [
+      { "text": "Tier One", "correct": true },
+      { "text": "Tier Two", "correct": false },
+      { "text": "Tier Three", "correct": false },
+      { "text": "Tier Four", "correct": false }
+    ]
+  },
+  {
+    "question": "According to NIST SP 800-39, what does Tier Two risk management focus on?",
+    "answers": [
+      { "text": "Risk tolerance", "correct": false },
+      { "text": "Information systems", "correct": false },
+      { "text": "Organizational governance", "correct": false },
+      { "text": "Mission and business processes", "correct": true }
+    ]
+  },
+  {
+    "question": "What are the limitations on strategic investments in risk management?",
+    "answers": [
+      { "text": "Constraints, tolerances, priorities", "correct": false },
+      { "text": "Strategies, architectures, systems", "correct": false },
+      { "text": "Eliminating all risk, unlimited resources, static endeavor", "correct": false },
+      { "text": "Mission priorities, anticipated risk response needs, investment limitations", "correct": true }
+    ]
+  },
+  {
+    "question": "According to NIST SP 800-39, what is the focus of Tier Three in the risk management framework?",
+    "answers": [
+      { "text": "Classifying information and systems, assessing risk, and defining responses", "correct": true },
+      { "text": "Managing mission and business processes", "correct": false },
+      { "text": "Addressing risks from an organizational perspective", "correct": false },
+      { "text": "Implementing enterprise architecture and governance", "correct": false }
+    ]
+  },
+  {
+    "question": "What framework provides some of the most comprehensive role definitions?",
+    "answers": [
+      { "text": "ISO 27001", "correct": false },
+      { "text": "NIST RMF", "correct": true },
+      { "text": "COBIT", "correct": false },
+      { "text": "CIS Controls", "correct": false }
+    ]
+  },
+  {
+    "question": "What are the three main categories of roles defined in GRC frameworks?",
+    "answers": [
+      { "text": "Organizational, managerial, and operational", "correct": false },
+      { "text": "Organizational/management, security/privacy program, and system/technical", "correct": true },
+      { "text": "Executive, middle management, and staff", "correct": false },
+      { "text": "Policy, process, and technical", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of a security/privacy program role defined in a GRC framework?",
+    "answers": [
+      { "text": "Chief Information Officer (CIO)", "correct": false },
+      { "text": "Data Privacy Officer (DPO)", "correct": true },
+      { "text": "IT Systems Administrator", "correct": false },
+      { "text": "Risk Management Analyst", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of an organizational/management role defined in a GRC framework?",
+    "answers": [
+      { "text": "Chief Executive Officer (CEO)", "correct": true },
+      { "text": "Security Architect", "correct": false },
+      { "text": "IT Support Specialist", "correct": false },
+      { "text": "Network Engineer", "correct": false }
+    ]
+  },
+  {
+    "question": "What are the four main components of organization-wide risk management?",
+    "answers": [
+      { "text": "Risk framing, risk assessment, risk response, and risk monitoring", "correct": true },
+      { "text": "Risk identification, risk analysis, risk evaluation, and risk treatment", "correct": false },
+      { "text": "Hazard identification, risk analysis, risk prioritization, and risk mitigation", "correct": false },
+      { "text": "Threat detection, vulnerability assessment, impact analysis, and control implementation", "correct": false }
+    ]
+  },
+  {
+    "question": "Which risk response involves changing behavior or functionality so that the risk conditions no longer exist?",
+    "answers": [
+      { "text": "Risk acceptance", "correct": false },
+      { "text": "Risk mitigation", "correct": true },
+      { "text": "Risk avoidance", "correct": false },
+      { "text": "Risk transfer", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of risk mitigation?",
+    "answers": [
+      { "text": "Transferring the risk to an insurance company", "correct": false },
+      { "text": "Ignoring the risk due to its low impact", "correct": false },
+      { "text": "Installing security patches to fix vulnerabilities in a system", "correct": true },
+      { "text": "Avoiding activities that introduce the risk", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of risk acceptance?",
+    "answers": [
+      { "text": "Changing business operations to eliminate the risk entirely", "correct": false },
+      { "text": "Purchasing insurance to cover potential financial loss from a risk", "correct": false },
+      { "text": "Implementing additional security measures to reduce vulnerabilities", "correct": false },
+      { "text": "Taking no action because the risk is low impact", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the first step in the risk management process?",
+    "answers": [
+      { "text": "Risk assessment", "correct": false },
+      { "text": "Risk monitoring", "correct": false },
+      { "text": "Risk identification", "correct": true },
+      { "text": "Risk treatment", "correct": false }
+    ]
+  },
+  {
+    "question": "What does \"risk tolerance\" refer to in the context of risk management?",
+    "answers": [
+      { "text": "The process of reducing risk likelihood or impact", "correct": false },
+      { "text": "The level of risk an organization is willing to accept", "correct": true },
+      { "text": "The process of continuously tracking identified risks", "correct": false },
+      { "text": "The methodology used to assess risk likelihood and impact", "correct": false }
+    ]
+  },
+  {
+    "question": "What aspect of risk tolerance is challenging to define?",
+    "answers": [
+      { "text": "Acceptability", "correct": false },
+      { "text": "Measurement", "correct": false },
+      { "text": "Documentation", "correct": false },
+      { "text": "Subjectivity", "correct": true }
+    ]
+  },
+  {
+    "question": "Which of the following is the PRIMARY benefit of applying consistency and objectivity in risk assessments?",
+    "answers": [
+      { "text": "Ensures that risk assessments are subjective and based on individual judgment", "correct": false },
+      { "text": "Allows for unreliable comparison and aggregation of risk data", "correct": false },
+      { "text": "Helps produce results that are difficult to use in decision-making", "correct": false },
+      { "text": "Enables standardized, reliable risk comparison and aggregation across the organization", "correct": true }
+    ]
+  },
+  {
+    "question": "What aspect of risk management are risk assessments part of, according to NIST guidance?",
+    "answers": [
+      { "text": "Organization-wide process", "correct": true },
+      { "text": "System development life cycle", "correct": false },
+      { "text": "Information sharing", "correct": false },
+      { "text": "Defining risk models", "correct": false }
+    ]
+  },
+  {
+    "question": "According to NIST, which approach is recommended for conducting risk assessments?",
+    "answers": [
+      { "text": "A quantitative approach", "correct": false },
+      { "text": "A threat-based approach", "correct": true },
+      { "text": "An impact-based approach", "correct": false },
+      { "text": "A vulnerability-based approach", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the MAIN NIST reference for conducting risk assessments?",
+    "answers": [
+      { "text": "NIST SP 800-30", "correct": true },
+      { "text": "NIST SP 800-37", "correct": false },
+      { "text": "NIST SP 800-39", "correct": false },
+      { "text": "NIST SP 800-53", "correct": false }
+    ]
+  },
+  {
+    "question": "What does NIST guidance say about sharing risk assessment information?",
+    "answers": [
+      { "text": "Should only be shared with senior management", "correct": false },
+      { "text": "Should not be shared outside the organization", "correct": false },
+      { "text": "Provides the best value to share within an organization", "correct": true },
+      { "text": "Can only be shared after mitigations are implemented", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the KEY difference between COBIT and NIST/ISO frameworks?",
+    "answers": [
+      { "text": "COBIT has fewer controls than NIST/ISO", "correct": false },
+      { "text": "COBIT only applies to IT while NIST/ISO apply more broadly", "correct": false },
+      { "text": "COBIT provides more detailed guidance on aligning GRC with business needs", "correct": true },
+      { "text": "COBIT focuses more on technical controls while NIST/ISO focus more on business alignment", "correct": false }
+    ]
+  },
+  {
+    "question": "What does the COBIT framework provide guidance on?",
+    "answers": [
+      { "text": "Optimizing use of IT resources", "correct": false },
+      { "text": "Ensuring compliance with regulations", "correct": false },
+      { "text": "Implementing technical security controls", "correct": false },
+      { "text": "Understanding what elements of a GRC program are needed", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the MAIN focus of the COBIT framework?",
+    "answers": [
+      { "text": "Managing risks", "correct": true },
+      { "text": "Optimizing IT resources", "correct": false },
+      { "text": "Implementing security controls", "correct": false },
+      { "text": "Ensuring IT supports business strategy", "correct": false }
+    ]
+  },
+  {
+    "question": "What is COBIT's approach to risk management implementation compared to NIST and ISO?",
+    "answers": [
+      { "text": "It's less detailed on implementation mechanisms.", "correct": false },
+      { "text": "It's more detailed on implementation mechanisms.", "correct": true },
+      { "text": "It's equally detailed on implementation mechanisms.", "correct": false },
+      { "text": "COBIT does not discuss implementation mechanisms.", "correct": false }
+    ]
+  },
+  {
+    "question": "What does governance at the top level of an organization establish?",
+    "answers": [
+      { "text": "Detailed procedures for every department", "correct": false },
+      { "text": "Guidance for hiring and retaining staff", "correct": false },
+      { "text": "Organizational goals and objectives", "correct": true },
+      { "text": "A centralized decision-making body", "correct": false }
+    ]
+  },
+  {
+    "question": "What is one way organizations distribute governance output?",
+    "answers": [
+      { "text": "Through creation of policies", "correct": true },
+      { "text": "By delegating all decisions", "correct": false },
+      { "text": "With a decentralized approach", "correct": false },
+      { "text": "Using only informal communication", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the goal of governance?",
+    "answers": [
+      { "text": "To distribute policies", "correct": false },
+      { "text": "To establish organizational objectives", "correct": false },
+      { "text": "To provide guidance to functional areas", "correct": false },
+      { "text": "To ensure accountability and effective decision-making", "correct": true }
+    ]
+  },
+  {
+    "question": "What are the MOST common governance approaches?",
+    "answers": [
+      { "text": "Strict or lenient", "correct": false },
+      { "text": "Top-down or bottom-up", "correct": false },
+      { "text": "Directive or collaborative", "correct": false },
+      { "text": "Centralized, decentralized, or hybrid", "correct": true }
+    ]
+  },
+  {
+    "question": "According to GDPR, what right allows an individual to obtain their personal data in a readable format?",
+    "answers": [
+      { "text": "Right to rectification", "correct": false },
+      { "text": "Right to restrict processing", "correct": false },
+      { "text": "Right to data portability", "correct": true },
+      { "text": "Right to object", "correct": false }
+    ]
+  },
+  {
+    "question": "Which Singapore law aligns with global data protection standards?",
+    "answers": [
+      { "text": "The Data Retention Act", "correct": false },
+      { "text": "The Cybersecurity Act", "correct": false },
+      { "text": "The Personal Data Protection Act", "correct": true },
+      { "text": "The Privacy Regulation", "correct": false }
+    ]
+  },
+  {
+    "question": "Which regulation applies to organizations worldwide if they collect data on EU citizens?",
+    "answers": [
+      { "text": "The Personal Data Protection Act", "correct": false },
+      { "text": "Executive orders", "correct": false },
+      { "text": "General Data Protection Regulation (GDPR)", "correct": true },
+      { "text": "General Data Protection Principles (GPDP)", "correct": false }
+    ]
+  },
+  {
+    "question": "Under the General Data Protection Regulation (GDPR), when can an individual's rights be superseded by other legal requirements?",
+    "answers": [
+      { "text": "When the data subject withdraws consent for processing", "correct": false },
+      { "text": "When processing is required for compliance with a legal obligation", "correct": true },
+      { "text": "When the data subject explicitly requests their data to be deleted", "correct": false },
+      { "text": "When processing is necessary for the performance of a contract", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the MAIN focus of ISO 27001 standard?",
+    "answers": [
+      { "text": "Risk assessment methodology", "correct": false },
+      { "text": "Information security management systems", "correct": true },
+      { "text": "Cloud computing guidelines", "correct": false },
+      { "text": "eDiscovery processes", "correct": false }
+    ]
+  },
+  {
+    "question": "What does ISO 27002 standard provide?",
+    "answers": [
+      { "text": "Requirements for ISMS", "correct": true },
+      { "text": "Principles for legal investigations", "correct": false },
+      { "text": "Additional controls for cloud services", "correct": false },
+      { "text": "Guidance for implementing ISMS controls", "correct": false }
+    ]
+  },
+  {
+    "question": "Which ISO standard provides guidance specific to implementing controls in a cloud environment?",
+    "answers": [
+      { "text": "ISO 27017", "correct": true },
+      { "text": "ISO 27050", "correct": false },
+      { "text": "ISO 31000", "correct": false },
+      { "text": "ISO 27002", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY focus of ISO 31000?",
+    "answers": [
+      { "text": "Information security management systems", "correct": false },
+      { "text": "Risk management principles and guidelines", "correct": true },
+      { "text": "Cloud computing security controls", "correct": false },
+      { "text": "Data privacy and protection standards", "correct": false }
+    ]
+  },
+  {
+    "question": "What stage of the Systems Development Life Cycle (SDLC) involves transitioning system functions or disposing of hardware components?",
+    "answers": [
+      { "text": "Testing", "correct": false },
+      { "text": "Disposal", "correct": true },
+      { "text": "Development", "correct": false },
+      { "text": "Requirements gathering", "correct": false }
+    ]
+  },
+  {
+    "question": "What stage of Systems Development Life Cycle (SDLC) focuses on documenting what the system should achieve?",
+    "answers": [
+      { "text": "Testing", "correct": false },
+      { "text": "Disposal", "correct": false },
+      { "text": "Development", "correct": false },
+      { "text": "Requirements gathering", "correct": true }
+    ]
+  },
+  {
+    "question": "What stage of the Systems Development Life Cycle (SDLC) involves coding, integration of components, and initial testing?",
+    "answers": [
+      { "text": "Testing", "correct": false },
+      { "text": "Design", "correct": false },
+      { "text": "Development", "correct": true },
+      { "text": "Requirements gathering", "correct": false }
+    ]
+  },
+  {
+    "question": "In what stage of the Systems Development Life Cycle (SDLC) are bugs fixed, security patches updated, and functional modifications made to ensure that the system runs better or more securely?",
+    "answers": [
+      { "text": "Design", "correct": false },
+      { "text": "Development", "correct": false },
+      { "text": "Requirements gathering", "correct": false },
+      { "text": "Operations and maintenance", "correct": true }
+    ]
+  },
+  {
+    "question": "What is an additional security objective that helps ensure information comes from a specific, trusted source?",
+    "answers": [
+      { "text": "Authorization", "correct": false },
+      { "text": "Authentication", "correct": false },
+      { "text": "Availability", "correct": false },
+      { "text": "Authenticity", "correct": true }
+    ]
+  },
+  {
+    "question": "Which of the following is the security objective that ensures an entity cannot later deny performing an action?",
+    "answers": [
+      { "text": "Authenticity", "correct": false },
+      { "text": "Confidentiality", "correct": false },
+      { "text": "Non-repudiation", "correct": true },
+      { "text": "Availability", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a PRIMARY concern of modern Governance, Risk, and Compliance (GRC) programs when handling privacy data?",
+    "answers": [
+      { "text": "Ensuring data is available to authorized users", "correct": false },
+      { "text": "Tracking and enforcing consent for the use of data", "correct": true },
+      { "text": "Preventing unauthorized disclosure of data", "correct": false },
+      { "text": "Guarding against improper modification of data", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following security objectives is specifically concerned with ensuring that data has not been tampered with and maintains its accuracy?",
+    "answers": [
+      { "text": "Availability", "correct": false },
+      { "text": "Integrity", "correct": true },
+      { "text": "Authenticity", "correct": false },
+      { "text": "Confidentiality", "correct": false }
+    ]
+  },
+  {
+    "question": "What can happen if an organization fails to meet external compliance requirements?",
+    "answers": [
+      { "text": "They will face criminal charges.", "correct": false },
+      { "text": "Nothing, there are no consequences.", "correct": false },
+      { "text": "They may face fines or be unable to operate.", "correct": true },
+      { "text": "They will have to adopt more internal standards.", "correct": false }
+    ]
+  },
+  {
+    "question": "Why might an organization choose NOT to comply with voluntary standards?",
+    "answers": [
+      { "text": "The standards are legally required, and noncompliance would result in fines.", "correct": false },
+      { "text": "The organization does not have sufficient resources or budget to implement the standards.", "correct": true },
+      { "text": "Compliance with the standards guarantees financial success.", "correct": false },
+      { "text": "The organization is legally obligated to follow all voluntary standards.", "correct": false }
+    ]
+  },
+  {
+    "question": "What type of compliance refers to standards set within an organization?",
+    "answers": [
+      { "text": "Government compliance", "correct": false },
+      { "text": "Regulatory compliance", "correct": false },
+      { "text": "External compliance", "correct": false },
+      { "text": "Internal compliance", "correct": true }
+    ]
+  },
+  {
+    "question": "What is a significant challenge that organizations face when managing compliance requirements from various sources?",
+    "answers": [
+      { "text": "Achieving government approval for compliance", "correct": false },
+      { "text": "Managing and tracking mutually exclusive elements from different sources", "correct": true },
+      { "text": "Developing external policies for compliance", "correct": false },
+      { "text": "Ensuring compliance automatically reduces costs", "correct": false }
+    ]
+  },
+  {
+    "question": "What is a KEY consideration when defining system boundaries?",
+    "answers": [
+      { "text": "Cost", "correct": false },
+      { "text": "Timelines", "correct": false },
+      { "text": "Complexity", "correct": true },
+      { "text": "Trust level", "correct": false }
+    ]
+  },
+  {
+    "question": "What are some examples of intangible assets?",
+    "answers": [
+      { "text": "Processes and data", "correct": true },
+      { "text": "Facilities and equipment", "correct": false },
+      { "text": "Network and servers", "correct": false },
+      { "text": "Software and firmware", "correct": false }
+    ]
+  },
+  {
+    "question": "What is a KEY consideration when defining system boundaries according to the NIST Risk Management Framework (RMF)?",
+    "answers": [
+      { "text": "The system must be defined based solely on its cost and size.", "correct": false },
+      { "text": "Everything within the system boundary is within scope for the RMF process.", "correct": true },
+      { "text": "The definition of system boundaries is irrelevant to the RMF process.", "correct": false },
+      { "text": "Only internal systems are included in the system boundary, excluding external providers.", "correct": false }
+    ]
+  },
+  {
+    "question": "Why is complexity an important consideration when defining system boundaries?",
+    "answers": [
+      { "text": "Complexity helps to speed up the authorization process.", "correct": false },
+      { "text": "A system with excessive complexity can make it harder to manage, secure, and evaluate.", "correct": true },
+      { "text": "Complexity reduces the number of components needed for a system.", "correct": false },
+      { "text": "Complexity simplifies the identification of security risks.", "correct": false }
+    ]
+  },
+  {
+    "question": "What are the characteristics of a well-defined requirement?",
+    "answers": [
+      { "text": "Preventive, detective, corrective", "correct": false },
+      { "text": "Administrative, physical, technical", "correct": false },
+      { "text": "Baseline, supplemental, compensating", "correct": false },
+      { "text": "Specific, measurable, achievable, relevant, time-bound", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the purpose of allocating requirements in system design?",
+    "answers": [
+      { "text": "To define system functionality", "correct": false },
+      { "text": "To assess system risk", "correct": false },
+      { "text": "To enable tracing of requirements fulfillment", "correct": true },
+      { "text": "To identify controls to apply", "correct": false }
+    ]
+  },
+  {
+    "question": "What type of control helps identify that something undesirable has happened?",
+    "answers": [
+      { "text": "Preventive control", "correct": false },
+      { "text": "Detective control", "correct": true },
+      { "text": "Corrective control", "correct": false },
+      { "text": "Recovery control", "correct": false }
+    ]
+  },
+  {
+    "question": "Why is it important for an organization to enable tracking of requirements fulfillment?",
+    "answers": [
+      { "text": "To ensure that all requirements are met, and no critical elements are overlooked", "correct": true },
+      { "text": "To reduce the number of requirements that need to be defined", "correct": false },
+      { "text": "To increase the complexity of the system", "correct": false },
+      { "text": "To make the system less efficient and harder to maintain", "correct": false }
+    ]
+  },
+  {
+    "question": "What does the ISO certification process focus on more than the NIST Risk Management Framework (RMF)?",
+    "answers": [
+      { "text": "Technical implementation details of controls", "correct": false },
+      { "text": "Organizational and management elements", "correct": true },
+      { "text": "Monitoring control effectiveness", "correct": false },
+      { "text": "Defining system scopes", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the MAIN purpose of the Statement of Applicability (SoA) under ISO 27001?",
+    "answers": [
+      { "text": "To maintain the certification", "correct": false },
+      { "text": "To fully document the security controls", "correct": false },
+      { "text": "To select and justify controls for implementation", "correct": true },
+      { "text": "To define the information security management system's scope", "correct": false }
+    ]
+  },
+  {
+    "question": "How does the ISO certification process differ from the NIST RMF?",
+    "answers": [
+      { "text": "It is less rigorous", "correct": false },
+      { "text": "It relies on third-party auditors", "correct": true },
+      { "text": "It focuses more on technical controls", "correct": false },
+      { "text": "It does not include a risk assessment", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the KEY similarity between the ISO certification process and the NIST RMF?",
+    "answers": [
+      { "text": "They rely on third-party auditors", "correct": false },
+      { "text": "They use the same set of security controls", "correct": false },
+      { "text": "They are mandatory for all organizations", "correct": false },
+      { "text": "They both involve risk assessment and control implementation", "correct": true }
+    ]
+  },
+  {
+    "question": "What does NIST SP 800-39 provide guidance on?",
+    "answers": [
+      { "text": "Responding to risk events", "correct": false },
+      { "text": "Assessing organizational risk", "correct": false },
+      { "text": "Monitoring risk on an ongoing basis", "correct": false },
+      { "text": "Creating an organization-wide risk program", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the KEY objective outlined in NIST SP 800-39 for managing risk across an organization?",
+    "answers": [
+      { "text": "To foster risk-based decision making at all levels", "correct": true },
+      { "text": "To eliminate all information security risks", "correct": false },
+      { "text": "To assign risk management responsibilities only to senior leaders", "correct": false },
+      { "text": "To set organizational risk tolerance", "correct": false }
+    ]
+  },
+  {
+    "question": "What does NIST SP 800-39 state is needed for organizations to successfully execute missions dependent on information systems?",
+    "answers": [
+      { "text": "Regular risk assessments", "correct": false },
+      { "text": "Complete elimination of risk", "correct": false },
+      { "text": "Sufficient resources for risk management", "correct": true },
+      { "text": "Risk management at the senior leader level only", "correct": false }
+    ]
+  },
+  {
+    "question": "What role do senior leaders and executives play in organization-wide risk management?",
+    "answers": [
+      { "text": "They implement technical controls", "correct": false },
+      { "text": "They provide strategic vision and goals", "correct": true },
+      { "text": "They conduct risk assessments", "correct": false },
+      { "text": "They operate information systems", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is the MAIN purpose of mapping information types across the information life cycle model?",
+    "answers": [
+      { "text": "To track the flow of data across systems", "correct": false },
+      { "text": "To identify the data's confidentiality level", "correct": false },
+      { "text": "To ensure protection requirements are identified for each life cycle stage", "correct": true },
+      { "text": "To define the legal requirements for data handling", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of categorizing data by its specific protection needs during the information life cycle?",
+    "answers": [
+      { "text": "To determine the legal jurisdiction for the data", "correct": false },
+      { "text": "To ensure that the appropriate security controls are applied at each stage of the life cycle", "correct": true },
+      { "text": "To identify the ownership of the data", "correct": false },
+      { "text": "To track the financial cost of managing the data", "correct": false }
+    ]
+  },
+  {
+    "question": "What are the three basic states of information?",
+    "answers": [
+      { "text": "Rest, motion, use", "correct": true },
+      { "text": "Creation, processing, storage", "correct": false },
+      { "text": "Input, output, storage", "correct": false },
+      { "text": "Analog, digital, quantum", "correct": false }
+    ]
+  },
+  {
+    "question": "What is a KEY element in the identification process for information types?",
+    "answers": [
+      { "text": "Determining sensitivity levels", "correct": false },
+      { "text": "Mapping life cycle stages", "correct": false },
+      { "text": "Creating data flow diagrams", "correct": false },
+      { "text": "Identifying associated risks and compliance requirements", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY value of using a framework for Governance, Risk, and Compliance (GRC)?",
+    "answers": [
+      { "text": "Ensuring program gaps or inconsistencies", "correct": false },
+      { "text": "Providing program structure", "correct": true },
+      { "text": "Endorsing NIST over other frameworks", "correct": false },
+      { "text": "Limiting an organization's flexibility", "correct": false }
+    ]
+  },
+  {
+    "question": "Which framework is widely used in Governance, Risk, and Compliance (GRC) and is freely available?",
+    "answers": [
+      { "text": "COBIT", "correct": false },
+      { "text": "ISO/IEC", "correct": false },
+      { "text": "NIST", "correct": true },
+      { "text": "COSO", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the primary risk for an organization that does not use a framework to manage its Governance, Risk, and Compliance (GRC) program?",
+    "answers": [
+      { "text": "Inefficient use of resources", "correct": false },
+      { "text": "Gaps or inconsistencies in the protection of systems and assets", "correct": true },
+      { "text": "Failure to achieve ISO certification", "correct": false },
+      { "text": "Limited access to regulatory standards", "correct": false }
+    ]
+  },
+  {
+    "question": "Why might an organization choose to use multiple frameworks in its GRC program?",
+    "answers": [
+      { "text": "To ensure compliance with only one regulatory standard", "correct": false },
+      { "text": "To avoid having to update its controls over time", "correct": false },
+      { "text": "To meet different regulatory, business, and operational needs", "correct": true },
+      { "text": "To simplify the implementation process by limiting choices", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY difference between ISO 27000 series controls and NIST 800-53 controls?",
+    "answers": [
+      { "text": "ISO controls are more focused, while NIST controls are more generic", "correct": false },
+      { "text": "ISO controls are mandatory, while NIST controls are optional", "correct": false },
+      { "text": "ISO controls apply globally, while NIST controls are specifically for U.S. federal systems", "correct": true },
+      { "text": "ISO controls are more numerous and detailed than NIST controls", "correct": false }
+    ]
+  },
+  {
+    "question": "Which framework provides more specific and detailed security controls?",
+    "answers": [
+      { "text": "ISO 27000 series", "correct": false },
+      { "text": "NIST SP 800-53", "correct": true },
+      { "text": "COBIT", "correct": false },
+      { "text": "ITIL", "correct": false }
+    ]
+  },
+  {
+    "question": "Which framework focuses more on technical implementation details of controls?",
+    "answers": [
+      { "text": "ISO 27000 series", "correct": false },
+      { "text": "NIST SP 800 series", "correct": true },
+      { "text": "COBIT", "correct": false },
+      { "text": "ITIL", "correct": false }
+    ]
+  },
+  {
+    "question": "Does the NIST SP 800 series apply only to U.S. federal systems?",
+    "answers": [
+      { "text": "Yes, it is applicable only to federal systems.", "correct": false },
+      { "text": "Yes, but only for organizations that work directly with the federal government.", "correct": false },
+      { "text": "No, it applies solely to international organizations.", "correct": false },
+      { "text": "No, it is also widely used by private-sector organizations and state/local governments.", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the first step an organization must take when ensuring compliance with national and international laws?",
+    "answers": [
+      { "text": "Implement additional security measures", "correct": false },
+      { "text": "Adjust data processing or storage practices", "correct": false },
+      { "text": "Enhance privacy protections to align with legal standards", "correct": false },
+      { "text": "Determine the applicability of relevant laws and regulations", "correct": true }
+    ]
+  },
+  {
+    "question": "What must an organization do after determining the applicability of national and international laws for compliance?",
+    "answers": [
+      { "text": "Implement new security technologies", "correct": false },
+      { "text": "Conduct a detailed assessment of current operations", "correct": true },
+      { "text": "Increase the budget for compliance", "correct": false },
+      { "text": "Establish an internal audit committee", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of the U.S. Federal Information Security Modernization Act of 2014?",
+    "answers": [
+      { "text": "Establish legal definitions for confidentiality, integrity and availability", "correct": false },
+      { "text": "Require annual independent evaluation by each organization", "correct": false },
+      { "text": "Amend and clarify Office of Management and Budget's (OMB) oversight authority over federal information security practices", "correct": true },
+      { "text": "Appoint a senior agency information security officer", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a requirement of the HIPAA Security Rule?",
+    "answers": [
+      { "text": "Implementing administrative, physical, and technical safeguards to protect electronic protected health information (ePHI)", "correct": true },
+      { "text": "Conducting annual audits of healthcare providers' financial records", "correct": false },
+      { "text": "Providing patients with the ability to request changes to their insurance coverage", "correct": false },
+      { "text": "Ensuring that healthcare providers offer free health services to low-income patients", "correct": false }
+    ]
+  },
+  {
+    "question": "What does the organizational profile within the Cybersecurity Framework (CSF) represent?",
+    "answers": [
+      { "text": "The five primary functions of cybersecurity", "correct": false },
+      { "text": "An analysis of cybersecurity risk based on defined CSF tiers", "correct": false },
+      { "text": "A mapping of controls from various frameworks", "correct": false },
+      { "text": "The current and desired state of CSF implementation", "correct": true }
+    ]
+  },
+  {
+    "question": "What are the three main components of the NIST Cybersecurity Framework (CSF)?",
+    "answers": [
+      { "text": "CSF Core, CSF Tiers, CSF Profiles", "correct": true },
+      { "text": "CSF Functions, CSF Categories, CSF Subcategories", "correct": false },
+      { "text": "CSF Mappings, CSF Controls, CSF Frameworks", "correct": false },
+      { "text": "CSF COBIT, CSF ISO, CSF ISA", "correct": false }
+    ]
+  },
+  {
+    "question": "What do the NIST CSF Tiers indicate?",
+    "answers": [
+      { "text": "The versions of the framework", "correct": false },
+      { "text": "The rigor applied to cybersecurity", "correct": true },
+      { "text": "The organizational profiles", "correct": false },
+      { "text": "The primary function", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of developing both current and target organizational profiles in the NIST Cybersecurity Framework (CSF)?",
+    "answers": [
+      { "text": "To evaluate the effectiveness of cybersecurity training programs", "correct": false },
+      { "text": "To identify specific cybersecurity controls for each tier of the framework", "correct": false },
+      { "text": "To allocate resources efficiently by comparing the organization's current and desired cybersecurity state", "correct": true },
+      { "text": "To establish a rigid, unchangeable cybersecurity strategy", "correct": false }
+    ]
+  },
+  {
+    "question": "What processes are typically used to support compliance management processes in an organization?",
+    "answers": [
+      { "text": "Requirements management and enterprise architecture", "correct": true },
+      { "text": "Security testing and security operations", "correct": false },
+      { "text": "Threat modeling and security governance", "correct": false },
+      { "text": "Risk assessment and incident response", "correct": false }
+    ]
+  },
+  {
+    "question": "What are the two types of security activities that compliance activities are often prioritized over?",
+    "answers": [
+      { "text": "Risk management activities and security testing activities", "correct": true },
+      { "text": "Risk management activities and security architecture activities", "correct": false },
+      { "text": "Security governance activities and security engineering activities", "correct": false },
+      { "text": "Security monitoring activities and incident response activities", "correct": false }
+    ]
+  },
+  {
+    "question": "What process ensures traceability from compliance sources to resulting requirements and validation results?",
+    "answers": [
+      { "text": "Security development life cycle", "correct": false },
+      { "text": "Requirements management", "correct": true },
+      { "text": "Enterprise architecture", "correct": false },
+      { "text": "System administration", "correct": false }
+    ]
+  },
+  {
+    "question": "What are two potential consequences of failing to effectively implement compliance programs?",
+    "answers": [
+      { "text": "Legal charges and fines", "correct": true },
+      { "text": "System vulnerabilities and data loss", "correct": false },
+      { "text": "Reputational damage and loss of customers", "correct": false },
+      { "text": "Financial loss and operational disruption", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the FedRAMP program?",
+    "answers": [
+      { "text": "To replace NIST standards", "correct": false },
+      { "text": "To mandate CMMC for all vendors", "correct": false },
+      { "text": "To align with PCI DSS requirements", "correct": false },
+      { "text": "To streamline adoption of cloud services across federal agencies", "correct": true }
+    ]
+  },
+  {
+    "question": "Which of the following is a benefit of using ISO certification in the compliance process?",
+    "answers": [
+      { "text": "ISO certifications are applicable only to government contractors.", "correct": false },
+      { "text": "ISO certifications require internal assessments and do not involve third-party certification bodies.", "correct": false },
+      { "text": "ISO certifications provide an impartial and objective evaluation, enhancing credibility with external stakeholders.", "correct": true },
+      { "text": "ISO certifications are relevant only for large organizations with extensive cybersecurity programs.", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a section (requirement) of the PCI DSS (Payment Card Industry Data Security Standard)?",
+    "answers": [
+      { "text": "Build and maintain a secure network and systems", "correct": false },
+      { "text": "Implement strong access control measures", "correct": false },
+      { "text": "Regularly monitor and test networks", "correct": false },
+      { "text": "Develop and maintain a secure disaster recovery plan", "correct": true }
+    ]
+  },
+  {
+    "question": "What is a key step in successfully integrating a compliance framework into an organization's operations?",
+    "answers": [
+      { "text": "Ignoring existing practices and directly implementing the new framework", "correct": false },
+      { "text": "Developing a detailed implementation plan outlining actions, timelines, and responsibilities", "correct": true },
+      { "text": "Immediately hiring external consultants without reviewing internal systems", "correct": false },
+      { "text": "Prioritizing compliance over all other business goals", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of the NIST Risk Management Framework (RMF)?",
+    "answers": [
+      { "text": "To provide a set of baseline security controls for all systems", "correct": false },
+      { "text": "To establish a national standard for all information security policies", "correct": false },
+      { "text": "To focus solely on the technical implementation of security measures without considering organizational context", "correct": false },
+      { "text": "To guide organizations in managing risk at the system level through a structured, repeatable process", "correct": true }
+    ]
+  },
+  {
+    "question": "What does the NIST RMF process start with before cycling through the risk management steps?",
+    "answers": [
+      { "text": "Selecting controls", "correct": false },
+      { "text": "Preparation activities", "correct": true },
+      { "text": "Implementing controls", "correct": false },
+      { "text": "Authorizing the system", "correct": false }
+    ]
+  },
+  {
+    "question": "Which step in the NIST Risk Management Framework (RMF) involves selecting security and privacy controls from baseline catalogs and tailoring them to the specifics of the system?",
+    "answers": [
+      { "text": "Categorize", "correct": false },
+      { "text": "Implement", "correct": false },
+      { "text": "Select", "correct": true },
+      { "text": "Assess", "correct": false }
+    ]
+  },
+  {
+    "question": "In the NIST Risk Management Framework (RMF), which step is responsible for determining whether the security and privacy controls are operating correctly and achieving the desired results?",
+    "answers": [
+      { "text": "Select", "correct": false },
+      { "text": "Categorize", "correct": false },
+      { "text": "Implement", "correct": false },
+      { "text": "Assess", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the relationship between information security and risk management within an organizational context?",
+    "answers": [
+      { "text": "Both risk management and information security are important, but they operate independently", "correct": false },
+      { "text": "Risk management and information security are not directly linked, but both confer a benefit to the organization if implemented successfully", "correct": false },
+      { "text": "Risk management provides the strategic foundation for prioritizing and guiding information security investments and activities", "correct": true },
+      { "text": "Information security programs determine the scope and direction of risk management activities", "correct": false }
+    ]
+  },
+  {
+    "question": "Which security framework is NOT considered to be risk-based in its approach?",
+    "answers": [
+      { "text": "PCI DSS", "correct": true },
+      { "text": "ISO/IEC 27001", "correct": false },
+      { "text": "ISACA COBIT", "correct": false },
+      { "text": "NIST Cybersecurity Framework (CSF)", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following stages is NOT in the information life cycle?",
+    "answers": [
+      { "text": "Create", "correct": false },
+      { "text": "Edit", "correct": true },
+      { "text": "Share", "correct": false },
+      { "text": "Store", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following frameworks supports the use of COBIT?",
+    "answers": [
+      { "text": "CON IT", "correct": false },
+      { "text": "ASSESS IT", "correct": false },
+      { "text": "QUAL IT", "correct": false },
+      { "text": "VAL IT", "correct": true }
+    ]
+  },
+  {
+    "question": "Which of the following best describes the security principle that prevents an individual from denying their involvement in a transaction?",
+    "answers": [
+      { "text": "Non-repudiation", "correct": true },
+      { "text": "Consistency", "correct": false },
+      { "text": "Durability", "correct": false },
+      { "text": "Integrity assurance", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the MAIN implementation difference between ISO and NIST Risk Management Frameworks?",
+    "answers": [
+      { "text": "ISO focuses on individual systems, while NIST RMF focuses on the organization.", "correct": false },
+      { "text": "ISO is mandatory for U.S. federal information systems, while NIST RMF is optional.", "correct": false },
+      { "text": "ISO focuses on the organization, while NIST RMF focuses on individual systems and their impact on organizational risk.", "correct": true },
+      { "text": "NIST RMF is used to demonstrate commitment to information security, while ISO is an organizational tool.", "correct": false }
+    ]
+  },
+  {
+    "question": "Which state of information is generally considered the MOST difficult to protect due to its active processing and exposure in memory?",
+    "answers": [
+      { "text": "Data undergoing training in AI models", "correct": false },
+      { "text": "Data stored on devices or media", "correct": false },
+      { "text": "Data in transit", "correct": false },
+      { "text": "Data being actively accessed and processed", "correct": true }
+    ]
+  },
+  {
+    "question": "Within U.S. federal agencies, which role is typically responsible for granting official permission for a system to operate?",
+    "answers": [
+      { "text": "System Owner (SO)", "correct": false },
+      { "text": "Control Assessor (CA)", "correct": false },
+      { "text": "Authorizing Official (AO)", "correct": true },
+      { "text": "Senior Technology Officer (STO)", "correct": false }
+    ]
+  },
+  {
+    "question": "Under the European Union GDPR, which role is most likely to be sanctioned or fined in the event of a privacy breach?",
+    "answers": [
+      { "text": "The third-party hosting any data", "correct": false },
+      { "text": "The data processor", "correct": false },
+      { "text": "The data controller", "correct": true },
+      { "text": "The data warehouse", "correct": false }
+    ]
+  },
+  {
+    "question": "What comprehensive process must organizations embark on once the applicability of laws is determined?",
+    "answers": [
+      { "text": "Conducting a gap analysis to identify areas of non-compliance", "correct": false },
+      { "text": "Ensuring full compliance through detailed assessment and adjustments", "correct": true },
+      { "text": "Developing a risk-based data protection and privacy program", "correct": false },
+      { "text": "Updating policies and procedures without verifying legal requirements", "correct": false }
+    ]
+  },
+  {
+    "question": "A manager ... what is the correct exposure (EF) factor?",
+    "answers": [
+      { "text": "$100,000", "correct": false },
+      { "text": "0.2 (or 20%)", "correct": true },
+      { "text": "$400,000", "correct": false },
+      { "text": "0.8 (or 80%)", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the correct annual rate of occurrence (ARO) when an event occurs once every four years?",
+    "answers": [
+      { "text": "0.25", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "4/3", "correct": false },
+      { "text": "$125,000", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the correct annual loss expectancy (ALE) in the flooding example?",
+    "answers": [
+      { "text": "25%", "correct": false },
+      { "text": "$25,000", "correct": true },
+      { "text": "$100,000", "correct": false },
+      { "text": "$200,000", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following standards or regulations require portability of personal information?",
+    "answers": [
+      { "text": "NIST SP800-88", "correct": false },
+      { "text": "ISO/IEC 27005", "correct": false },
+      { "text": "ISO/IEC 27001", "correct": false },
+      { "text": "HIPAA", "correct": true }
+    ]
+  },
+  {
+    "question": "Under the GDPR, what is the maximum allowable time for notifying a supervisory authority of a breach involving personally identifiable information (PII)?",
+    "answers": [
+      { "text": "24 hours", "correct": false },
+      { "text": "48 hours", "correct": false },
+      { "text": "72 hours", "correct": true },
+      { "text": "As soon as possible on a best-effort basis", "correct": false }
+    ]
+  },
+  {
+    "question": "Does GDPR allow PII of EEA citizens to be sent outside the territory?",
+    "answers": [
+      { "text": "This is permitted where an agreed equivalence has been established", "correct": true },
+      { "text": "This is permitted under the Safe Harbor provision", "correct": false },
+      { "text": "This is permitted if model contract clauses are used", "correct": false },
+      { "text": "This is permitted but only under article 5 exemptions", "correct": false }
+    ]
+  },
+  {
+    "question": "How many maturity levels does CMMC v2.0 define?",
+    "answers": [
+      { "text": "3", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "6", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the primary purpose of FISMA?",
+    "answers": [
+      { "text": "To establish cybersecurity standards for suppliers to the U.S. Department of Defense", "correct": false },
+      { "text": "To ensure federal agencies implement and maintain information security programs to protect government information", "correct": true },
+      { "text": "A standard for cybersecurity compliance covering contractors to critical infrastructure providers", "correct": false },
+      { "text": "To promote the adoption of cloud-based solutions within U.S. government systems", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the primary purpose of FedRAMP as it relates to U.S. federal agencies?",
+    "answers": [
+      { "text": "To define current and target states for cloud adoption across federal systems", "correct": false },
+      { "text": "To provide a risk-based approach like ISO27001 for federal agencies", "correct": false },
+      { "text": "A framework aimed at securing the supply chain of federal agencies", "correct": false },
+      { "text": "To provide a standardized approach to security assessment and authorization for cloud services used by federal agencies", "correct": true }
+    ]
+  },
+  {
+    "question": "Organizational governance should ensure transparency, accountability, and what else?",
+    "answers": [
+      { "text": "Effective decision-making", "correct": true },
+      { "text": "Employee monitoring", "correct": false },
+      { "text": "Project management", "correct": false },
+      { "text": "IT support", "correct": false }
+    ]
+  },
+  {
+    "question": "Risk identification, framing, or scoping helps with what?",
+    "answers": [
+      { "text": "Providing better levels of IT support", "correct": false },
+      { "text": "Ensuring leadership can avoid the use of risk assessments", "correct": false },
+      { "text": "Mitigating the requirement for the organization to undertake formal risk management", "correct": false },
+      { "text": "Determining the level of risk that is acceptable for the organization", "correct": true }
+    ]
+  },
+  {
+    "question": "Which framework could an organization use to evaluate and improve its existing cybersecurity profile?",
+    "answers": [
+      { "text": "EU GDPR", "correct": false },
+      { "text": "NIST Cybersecurity Framework", "correct": true },
+      { "text": "ISO 9001", "correct": false },
+      { "text": "ISO 31000", "correct": false }
+    ]
+  },
+  {
+    "question": "Where would you find guidance for managing information security risk for an organization, mission or system?",
+    "answers": [
+      { "text": "NIST SP 800-30", "correct": false },
+      { "text": "FIPS 200", "correct": false },
+      { "text": "NIST SP 800-39", "correct": true },
+      { "text": "ISO 31000", "correct": false }
+    ]
+  },
+  {
+    "question": "An organization starts storing information in the cloud. Which state in the information life cycle will the data be in during upload?",
+    "answers": [
+      { "text": "Creation", "correct": false },
+      { "text": "Storage", "correct": false },
+      { "text": "Use", "correct": false },
+      { "text": "Dissemination", "correct": true }
+    ]
+  },
+  {
+    "question": "Which term defines a primary security objective that seeks to ensure that data has not been modified?",
+    "answers": [
+      { "text": "Confidentiality", "correct": false },
+      { "text": "Integrity", "correct": true },
+      { "text": "Availability", "correct": false },
+      { "text": "Safety", "correct": false }
+    ]
+  },
+  {
+    "question": "Organizational facilities, employees and human resources, physical equipment, and networks are considered what kind of assets?",
+    "answers": [
+      { "text": "Tangible", "correct": true },
+      { "text": "Intangible", "correct": false },
+      { "text": "Digital", "correct": false },
+      { "text": "Services", "correct": false }
+    ]
+  },
+  {
+    "question": "Organizational policies, staff training, and governance are examples of what type of controls?",
+    "answers": [
+      { "text": "Administrative", "correct": true },
+      { "text": "Physical", "correct": false },
+      { "text": "Technical", "correct": false },
+      { "text": "Operational", "correct": false }
+    ]
+  },
+  {
+    "question": "Under the NIST RMF, reviewing and approving privacy plans prior to authorization are duties of which role?",
+    "answers": [
+      { "text": "Senior agency information security officer", "correct": false },
+      { "text": "Senior official for privacy", "correct": true },
+      { "text": "Mission or business owner", "correct": false },
+      { "text": "Authorizing Official", "correct": false }
+    ]
+  },
+  {
+    "question": "Definition: senior official with authority to assume responsibility and accountability for operating a system — which role?",
+    "answers": [
+      { "text": "Control assessor", "correct": false },
+      { "text": "Security architect", "correct": false },
+      { "text": "Common control provider", "correct": false },
+      { "text": "Authorizing Official", "correct": true }
+    ]
+  },
+  {
+    "question": "Failure of some compliance programs within an organization can result in which of the following?",
+    "answers": [
+      { "text": "Financial or legal impacts", "correct": true },
+      { "text": "Lost employee bonuses", "correct": false },
+      { "text": "Increased revenue", "correct": false },
+      { "text": "Reduced staff turnover", "correct": false }
+    ]
+  },
+  {
+    "question": "Focusing all cybersecurity efforts toward one jurisdiction's requirements may cause what risk?",
+    "answers": [
+      { "text": "There is no additional risk, as long as compliance is met.", "correct": false },
+      { "text": "Compliance requirements alone may not fully cover business protection needs.", "correct": true },
+      { "text": "This could result in underinvestment for risk-managed security in that jurisdiction.", "correct": false },
+      { "text": "Legal staff will need to be involved. This increases risk and cost.", "correct": false }
+    ]
+  },
+  {
+    "question": "Which compliance framework streamlines the adoption of cloud services within the U.S government?",
+    "answers": [
+      { "text": "PCI DSS", "correct": false },
+      { "text": "FedRAMP", "correct": true },
+      { "text": "CMMC", "correct": false },
+      { "text": "ISO/IEC 27001", "correct": false }
+    ]
+  },
+  {
+    "question": "To demonstrate conformance with an internationally agreed security standard, follow which?",
+    "answers": [
+      { "text": "PCI DSS", "correct": false },
+      { "text": "ISO/IEC 27001", "correct": true },
+      { "text": "NIST 800-37R2", "correct": false },
+      { "text": "GDPR", "correct": false }
+    ]
+  },
+  {
+    "question": "Which industry security standard is designed to protect payment card information and applies to any organization processing card data?",
+    "answers": [
+      { "text": "PCI DSS", "correct": true },
+      { "text": "FedRAMP", "correct": false },
+      { "text": "GDPR", "correct": false },
+      { "text": "CMMC", "correct": false }
+    ]
+  },
+  {
+    "question": "Which certification program is designed for vendors/providers to the U.S. DoD?",
+    "answers": [
+      { "text": "FedRAMP", "correct": false },
+      { "text": "CMMC", "correct": true },
+      { "text": "NIST 800-37R2", "correct": false },
+      { "text": "PCI DSS", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is not an individual right under the EU GDPR?",
+    "answers": [
+      { "text": "The right to be informed", "correct": false },
+      { "text": "The right of access", "correct": false },
+      { "text": "The right to erasure", "correct": false },
+      { "text": "The right to regulate", "correct": true }
+    ]
+  },
+  {
+    "question": "Your organization operates in the United States and Germany. Which law would apply to operations in Germany?",
+    "answers": [
+      { "text": "GDPR", "correct": true },
+      { "text": "HIPAA", "correct": false },
+      { "text": "FISMA", "correct": false },
+      { "text": "SOX", "correct": false }
+    ]
+  },
+  {
+    "question": "FIRST step to address GRC shortcomings after a data breach exposing PII and prioritization issues?",
+    "answers": [
+      { "text": "Enhance Compliance Monitoring Processes", "correct": false },
+      { "text": "Conduct a Data Classification Exercise", "correct": true },
+      { "text": "Adopt a Risk-Based Security Approach by integrating risk assessments into compliance activities", "correct": false },
+      { "text": "Develop a Regulatory Training Program", "correct": false }
+    ]
+  },
+  {
+    "question": "Primary focus to strengthen governance after vendor-related data exposure?",
+    "answers": [
+      { "text": "Strengthen API security monitoring", "correct": false },
+      { "text": "Conduct a security awareness campaign", "correct": false },
+      { "text": "Revoke vendor access immediately and require security review", "correct": false },
+      { "text": "Implement a third-party risk management (TPRM) framework that mandates security audits and contractual obligations", "correct": true }
+    ]
+  },
+  {
+    "question": "To prevent configuration drift and unauthorized cryptographic changes what governance improvement should be prioritized?",
+    "answers": [
+      { "text": "Implement configuration management and baseline enforcement", "correct": true },
+      { "text": "Mandate weekly compliance audits", "correct": false },
+      { "text": "Require all engineers to obtain compliance certifications", "correct": false },
+      { "text": "Encrypt all customer data by default", "correct": false }
+    ]
+  },
+  {
+    "question": "To align with HIPAA and NIST RMF when roles are vaguely assigned, what governance improvement should be implemented FIRST?",
+    "answers": [
+      { "text": "Define security roles and responsibilities within an official security governance policy to ensure accountability", "correct": true },
+      { "text": "Increase security awareness training", "correct": false },
+      { "text": "Conduct more frequent risk assessments", "correct": false },
+      { "text": "Deploy an automated incident response system", "correct": false }
+    ]
+  },
+  {
+    "question": "Most strategic governance improvement after phishing led to overprivileged accounts?",
+    "answers": [
+      { "text": "Deploy AI-powered phishing detection tools", "correct": false },
+      { "text": "Require multi-factor authentication (MFA) on all accounts", "correct": false },
+      { "text": "Enforce a least privilege access model", "correct": true },
+      { "text": "Increase cybersecurity awareness training", "correct": false }
+    ]
+  },
+  {
+    "question": "What should the Chief Compliance Officer prioritize after sensitive patient data found on a nonencrypted file share?",
+    "answers": [
+      { "text": "Encrypt all files immediately", "correct": false },
+      { "text": "Segment and classify the data first, ensuring proper governance while gradually introducing encryption policies", "correct": true },
+      { "text": "Conduct an emergency security audit, delaying remediation", "correct": false },
+      { "text": "Prioritize regulatory notification and incident response", "correct": false }
+    ]
+  },
+  {
+    "question": "How should the Compliance Director enforce access controls without disrupting critical operations?",
+    "answers": [
+      { "text": "Immediately revoke all excessive permissions", "correct": false },
+      { "text": "Phase out high-risk access first", "correct": false },
+      { "text": "Adopt just-in-time access", "correct": true },
+      { "text": "Implement quarterly access reviews", "correct": false }
+    ]
+  },
+  {
+    "question": "Most prudent strategy to enforce standard retention policies across departments?",
+    "answers": [
+      { "text": "Purge all noncompliant data immediately", "correct": false },
+      { "text": "Standardize policies between departments within a transition period", "correct": true },
+      { "text": "Allow departments to manage their own retention policies", "correct": false },
+      { "text": "Focus on employee training first", "correct": false }
+    ]
+  },
+  {
+    "question": "How should the CISO address compliance and governance gaps without disrupting flight operations?",
+    "answers": [
+      { "text": "Disable shared storage immediately", "correct": false },
+      { "text": "Audit access configurations first", "correct": false },
+      { "text": "Focus on employee training", "correct": false },
+      { "text": "Implement phased access policy changes", "correct": true }
+    ]
+  },
+  {
+    "question": "Best course of action regarding noncompliant vendors using outdated encryption?",
+    "answers": [
+      { "text": "Immediately terminate contracts with noncompliant vendors", "correct": false },
+      { "text": "Require vendors to update encryption protocols within a defined grace period, while implementing compensating controls", "correct": true },
+      { "text": "Restrict noncompliant vendors to low-risk transactions only", "correct": false },
+      { "text": "Continue working with the vendors while increasing internal monitoring", "correct": false }
+    ]
+  },
+  {
+    "question": "Best governance approach for undocumented third-party SaaS used inside an organization aligning with FedRAMP?",
+    "answers": [
+      { "text": "Enforce an immediate ban on all unauthorized SaaS applications", "correct": false },
+      { "text": "Implement a temporary exception policy that allows limited use while performing security reviews", "correct": true },
+      { "text": "Require business units to formally request third-party SaaS approval", "correct": false },
+      { "text": "Prioritize security awareness training before restricting application usage", "correct": false }
+    ]
+  },
+  {
+    "question": "Best steps to update outdated policies without overwhelming leaders?",
+    "answers": [
+      { "text": "Prioritize the most critical policies for immediate review while establishing a long-term update schedule", "correct": true },
+      { "text": "Require all departments to review and update security policies within 30 days", "correct": false },
+      { "text": "Conduct a company-wide risk assessment before revising any policies", "correct": false },
+      { "text": "Extend the existing policies for another year", "correct": false }
+    ]
+  },
+  {
+    "question": "How can the compliance manager best ensure standardized governance model for user access across locations?",
+    "answers": [
+      { "text": "Implement automated access reviews across all locations to enforce consistency", "correct": true },
+      { "text": "Require each location to develop its own access governance model", "correct": false },
+      { "text": "Establish centralized policies but allow locations some flexibility in implementation timelines", "correct": false },
+      { "text": "Increase audit frequency at noncompliant locations before making governance changes", "correct": false }
+    ]
+  },
+  {
+    "question": "How to address inconsistency in security controls across international branches using COBIT?",
+    "answers": [
+      { "text": "Require a single global security standard based on COBIT", "correct": false },
+      { "text": "Allow regional variation within tolerance levels, mandating core security controls that must be uniformly followed", "correct": true },
+      { "text": "Provide compliance training for regional teams, but allow them to determine implementation details", "correct": false },
+      { "text": "Conduct a global audit before making governance changes", "correct": false }
+    ]
+  },
+  {
+    "question": "How can the Security and Compliance Director best address inconsistent system security documentation across business units?",
+    "answers": [
+      { "text": "Require all business units to immediately standardize their security documentation", "correct": false },
+      { "text": "Establish a centralized compliance framework with guidelines but allow some flexibility", "correct": true },
+      { "text": "Mandate quarterly compliance reviews and provide autonomy to refine documentation", "correct": false },
+      { "text": "Implement automated compliance tracking tools but allow business units to maintain their own documentation", "correct": false }
+    ]
+  },
+  {
+    "question": "Best approach to address differing data retention policies under GDPR?",
+    "answers": [
+      { "text": "Implement a company-wide data retention standard and enforce immediate compliance", "correct": false },
+      { "text": "Require departments to submit their own data retention policies for approval", "correct": false },
+      { "text": "Develop retention guidelines aligned with GDPR while allowing departments to adjust", "correct": true },
+      { "text": "Focus on employee training before enforcing stricter data retention policies", "correct": false }
+    ]
+  },
+  {
+    "question": "Best remediation strategy after failing SOC 2 due to inadequate vendor access control policies?",
+    "answers": [
+      { "text": "Restrict all vendor access until a complete security assessment is conducted", "correct": false },
+      { "text": "Implement stricter access control policies immediately, while allowing limited vendor operations under closer monitoring", "correct": true },
+      { "text": "Develop a vendor risk management program but allow vendors to maintain current access levels", "correct": false },
+      { "text": "Require vendor security certifications before making any changes", "correct": false }
+    ]
+  },
+  {
+    "question": "Best step to address lack of a formal incident response process when preparing for CMMC?",
+    "answers": [
+      { "text": "Develop a comprehensive incident response plan and enforce immediate compliance", "correct": false },
+      { "text": "Require all teams to follow industry best practices but allow flexibility", "correct": false },
+      { "text": "Focus on training employees on incident handling before implementing a formal policy", "correct": false },
+      { "text": "Establish a high-level incident response framework for the organization, while allowing departments to tailor specific procedures", "correct": true }
+    ]
+  },
+  {
+    "question": "What can the CCO implement to address developer resistance to security controls in SDLC?",
+    "answers": [
+      { "text": "Enforce strict security policies immediately", "correct": false },
+      { "text": "Implement mandatory security controls in phases, prioritizing critical security gaps first", "correct": true },
+      { "text": "Allow developers to bypass security controls if justified", "correct": false },
+      { "text": "Focus on security awareness programs before integrating stricter controls", "correct": false }
+    ]
+  },
+  {
+    "question": "How can the GRC manager mitigate risks from legacy systems that don't meet new encryption standards?",
+    "answers": [
+      { "text": "Apply compensating security controls while transitioning legacy systems over time", "correct": true },
+      { "text": "Decommission all legacy systems immediately", "correct": false },
+      { "text": "Exempt legacy systems from compliance requirements", "correct": false },
+      { "text": "Implement manual security monitoring for legacy systems instead of upgrading", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the primary purpose of a Risk Management Framework (RMF)?",
+    "answers": [
+      { "text": "To eliminate all risks from an organization's IT environment", "correct": false },
+      { "text": "To ensure compliance with international privacy laws", "correct": false },
+      { "text": "To provide a structured approach for managing risk throughout the system life cycle", "correct": true },
+      { "text": "To establish security baselines for all systems", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is PRIMARILY responsible for accepting residual risks in the RMF process?",
+    "answers": [
+      { "text": "System owner", "correct": false },
+      { "text": "Information system security officer", "correct": false },
+      { "text": "Security control assessor", "correct": false },
+      { "text": "Authorizing Official (AO)", "correct": true }
+    ]
+  },
+  {
+    "question": "Which standard is used to categorize information systems based on impact levels in the RMF process?",
+    "answers": [
+      { "text": "ISO/IEC 27001:2022", "correct": false },
+      { "text": "FIPS 199", "correct": true },
+      { "text": "NIST SP 800-53", "correct": false },
+      { "text": "COBIT", "correct": false }
+    ]
+  },
+  {
+    "question": "What document provides baseline security controls for U.S. federal information systems as referred by the RMF?",
+    "answers": [
+      { "text": "FIPS 200", "correct": false },
+      { "text": "NIST SP 800-53B Control Baselines", "correct": true },
+      { "text": "ISO 27005", "correct": false },
+      { "text": "COBIT", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of a technical security control?",
+    "answers": [
+      { "text": "Security awareness training", "correct": false },
+      { "text": "Incident response planning", "correct": false },
+      { "text": "Encryption of data at rest", "correct": true },
+      { "text": "Separation of duties", "correct": false }
+    ]
+  },
+  {
+    "question": "Which method will Jane use to verify that controls are functioning as intended?",
+    "answers": [
+      { "text": "Threat modeling", "correct": false },
+      { "text": "Penetration testing only", "correct": false },
+      { "text": "Testing, interviews, and examinations", "correct": true },
+      { "text": "System decommissioning", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the outcome of the authorization phase in the RMF process?",
+    "answers": [
+      { "text": "Formal Authority to Operate (ATO) has been issued by the Authorizing Official (AO)", "correct": true },
+      { "text": "Implementation of additional controls required", "correct": false },
+      { "text": "Identification of all vulnerabilities in the system", "correct": false },
+      { "text": "Continuous monitoring strategy development", "correct": false }
+    ]
+  },
+  {
+    "question": "What is an example of a key activity during continuous monitoring in the RMF process?",
+    "answers": [
+      { "text": "Decommissioning outdated systems immediately", "correct": false },
+      { "text": "Conducting annual risk assessments only", "correct": false },
+      { "text": "Tracking compliance and regulatory changes that might affect risk posture", "correct": true },
+      { "text": "Eliminating all residual risks", "correct": false }
+    ]
+  },
+  {
+    "question": "Which factor most influences selection of security controls in an RMF process?",
+    "answers": [
+      { "text": "Organizational budget constraints", "correct": false },
+      { "text": "System categorization based on impact levels", "correct": true },
+      { "text": "Number of users accessing the system", "correct": false },
+      { "text": "Age of the system's hardware", "correct": false }
+    ]
+  },
+  {
+    "question": "What is required before implementing security controls in an information system?",
+    "answers": [
+      { "text": "A formal Authority to Operate from the Authorizing Official", "correct": false },
+      { "text": "Completion of continuous monitoring activities", "correct": false },
+      { "text": "Approval from external auditors", "correct": false },
+      { "text": "Development of a detailed implementation plan", "correct": true }
+    ]
+  },
+  {
+    "question": "How does risk management align with organizational objectives?",
+    "answers": [
+      { "text": "By eliminating all risks to achieve zero vulnerabilities", "correct": false },
+      { "text": "By managing threats based on their potential impact to organizational goals", "correct": true },
+      { "text": "By ensuring compliance with all regulatory standards", "correct": false },
+      { "text": "By focusing solely on financial risks", "correct": false }
+    ]
+  },
+  {
+    "question": "Which stakeholder is responsible for implementing and maintaining security controls in the RMF process?",
+    "answers": [
+      { "text": "Rita, the system owner", "correct": true },
+      { "text": "Mary, the Authorizing Official", "correct": false },
+      { "text": "Naveen, the security control assessor", "correct": false },
+      { "text": "Rick, the CIO", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the primary purpose of categorizing an information system in the RMF process?",
+    "answers": [
+      { "text": "To determine its financial value", "correct": false },
+      { "text": "To identify the number of users accessing the system", "correct": false },
+      { "text": "To assess the potential impact of a security breach on confidentiality, integrity, and availability", "correct": true },
+      { "text": "To establish compliance with ISO standards", "correct": false }
+    ]
+  },
+  {
+    "question": "Which factor should be considered when tailoring security controls for an organization?",
+    "answers": [
+      { "text": "Age of existing hardware systems", "correct": false },
+      { "text": "Specific threats faced by the organization", "correct": true },
+      { "text": "Number of employees in the organization", "correct": false },
+      { "text": "The organization's marketing strategy", "correct": false }
+    ]
+  },
+  {
+    "question": "Why is it important to document the implementation of security controls?",
+    "answers": [
+      { "text": "To ensure faster system decommissioning when needed", "correct": false },
+      { "text": "To eliminate residual risks completely", "correct": false },
+      { "text": "To provide evidence of compliance and support future assessments", "correct": true },
+      { "text": "To reduce system performance overhead", "correct": false }
+    ]
+  },
+  {
+    "question": "Which activity is part of a security control assessment in the RMF process?",
+    "answers": [
+      { "text": "Reviewing marketing strategies for potential risks", "correct": false },
+      { "text": "Conducting annual performance reviews for staff", "correct": false },
+      { "text": "Developing new encryption algorithms", "correct": false },
+      { "text": "Testing controls to verify they are functioning as intended", "correct": true }
+    ]
+  },
+  {
+    "question": "What is a key consideration for an Authorizing Official (AO) when granting an Authority to Operate (ATO)?",
+    "answers": [
+      { "text": "Level of residual risk remaining after control implementation", "correct": true },
+      { "text": "Opinions of external auditors only", "correct": false },
+      { "text": "Cost of implementing new hardware systems", "correct": false },
+      { "text": "Number of users who will access the system", "correct": false }
+    ]
+  },
+  {
+    "question": "What is one objective of continuous monitoring in the RMF process?",
+    "answers": [
+      { "text": "To reduce all residual risks to zero", "correct": false },
+      { "text": "To identify new vulnerabilities that may arise over time", "correct": true },
+      { "text": "To eliminate outdated policies automatically", "correct": false },
+      { "text": "To finalize compliance documentation permanently", "correct": false }
+    ]
+  },
+  {
+    "question": "Which best describes the relationship between risk, threat, and vulnerability in the RMF process?",
+    "answers": [
+      { "text": "Risk is the likelihood of a threat exploiting a vulnerability, leading to an adverse impact", "correct": true },
+      { "text": "Threats always result in vulnerabilities being exploited", "correct": false },
+      { "text": "Vulnerabilities are eliminated through proper risk management", "correct": false },
+      { "text": "Risk is independent of threats and vulnerabilities", "correct": false }
+    ]
+  },
+  {
+    "question": "In the RMF process, who is responsible for conducting security assessments to determine effectiveness of controls?",
+    "answers": [
+      { "text": "System owner", "correct": false },
+      { "text": "Control assessor", "correct": true },
+      { "text": "Authorizing Official", "correct": false },
+      { "text": "Chief Information Security Officer", "correct": false }
+    ]
+  },
+  {
+    "question": "Which impact level would be assigned to a system where a loss of confidentiality could cause serious damage to national security?",
+    "answers": [
+      { "text": "Low", "correct": false },
+      { "text": "Moderate", "correct": false },
+      { "text": "High", "correct": true },
+      { "text": "Critical", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the most important factor to consider when selecting security controls for a new system?",
+    "answers": [
+      { "text": "The organization's defined risk tolerance", "correct": true },
+      { "text": "The number of users accessing the system daily", "correct": false },
+      { "text": "The vendor's reputation for cost-effective solutions", "correct": false },
+      { "text": "The organization's geographic location", "correct": false }
+    ]
+  },
+  {
+    "question": "During a security control assessment, which method can validate that controls are operating effectively?",
+    "answers": [
+      { "text": "Reviewing financial reports for anomalies", "correct": false },
+      { "text": "Conducting annual staff performance reviews", "correct": false },
+      { "text": "Performing penetration testing and vulnerability scans", "correct": true },
+      { "text": "Creating new policies for data management", "correct": false }
+    ]
+  }
+]
