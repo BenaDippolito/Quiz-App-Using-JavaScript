@@ -23,6 +23,32 @@
             <a class="btn outline" href="flashcards.html">Flashcards</a>
         </div>
     </nav>
+    <main class="container">
+        <section class="top-card">
+            <h1>Flashcards</h1>
+            <form id="flashForm" class="card">
+                <label>
+                    Domain:
+                    <select id="domainSelect">
+                        <option value="1">Domain 1</option>
+                        <option value="2">Domain 2</option>
+                        <option value="3">Domain 3</option>
+                        <option value="4">Domain 4</option>
+                        <option value="5">Domain 5</option>
+                        <option value="6">Domain 6</option>
+                        <option value="7">Domain 7</option>
+                    </select>
+                </label>
+                <label>
+                    Number of cards:
+                    <input id="cardCount" type="number" min="1" value="20" />
+                </label>
+                <div class="actions">
+                    <button id="startStudy" class="btn primary" type="button">Start</button>
+                </div>
+            </form>
+        </section>
+    </main>
     <div class="preview">
         <div class="meta">
             <div class="title">Flashcards </div>
@@ -45,13 +71,11 @@
 
     <script src="script.js"></script>
     <script>
-        // Use the live questions array from script.js if available.
-        // `questions` is declared with `const` in script.js and is not a property of window,
-        // so check the identifier first and fall back to window.questions for safety.
-        const allQuestions = (typeof questions !== 'undefined') ? questions : (window.questions || []);
+        // Flashcards controller: load domain JSON on Start, cap requested count to available items
 
-        // Pick up to N random unique questions using Fisher-Yates shuffle
+        // Utility: pick N random unique items
         function pickRandom(arr, n) {
+            if (!Array.isArray(arr) || arr.length === 0 || n <= 0) return [];
             const copy = arr.slice();
             for (let i = copy.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
@@ -59,15 +83,6 @@
             }
             return copy.slice(0, Math.min(n, copy.length));
         }
-
-        const SAMPLE_SIZE = 10;
-        const selected = pickRandom(allQuestions, SAMPLE_SIZE);
-
-        // Build flashcards: front = question, back = correct answer text
-        const flashcards = selected.map(q => ({
-            question: q.question,
-            answer: (q.answers.find(a => a.correct) || {}).text || (q.answers[0] && q.answers[0].text) || ''
-        }));
 
         // UI refs
         const cardEl = document.getElementById('card');
@@ -78,10 +93,16 @@
         const flipBtn = document.getElementById('flip');
         const countEl = document.getElementById('count');
 
+        // Form refs
+        const domainSelect = document.getElementById('domainSelect');
+        const cardCountInput = document.getElementById('cardCount');
+        const startBtn = document.getElementById('startStudy');
+
+        let flashcards = [];
         let idx = 0;
 
         function render() {
-            if (!flashcards.length) {
+            if (!flashcards || flashcards.length === 0) {
                 frontEl.textContent = 'No flashcards available.';
                 backEl.textContent = '';
                 countEl.textContent = '0 / 0';
@@ -91,7 +112,6 @@
             frontEl.textContent = cur.question;
             backEl.textContent = cur.answer;
             countEl.textContent = `${idx + 1} / ${flashcards.length}`;
-            // ensure card is front-facing
             cardEl.classList.remove('flipped');
         }
 
@@ -110,12 +130,83 @@
         flipBtn.addEventListener('click', () => {
             cardEl.classList.toggle('flipped');
         });
-
-        // allow clicking the card to flip
         cardEl.addEventListener('click', () => cardEl.classList.toggle('flipped'));
 
-        // initial render
-        render();
+        // Try to load domain data from data/domainX.json. If that fails, fall back to data/domains.json and read domain key.
+        async function loadDomainData(domainNumber) {
+            const localPath = `data/domain${domainNumber}.json`;
+            try {
+                const res = await fetch(localPath, { cache: 'no-store' });
+                if (res.ok) {
+                    const data = await res.json();
+                    // Expecting an array of questions
+                    if (Array.isArray(data)) return data;
+                }
+            } catch (e) {
+                // ignore and try fallback
+            }
+
+            // fallback to domains.json
+            try {
+                const res2 = await fetch('data/domains.json', { cache: 'no-store' });
+                if (res2.ok) {
+                    const all = await res2.json();
+                    const key = `domain${domainNumber}`;
+                    if (Array.isArray(all[key])) return all[key];
+                }
+            } catch (e) {
+                // ignore
+            }
+            return [];
+        }
+
+        async function startStudy() {
+            if (!startBtn) return;
+            startBtn.disabled = true;
+            const domainNum = Number(domainSelect.value) || 1;
+            let requested = parseInt(cardCountInput.value, 10);
+            if (isNaN(requested) || requested < 1) requested = 1;
+
+            const data = await loadDomainData(domainNum);
+            const available = Array.isArray(data) ? data.length : 0;
+
+            if (available === 0) {
+                flashcards = [];
+                idx = 0;
+                render();
+                alert('No flashcards available for the selected domain.');
+                startBtn.disabled = false;
+                return;
+            }
+
+            const finalCount = Math.min(requested, available);
+            const picked = pickRandom(data, finalCount);
+            flashcards = picked.map(q => ({
+                question: q.question || q.prompt || '',
+                answer: (q.answers && (q.answers.find(a => a.correct) || {}).text) || (q.answers && q.answers[0] && q.answers[0].text) || ''
+            }));
+            idx = 0;
+            render();
+            startBtn.disabled = false;
+        }
+
+        if (startBtn) startBtn.addEventListener('click', startStudy);
+
+        // Initial load: try to use questions from script.js as a default sample (capped)
+        (function initialLoad() {
+            const allQuestions = (typeof questions !== 'undefined') ? questions : (window.questions || []);
+            if (Array.isArray(allQuestions) && allQuestions.length) {
+                // show up to 10 items by default but still cap to array length
+                const sample = pickRandom(allQuestions, Math.min(10, allQuestions.length));
+                flashcards = sample.map(q => ({
+                    question: q.question,
+                    answer: (q.answers && (q.answers.find(a => a.correct) || {}).text) || ''
+                }));
+            } else {
+                flashcards = [];
+            }
+            render();
+        })();
     </script>
     <script src="nav.js"></script>
 </body>
