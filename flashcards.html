@@ -132,27 +132,17 @@
         });
         cardEl.addEventListener('click', () => cardEl.classList.toggle('flipped'));
 
-        // Try to load domain data from data/domainX.json. If that fails, fall back to data/domains.json and read domain key.
+        // Try to load domain data from data/domainX.json. If that fails, return an empty array.
         async function loadDomainData(domainNumber) {
             const localPath = `data/domain${domainNumber}.json`;
             try {
                 const res = await fetch(localPath, { cache: 'no-store' });
                 if (res.ok) {
                     const data = await res.json();
-                    // Expecting an array of questions
+                    // Expecting an array of questions or an object with a domain key
                     if (Array.isArray(data)) return data;
-                }
-            } catch (e) {
-                // ignore and try fallback
-            }
-
-            // fallback to domains.json
-            try {
-                const res2 = await fetch('data/domains.json', { cache: 'no-store' });
-                if (res2.ok) {
-                    const all = await res2.json();
                     const key = `domain${domainNumber}`;
-                    if (Array.isArray(all[key])) return all[key];
+                    if (data && Array.isArray(data[key])) return data[key];
                 }
             } catch (e) {
                 // ignore

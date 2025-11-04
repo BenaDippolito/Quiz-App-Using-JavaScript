@@ -410,6 +410,13 @@ const DEFAULT_TIME_PER_QUESTION = 15; // seconds
 let timerId = null;
 let timeLeft = DEFAULT_TIME_PER_QUESTION;
 
+// Exam-level countdown (3 hours) and runtime state
+const EXAM_TOTAL_SECONDS = 3 * 60 * 60; // 3 hours in seconds
+let examTimerId = null;
+let examTimeLeft = EXAM_TOTAL_SECONDS;
+let examStartTime = null; // timestamp when exam started
+let examTimedOut = false;
+
 // runtime list: use built-in questions only
 let activeQuestions = [...questions];
 
@@ -430,6 +437,8 @@ function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
   nextButton.innerHTML = "Next";
+  // start the overall exam countdown and then show the first question
+  startExamTimer();
   showQuestion();
 }
 
@@ -457,8 +466,46 @@ function showQuestion() {
     button.addEventListener("click", selectAnswer);
   });
 
-  // start per-question timer (starts immediately when question is shown)
-  startTimer(DEFAULT_TIME_PER_QUESTION);
+  // Note: per-question timeout behavior has been disabled in favor of an
+  // overall exam countdown (3 hours). Individual question timing can be
+  // reintroduced if desired by calling startTimer(DEFAULT_TIME_PER_QUESTION).
+}
+
+function formatTime(seconds) {
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = Math.floor(seconds % 60);
+  const hh = String(h).padStart(2, "0");
+  const mm = String(m).padStart(2, "0");
+  const ss = String(s).padStart(2, "0");
+  return `${hh}:${mm}:${ss}`;
+}
+
+function startExamTimer() {
+  stopExamTimer();
+  examTimedOut = false;
+  examTimeLeft = EXAM_TOTAL_SECONDS;
+  examStartTime = Date.now();
+  if (!timerElement) return;
+  timerElement.textContent = `Time left: ${formatTime(examTimeLeft)}`;
+  examTimerId = setInterval(() => {
+    examTimeLeft -= 1;
+    if (timerElement)
+      timerElement.textContent = `Time left: ${formatTime(examTimeLeft)}`;
+    if (examTimeLeft <= 0) {
+      stopExamTimer();
+      examTimedOut = true;
+      // end the quiz when time runs out
+      showScore();
+    }
+  }, 1000);
+}
+
+function stopExamTimer() {
+  if (examTimerId) {
+    clearInterval(examTimerId);
+    examTimerId = null;
+  }
 }
 
 function startTimer(seconds) {
@@ -561,8 +608,20 @@ if (nextButton) {
 function showScore() {
   // stop any running timer and clear UI
   stopTimer();
+  stopExamTimer();
   resetState();
-  questionElement.innerHTML = `You scored ${score} out of ${activeQuestions.length}!`;
+  // compute elapsed time
+  let elapsedMs = 0;
+  if (examStartTime) {
+    elapsedMs = Date.now() - examStartTime;
+    if (examTimedOut) elapsedMs = EXAM_TOTAL_SECONDS * 1000;
+  }
+  const elapsedSeconds = Math.max(0, Math.floor(elapsedMs / 1000));
+  const elapsedStr = formatTime(elapsedSeconds);
+
+  questionElement.innerHTML =
+    `You scored ${score} out of ${activeQuestions.length}!` +
+    `<div style="margin-top:8px;font-weight:600;">Time taken: ${elapsedStr}</div>`;
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
 }

@@ -99,17 +99,31 @@
       badges[key] = span;
     });
 
-    let availableCounts = null; // set after fetching data/domains.json
+    let availableCounts = null; // set after fetching per-domain files data/domain1.json ...
 
     async function fetchAvailable() {
       try {
-        const res = await fetch("data/domains.json", { cache: "no-store" });
-        if (!res.ok) return null;
-        const all = await res.json();
         const map = {};
         for (let i = 1; i <= 7; i++) {
           const k = `domain${i}`;
-          map[k] = Array.isArray(all[k]) ? all[k].length : 0;
+          try {
+            const res = await fetch(`data/${k}.json`, { cache: "no-store" });
+            if (res && res.ok) {
+              const j = await res.json();
+              if (Array.isArray(j)) {
+                map[k] = j.length;
+                continue;
+              }
+              // support files that export an object { "domainX": [ ... ] }
+              if (j && Array.isArray(j[k])) {
+                map[k] = j[k].length;
+                continue;
+              }
+            }
+          } catch (err) {
+            // ignore - treat as zero
+          }
+          map[k] = 0;
         }
         return map;
       } catch (e) {

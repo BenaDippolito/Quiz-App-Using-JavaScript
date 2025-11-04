@@ -236,7 +236,7 @@ body {
 .quiz .timer {
   font-weight: 700;
   color: #ffd; /* light for visibility on dark bg */
-  background: rgba(0, 0, 0, 0.18);
+  background: rgb(0, 0, 0);
   padding: 6px 10px;
   border-radius: 8px;
   display: inline-block;
