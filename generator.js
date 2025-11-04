@@ -187,6 +187,22 @@ async function generateAndStart(options = {}) {
   } else if (typeof window.activeQuestions !== "undefined") {
     window.activeQuestions = quiz;
   }
+  // persist generated quiz to localStorage so tracker can show breakdown and resume
+  try {
+    const last = {
+      finished: false,
+      score: 0,
+      total: quiz.length,
+      elapsedSeconds: 0,
+      timestamp: Date.now(),
+      activeQuestions: quiz,
+      currentQuestionIndex: 0,
+      examTimeLeft: EXAM_TOTAL_SECONDS,
+    };
+    localStorage.setItem("lastQuiz", JSON.stringify(last));
+  } catch (e) {
+    /* ignore storage failures */
+  }
   // Move the quiz section into the modal (if present) and show it before starting
   try {
     const quizSection = document.getElementById("quiz-section");
@@ -216,6 +232,14 @@ async function generateAndStart(options = {}) {
       const closeBtn = modal.querySelector(".modal-close");
       const overlay = modal.querySelector(".modal-overlay");
       function closeModal() {
+        // mark quiz as incomplete for tracker and stop timers if available
+        try {
+          if (typeof window.markQuizIncomplete === "function")
+            window.markQuizIncomplete();
+          if (typeof window.stopExamTimer === "function")
+            window.stopExamTimer();
+          if (typeof window.stopTimer === "function") window.stopTimer();
+        } catch (e) {}
         modal.classList.remove("open");
         // restore to main.container if possible
         const main = document.querySelector("main.container");

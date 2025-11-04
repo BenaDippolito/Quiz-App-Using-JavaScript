@@ -108,6 +108,29 @@
         </section>
     </main>
 
+    <!-- Quiz tracker: shows last quiz status (finished/incomplete), score and time taken -->
+    <section id="quiz-tracker" class="container">
+        <div class="card panel" style="max-width:760px;margin:12px auto;">
+            <h3 style="margin-bottom:8px;color:#042532;">Last Quiz Tracker</h3>
+            <div id="trackerContent">
+                <p id="trackerStatus">No quiz taken yet.</p>
+                <p id="trackerScore" style="display:none;">Score: <strong id="trackerScoreVal"></strong></p>
+                <p id="trackerTime" style="display:none;">Time taken: <strong id="trackerTimeVal"></strong></p>
+                <p id="trackerWhen" style="display:none;">Finished at: <strong id="trackerWhenVal"></strong></p>
+                <div id="trackerDomainBreakdown" style="display:none;margin-top:8px;">
+                    <strong>Per-domain breakdown:</strong>
+                    <ul id="trackerDomainList" style="margin-top:6px;padding-left:18px;color:#042532;"></ul>
+                </div>
+                <div style="margin-top:10px;">
+                    <span id="trackerProgress" style="display:none;color:#042532;font-weight:600;">Progress: <span
+                            id="trackerProgressVal"></span></span>
+                    <button id="resumeBtn" class="btn primary" style="margin-left:12px;display:none;">Resume
+                        Quiz</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Quiz-only page: displays only the quiz section -->
     <section id="quiz-section">
         <div class="app app-quiz">

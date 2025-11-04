@@ -481,11 +481,16 @@ function formatTime(seconds) {
   return `${hh}:${mm}:${ss}`;
 }
 
-function startExamTimer() {
+function startExamTimer(initialSeconds) {
   stopExamTimer();
   examTimedOut = false;
-  examTimeLeft = EXAM_TOTAL_SECONDS;
-  examStartTime = Date.now();
+  // allow passing remaining seconds when resuming
+  examTimeLeft =
+    typeof initialSeconds === "number" && initialSeconds >= 0
+      ? initialSeconds
+      : EXAM_TOTAL_SECONDS;
+  // set examStartTime so elapsed calculation works (startTime offset by elapsed)
+  examStartTime = Date.now() - (EXAM_TOTAL_SECONDS - examTimeLeft) * 1000;
   if (!timerElement) return;
   timerElement.textContent = `Time left: ${formatTime(examTimeLeft)}`;
   examTimerId = setInterval(() => {
@@ -624,7 +629,131 @@ function showScore() {
     `<div style="margin-top:8px;font-weight:600;">Time taken: ${elapsedStr}</div>`;
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
+
+  // Update quiz tracker UI (if present)
+  try {
+    const statusEl = document.getElementById("trackerStatus");
+    const scoreEl = document.getElementById("trackerScore");
+    const scoreVal = document.getElementById("trackerScoreVal");
+    const timeEl = document.getElementById("trackerTime");
+    const timeVal = document.getElementById("trackerTimeVal");
+    const whenEl = document.getElementById("trackerWhen");
+    const whenVal = document.getElementById("trackerWhenVal");
+    if (statusEl)
+      statusEl.textContent = examTimedOut
+        ? "Quiz ended: time expired"
+        : "Quiz finished";
+    if (scoreEl && scoreVal) {
+      scoreEl.style.display = "";
+      scoreVal.textContent = `${score} / ${activeQuestions.length}`;
+    }
+    if (timeEl && timeVal) {
+      timeEl.style.display = "";
+      timeVal.textContent = elapsedStr;
+    }
+    if (whenEl && whenVal) {
+      whenEl.style.display = "";
+      whenVal.textContent = new Date().toLocaleString();
+    }
+    // per-domain breakdown
+    const breakdownEl = document.getElementById("trackerDomainBreakdown");
+    const listEl = document.getElementById("trackerDomainList");
+    if (listEl) {
+      listEl.innerHTML = "";
+      const counts = {};
+      (activeQuestions || []).forEach((q) => {
+        const d = q && q.__domain ? q.__domain : "unknown";
+        counts[d] = (counts[d] || 0) + 1;
+      });
+      for (const [d, c] of Object.entries(counts)) {
+        const li = document.createElement("li");
+        li.textContent = `${d}: ${c}`;
+        listEl.appendChild(li);
+      }
+      if (breakdownEl)
+        breakdownEl.style.display = Object.keys(counts).length ? "" : "none";
+    }
+    // update progress (final)
+    const prog = document.getElementById("trackerProgress");
+    const progVal = document.getElementById("trackerProgressVal");
+    if (prog && progVal) {
+      prog.style.display = "";
+      progVal.textContent = `${activeQuestions.length} / ${activeQuestions.length}`;
+    }
+    // show resume button only if quiz incomplete saved – hide now since finished
+    const resumeBtn = document.getElementById("resumeBtn");
+    if (resumeBtn) resumeBtn.style.display = "none";
+  } catch (e) {}
+
+  // persist last quiz to localStorage
+  try {
+    const last = {
+      finished: true,
+      score,
+      total: activeQuestions.length,
+      elapsedSeconds: elapsedSeconds,
+      timestamp: Date.now(),
+      activeQuestions: activeQuestions,
+      currentQuestionIndex: currentQuestionIndex,
+    };
+    localStorage.setItem("lastQuiz", JSON.stringify(last));
+  } catch (e) {}
 }
+
+// Called by external code (e.g. modal close) to mark the last quiz as incomplete
+function markQuizIncomplete() {
+  try {
+    const statusEl = document.getElementById("trackerStatus");
+    const scoreEl = document.getElementById("trackerScore");
+    const scoreVal = document.getElementById("trackerScoreVal");
+    const timeEl = document.getElementById("trackerTime");
+    const timeVal = document.getElementById("trackerTimeVal");
+    const whenEl = document.getElementById("trackerWhen");
+    const whenVal = document.getElementById("trackerWhenVal");
+    if (statusEl) statusEl.textContent = "Quiz incomplete (closed by user)";
+    if (scoreEl && scoreVal) {
+      scoreEl.style.display = "";
+      scoreVal.textContent = `${score} / ${activeQuestions.length}`;
+    }
+    if (timeEl && timeVal) {
+      timeEl.style.display = "";
+      timeVal.textContent = formatTime(
+        Math.max(
+          0,
+          Math.floor((Date.now() - (examStartTime || Date.now())) / 1000)
+        )
+      );
+    }
+    if (whenEl && whenVal) {
+      whenEl.style.display = "";
+      whenVal.textContent = new Date().toLocaleString();
+    }
+  } catch (e) {}
+  // persist incomplete quiz to localStorage so user can resume later
+  try {
+    let elapsedMs = 0;
+    if (examStartTime) elapsedMs = Date.now() - examStartTime;
+    const elapsedSeconds = Math.max(0, Math.floor(elapsedMs / 1000));
+    const last = {
+      finished: false,
+      score,
+      total: activeQuestions.length,
+      elapsedSeconds,
+      timestamp: Date.now(),
+      activeQuestions: activeQuestions,
+      currentQuestionIndex: currentQuestionIndex,
+      examTimeLeft: typeof examTimeLeft === "number" ? examTimeLeft : null,
+    };
+    localStorage.setItem("lastQuiz", JSON.stringify(last));
+  } catch (e) {}
+
+  // show resume button
+  try {
+    const resumeBtn = document.getElementById("resumeBtn");
+    if (resumeBtn) resumeBtn.style.display = "";
+  } catch (e) {}
+}
+window.markQuizIncomplete = markQuizIncomplete;
 
 /*
   handleNextButton()
@@ -644,3 +773,124 @@ function handleNextButton() {
 if (questionElement && answerButtons && nextButton) {
   startQuiz();
 }
+
+// Export small helpers so other scripts can control timers if needed
+window.stopExamTimer = stopExamTimer;
+window.stopTimer = stopTimer;
+
+// On load: hydrate tracker from last saved quiz (if any) and wire Resume button
+(function hydrateTrackerFromStorage() {
+  try {
+    const raw = localStorage.getItem("lastQuiz");
+    if (!raw) return;
+    const last = JSON.parse(raw);
+    const statusEl = document.getElementById("trackerStatus");
+    const scoreVal = document.getElementById("trackerScoreVal");
+    const timeVal = document.getElementById("trackerTimeVal");
+    const whenVal = document.getElementById("trackerWhenVal");
+    const listEl = document.getElementById("trackerDomainList");
+    const resumeBtn = document.getElementById("resumeBtn");
+
+    if (statusEl)
+      statusEl.textContent = last.finished
+        ? "Last quiz finished"
+        : "Last quiz incomplete";
+    if (scoreVal)
+      scoreVal.textContent =
+        last.score +
+        " / " +
+        (last.total || (last.activeQuestions || []).length);
+    if (timeVal) timeVal.textContent = formatTime(last.elapsedSeconds || 0);
+    if (whenVal)
+      whenVal.textContent = last.timestamp
+        ? new Date(last.timestamp).toLocaleString()
+        : "";
+    if (listEl && Array.isArray(last.activeQuestions)) {
+      listEl.innerHTML = "";
+      const counts = {};
+      last.activeQuestions.forEach((q) => {
+        const d = q && q.__domain ? q.__domain : "unknown";
+        counts[d] = (counts[d] || 0) + 1;
+      });
+      for (const [d, c] of Object.entries(counts)) {
+        const li = document.createElement("li");
+        li.textContent = `${d}: ${c}`;
+        listEl.appendChild(li);
+      }
+    }
+
+    if (resumeBtn) {
+      resumeBtn.style.display = last.finished ? "none" : "";
+      resumeBtn.addEventListener("click", async () => {
+        try {
+          // restore activeQuestions and indexes
+          if (
+            Array.isArray(last.activeQuestions) &&
+            last.activeQuestions.length
+          ) {
+            setActiveQuestions(last.activeQuestions);
+            currentQuestionIndex =
+              typeof last.currentQuestionIndex === "number"
+                ? last.currentQuestionIndex
+                : 0;
+            score = typeof last.score === "number" ? last.score : 0;
+            // compute remaining exam seconds
+            let remaining = null;
+            if (typeof last.examTimeLeft === "number")
+              remaining = last.examTimeLeft;
+            else
+              remaining = Math.max(
+                0,
+                EXAM_TOTAL_SECONDS - (last.elapsedSeconds || 0)
+              );
+
+            // move quiz section into modal and open it
+            const quizSection = document.getElementById("quiz-section");
+            const modal = document.getElementById("quizModal");
+            if (quizSection && modal) {
+              const body = modal.querySelector(".modal-body");
+              if (body && quizSection.parentNode !== body)
+                body.appendChild(quizSection);
+              modal.classList.add("open");
+              // bind close handlers similar to generator
+              const closeBtn = modal.querySelector(".modal-close");
+              const overlay = modal.querySelector(".modal-overlay");
+              function closeModal() {
+                try {
+                  if (typeof window.markQuizIncomplete === "function")
+                    window.markQuizIncomplete();
+                } catch (e) {}
+                try {
+                  if (typeof window.stopExamTimer === "function")
+                    window.stopExamTimer();
+                } catch (e) {}
+                try {
+                  if (typeof window.stopTimer === "function")
+                    window.stopTimer();
+                } catch (e) {}
+                modal.classList.remove("open");
+                const main = document.querySelector("main.container");
+                if (main) main.appendChild(quizSection);
+                else document.body.appendChild(quizSection);
+              }
+              if (!modal.dataset.bound) {
+                if (closeBtn) closeBtn.addEventListener("click", closeModal);
+                if (overlay) overlay.addEventListener("click", closeModal);
+                modal.dataset.bound = "1";
+              }
+            }
+
+            // start exam timer with remaining seconds and show the restored question
+            startExamTimer(remaining);
+            // render current question (don't reset score/current index)
+            showQuestion();
+          }
+        } catch (e) {
+          console.warn("Resume error", e);
+        }
+      });
+    }
+  } catch (e) {
+    console.warn("hydrate tracker failed", e);
+  }
+})();
