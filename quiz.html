@@ -21,6 +21,88 @@
         </div>
     </nav>
 
+    <main class="container">
+        <h1>Create Test</h1>
+        <form id="createTestForm" class="card">
+            <label>
+                Total questions:
+                <input type="number" id="totalQuestions" min="1" value="20" />
+            </label>
+
+            <fieldset>
+                <legend>Domain weights (percent)</legend>
+                <div class="domain-grid">
+                    <label class="domain-weight">Domain 1 <input type="number" class="domainPct" data-domain="1" min="0"
+                            max="100" value="14" />%</label>
+                    <label class="domain-weight">Domain 2 <input type="number" class="domainPct" data-domain="2" min="0"
+                            max="100" value="14" />%</label>
+                    <label class="domain-weight">Domain 3 <input type="number" class="domainPct" data-domain="3" min="0"
+                            max="100" value="14" />%</label>
+                    <label class="domain-weight">Domain 4 <input type="number" class="domainPct" data-domain="4" min="0"
+                            max="100" value="14" />%</label>
+                    <label class="domain-weight">Domain 5 <input type="number" class="domainPct" data-domain="5" min="0"
+                            max="100" value="14" />%</label>
+                    <label class="domain-weight">Domain 6 <input type="number" class="domainPct" data-domain="6" min="0"
+                            max="100" value="15" />%</label>
+                    <label class="domain-weight">Domain 7 <input type="number" class="domainPct" data-domain="7" min="0"
+                            max="100" value="15" />%</label>
+                </div>
+            </fieldset>
+
+            <div class="actions">
+                <button type="submit" id="generateBtn" class="btn primary">Generate Test</button>
+            </div>
+        </form>
+
+        <section>
+            <h2>Current ISC2 CGRC Exam breakdown</h2>
+            <p>Current test ranges from 100-150 questions with a time limit of 3 hrs.</p>
+            <table>
+                <tr>
+                    <th>Domain</th>
+                    <th>Description</th>
+                    <th>Weight</th>
+                </tr>
+                <tr>
+                    <td>Domain 1</td>
+                    <td>Security and Privacy Governance, Risk Management, and Compliance Program</td>
+                    <td>16%</td>
+                </tr>
+                <tr>
+                    <td>Domain 2</td>
+                    <td>Scope of the System</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>Domain 3</td>
+                    <td>Selection and Approval of Framework, Security, and Privacy Controls</td>
+                    <td>14%</td>
+                </tr>
+                <tr>
+                    <td>Domain 4</td>
+                    <td>Implementation of Security and Privacy Controls</td>
+                    <td>17%</td>
+                </tr>
+                <tr>
+                    <td>Domain 5</td>
+                    <td>Assessment/Audit of Security and Privacy Controls</td>
+                    <td>16%</td>
+                </tr>
+                <tr>
+                    <td>Domain 6</td>
+                    <td>System Compliance</td>
+                    <td>14%</td>
+                </tr>
+                <tr>
+                    <td>Domain 7</td>
+                    <td>Compliance Maintenance</td>
+                    <td>13%</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+
     <!-- Quiz-only page: displays only the quiz section -->
     <section id="quiz-section">
         <div class="app app-quiz">
@@ -44,6 +126,7 @@
     <script src="script.js"></script>
     <script src="nav.js"></script>
     <script src="generator.js"></script>
+    <script src="scripts/createTest.js"></script>
 </body>
 
 </html>
