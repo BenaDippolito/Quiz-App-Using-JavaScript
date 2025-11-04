@@ -479,10 +479,136 @@ main.container form.card {
   padding: 12px; /* reduced padding for a tighter panel */
   border-radius: 8px;
   box-shadow: 0 8px 20px rgba(4, 37, 50, 0.06);
-  max-width: 760px; /* narrower card width */
+  max-width: 1200px; /* narrower card width */
   margin: 0 auto 18px;
   /* override flashcard-specific fixed height */
   height: auto;
+}
+
+/* Panel style for stacked cards inside the Create Test form */
+main.container .card.panel {
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #fff;
+  color: #042532;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(4, 37, 50, 0.06);
+  max-width: 760px;
+  margin: 0 auto 12px;
+  height: auto; /* ensure panel is not constrained by .card default */
+}
+
+main.container .card.panel.top-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+main.container .card.panel.top-panel label {
+  margin: 0;
+  font-weight: 600;
+}
+
+main.container .card.panel.domain-panel fieldset {
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+/* New form header inside createTestForm */
+#createTestForm .form-header h2 {
+  margin: 6px 0 6px;
+  font-size: 20px;
+  color: #042532;
+}
+#createTestForm .form-header .muted {
+  color: #6b7f80;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+/* Summary area (optional) to the right on larger screens */
+#createTestForm .summary {
+  max-width: 300px;
+  margin: 0 auto 12px;
+  padding: 10px 12px;
+  background: #f6f9f9;
+  border-radius: 8px;
+  color: #234;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(4, 37, 50, 0.04);
+}
+
+/* Improve inputs and buttons inside the panels */
+.card.panel input[type="number"],
+.card.panel select {
+  border: 1px solid #d6dfe3;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+#generateBtn {
+  background: var(--accent);
+  color: #042532;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  box-shadow: 0 8px 20px rgba(3, 115, 108, 0.08);
+}
+
+/* Domain labels styling */
+.domain-weight {
+  background: transparent;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+@media (min-width: 900px) {
+  /* Layout: show top-panel and summary side-by-side if .summary present */
+  #createTestForm {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 16px;
+    align-items: start;
+  }
+  /* ensure panels take full column width */
+  #createTestForm .card.panel {
+    max-width: 100%;
+  }
+}
+
+/* Center the stacked panels vertically on mid/large screens so the domain-panel
+   appears in the middle of the viewport */
+@media (min-width: 900px) {
+  #createTestForm {
+    /* switch to a centered column layout for the form block */
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    gap: 12px;
+  }
+  /* keep panels limited in width when centered */
+  #createTestForm .card.panel {
+    max-width: 720px;
+    width: 100%;
+  }
+}
+
+.fieldset {
+  display: block;
+  min-inline-size: min-content;
+  margin-inline: 2px;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  border-image: initial;
+  padding-block: 0.35em 0.625em;
+  padding-inline: 0.75em;
 }
 
 main.container form.card label {
@@ -502,8 +628,7 @@ main.container form.card input[type="number"] {
 }
 
 .domain-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: column;
   gap: 8px 12px;
   align-items: center;
   padding: 8px 6px;
@@ -539,12 +664,6 @@ main.container form.card input[type="number"] {
   border-radius: 8px;
 }
 
-#allocPreview {
-  font-size: 14px;
-  color: #5b7676;
-  margin-bottom: 10px;
-}
-
 .alloc-badge {
   background: #e6f7f6;
   color: #03524f;
@@ -570,10 +689,10 @@ main.container form.card input[type="number"] {
 
 /* Table styles for ISC2 breakdown inside main.container */
 main.container section table {
-  width: 760px;
+  width: 800px;
   max-width: 100%;
   border-collapse: collapse;
-  margin: 12px auto; /* center horizontally */
+  margin: 10px auto; /* center horizontally */
   background: #fff;
   color: #042532;
 }
@@ -581,13 +700,14 @@ main.container section table {
 main.container section table th,
 main.container section table td {
   border: 1px solid #1f2933;
-  padding: 10px 12px;
+  padding: 10px 1px;
   vertical-align: top;
+  text-align: center;
 }
 main.container section table th {
   background: #ffffff;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
 }
 
 /* Test Preview header spacing */
@@ -604,4 +724,10 @@ main.container #testPreview .actions {
 main.container #startTest {
   width: 120px;
   padding: 8px 10px;
+}
+
+/* Breakdown section: center heading and lead paragraph */
+.breakdown h2,
+.breakdown p {
+  text-align: center;
 }

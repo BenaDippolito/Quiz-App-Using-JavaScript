@@ -81,15 +81,7 @@
   function attach() {
     const form = q("#createTestForm");
     if (!form) return;
-    // Create a small UI area for allocation preview/messages (inserted at top of form)
-    let previewArea = q("#allocPreview", form);
-    if (!previewArea) {
-      previewArea = document.createElement("div");
-      previewArea.id = "allocPreview";
-      previewArea.style.margin = "8px 0 12px";
-      previewArea.setAttribute("aria-live", "polite");
-      form.insertBefore(previewArea, form.firstChild);
-    }
+    // allocation preview element removed per UI change; badges still show per-domain allocations
 
     // Prepare badges next to domain inputs to show computed allocations
     const domainEls = qAll(".domainPct", form);
@@ -148,25 +140,19 @@
         }
       }
 
-      // update previewArea
-      let msg = `Requested: ${requested}`;
+      // update generate button disabled state based on availability
       if (availableCounts) {
         const totalAvailable = Object.values(availableCounts).reduce(
           (s, n) => s + n,
           0
         );
-        msg += ` — Available: ${totalAvailable}`;
         const generateBtn = q("#generateBtn", form);
         if (requested > totalAvailable) {
-          msg += " — Too many requested. Reduce total or adjust weights.";
-          previewArea.style.color = "#b02a37";
           if (generateBtn) generateBtn.disabled = true;
         } else {
-          previewArea.style.color = "";
           if (generateBtn) generateBtn.disabled = false;
         }
       }
-      previewArea.textContent = msg;
     }
 
     // wire inputs to update preview on change

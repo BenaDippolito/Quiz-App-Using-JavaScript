@@ -23,38 +23,44 @@
 
     <main class="container">
         <h1>Create Test</h1>
-        <form id="createTestForm" class="card">
-            <label>
-                Total questions:
-                <input type="number" id="totalQuestions" min="1" value="20" />
-            </label>
+        <p class="muted">Choose total questions and distribute them across domains using the percentage weights.
+            The generator will pick questions randomly from each domain.</p>
+        <form id="createTestForm">
 
-            <fieldset>
-                <legend>Domain weights (percent)</legend>
-                <div class="domain-grid">
-                    <label class="domain-weight">Domain 1 <input type="number" class="domainPct" data-domain="1" min="0"
-                            max="100" value="14" />%</label>
-                    <label class="domain-weight">Domain 2 <input type="number" class="domainPct" data-domain="2" min="0"
-                            max="100" value="14" />%</label>
-                    <label class="domain-weight">Domain 3 <input type="number" class="domainPct" data-domain="3" min="0"
-                            max="100" value="14" />%</label>
-                    <label class="domain-weight">Domain 4 <input type="number" class="domainPct" data-domain="4" min="0"
-                            max="100" value="14" />%</label>
-                    <label class="domain-weight">Domain 5 <input type="number" class="domainPct" data-domain="5" min="0"
-                            max="100" value="14" />%</label>
-                    <label class="domain-weight">Domain 6 <input type="number" class="domainPct" data-domain="6" min="0"
-                            max="100" value="15" />%</label>
-                    <label class="domain-weight">Domain 7 <input type="number" class="domainPct" data-domain="7" min="0"
-                            max="100" value="15" />%</label>
+            <!-- Domain weights in a separate card below -->
+            <div class="card panel domain-panel">
+                <fieldset>
+                    <legend>Domain weights (percent)</legend>
+                    <div class="domain-grid">
+                        <label class="domain-weight">Domain 1 <input type="number" class="domainPct" data-domain="1"
+                                min="0" max="100" value="16" />%</label>
+                        <label class="domain-weight">Domain 2 <input type="number" class="domainPct" data-domain="2"
+                                min="0" max="100" value="10" />%</label>
+                        <label class="domain-weight">Domain 3 <input type="number" class="domainPct" data-domain="3"
+                                min="0" max="100" value="14" />%</label>
+                        <label class="domain-weight">Domain 4 <input type="number" class="domainPct" data-domain="4"
+                                min="0" max="100" value="17" />%</label>
+                        <label class="domain-weight">Domain 5 <input type="number" class="domainPct" data-domain="5"
+                                min="0" max="100" value="16" />%</label>
+                        <label class="domain-weight">Domain 6 <input type="number" class="domainPct" data-domain="6"
+                                min="0" max="100" value="14" />%</label>
+                        <label class="domain-weight">Domain 7 <input type="number" class="domainPct" data-domain="7"
+                                min="0" max="100" value="13" />%</label>
+                    </div>
+                </fieldset>
+
+                <label>
+                    Total questions:
+                    <input type="number" id="totalQuestions" min="1" value="20" />
+                </label>
+                <div class="actions">
+                    <button type="submit" id="generateBtn" class="btn primary">Generate Test</button>
                 </div>
-            </fieldset>
-
-            <div class="actions">
-                <button type="submit" id="generateBtn" class="btn primary">Generate Test</button>
+            </div>
             </div>
         </form>
 
-        <section>
+        <section class="breakdown">
             <h2>Current ISC2 CGRC Exam breakdown</h2>
             <p>Current test ranges from 100-150 questions with a time limit of 3 hrs.</p>
             <table>
