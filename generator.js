@@ -84,6 +84,19 @@ async function generateQuiz({
     domainDataMap[d] = await loadPerDomain(d);
   }
 
+  // Debug: show which per-domain files were loaded and sizes
+  try {
+    for (const d of chosen) {
+      const pool = domainDataMap[d] || [];
+      const used = pool.length > 0 ? `data/${d}.json` : "(no file or empty)";
+      console.debug(
+        `[generator] domain=${d} source=${used} count=${pool.length}`
+      );
+    }
+  } catch (e) {
+    /* ignore debug failures */
+  }
+
   let result = [];
 
   if (perDomainCounts) {
@@ -92,7 +105,7 @@ async function generateQuiz({
       const pool = domainDataMap[domain] || [];
       if (!pool || pool.length === 0) continue;
       const picks = pickRandom(pool, count);
-      result = result.concat(picks);
+      result = result.concat(picks.map((q) => ({ ...q, __domain: domain })));
     }
   } else if (totalCount && totalCount > 0) {
     // distribute totalCount across chosen domains proportionally by available size
@@ -128,7 +141,7 @@ async function generateQuiz({
     for (const { d, alloc } of allocations) {
       if (alloc <= 0) continue;
       const picks = pickRandom(domainDataMap[d] || [], alloc);
-      result = result.concat(picks);
+      result = result.concat(picks.map((q) => ({ ...q, __domain: d })));
     }
   } else {
     console.warn("No perDomainCounts or totalCount provided to generateQuiz");
@@ -145,6 +158,22 @@ async function generateQuiz({
 // generateAndStart({ totalCount: 120, selectedDomains: ['domain1','domain2'] })
 async function generateAndStart(options = {}) {
   const quiz = await generateQuiz(options);
+  // Debug: summary of generated quiz by domain (counts)
+  try {
+    const counts = quiz.reduce((m, q) => {
+      const d = q && q.__domain ? q.__domain : "unknown";
+      m[d] = (m[d] || 0) + 1;
+      return m;
+    }, {});
+    console.debug(
+      "[generator] generated quiz length=",
+      quiz.length,
+      "byDomain=",
+      counts
+    );
+  } catch (e) {
+    /* ignore */
+  }
   if (!quiz || quiz.length === 0) {
     alert(
       "No quiz generated. Check that per-domain data files (data/domain1.json ... data/domain7.json) exist and contain questions."
@@ -157,6 +186,54 @@ async function generateAndStart(options = {}) {
     window.setActiveQuestions(quiz);
   } else if (typeof window.activeQuestions !== "undefined") {
     window.activeQuestions = quiz;
+  }
+  // Move the quiz section into the modal (if present) and show it before starting
+  try {
+    const quizSection = document.getElementById("quiz-section");
+    const modal = document.getElementById("quizModal");
+    if (quizSection && modal) {
+      // remember original location to restore later
+      if (!quizSection.dataset.origParent) {
+        quizSection.dataset.origParent = quizSection.parentNode
+          ? quizSection.parentNode.nodeName
+          : "BODY";
+        // store next sibling so we can restore position
+        quizSection.dataset.origNext = quizSection.nextSibling
+          ? "hasNext"
+          : "noNext";
+        quizSection.dataset._orig_index = Array.prototype.indexOf.call(
+          quizSection.parentNode.children,
+          quizSection
+        );
+      }
+      const body = modal.querySelector(".modal-body");
+      if (body && quizSection.parentNode !== body) {
+        body.appendChild(quizSection);
+      }
+      modal.classList.add("open");
+
+      // hook up close behavior to restore the section
+      const closeBtn = modal.querySelector(".modal-close");
+      const overlay = modal.querySelector(".modal-overlay");
+      function closeModal() {
+        modal.classList.remove("open");
+        // restore to main.container if possible
+        const main = document.querySelector("main.container");
+        if (main) {
+          main.appendChild(quizSection);
+        } else {
+          document.body.appendChild(quizSection);
+        }
+      }
+      // avoid attaching multiple handlers across repeated generates
+      if (!modal.dataset.bound) {
+        if (closeBtn) closeBtn.addEventListener("click", closeModal);
+        if (overlay) overlay.addEventListener("click", closeModal);
+        modal.dataset.bound = "1";
+      }
+    }
+  } catch (e) {
+    console.warn("Modal handling error", e);
   }
 
   // Start the quiz if startQuiz is available
