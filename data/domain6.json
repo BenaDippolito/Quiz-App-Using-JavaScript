@@ -103,12 +103,12 @@
     "answers": [
       {
         "text": "To assess the effectiveness of risk mitigation strategies",
-        "correct": true
+        "correct": false
       },
       { "text": "To identify market trends impacting risk", "correct": false },
       {
         "text": "To verify and validate security and privacy controls",
-        "correct": false
+        "correct": true
       },
       {
         "text": "To evaluate compliance with industry standards and regulations",
@@ -140,7 +140,7 @@
   {
     "question": "Which activity is NOT part of evaluating the residual risk of the system?",
     "answers": [
-      { "text": "Reviewing incident response procedures", "correct": false },
+      { "text": "Reviewing incident response procedures", "correct": true },
       {
         "text": "Testing and verifying the implementation and operation of the controls",
         "correct": false
@@ -151,7 +151,7 @@
       },
       {
         "text": "Documenting and communicating the residual risk and the risk acceptance decision",
-        "correct": true
+        "correct": false
       }
     ]
   },
@@ -160,11 +160,11 @@
     "answers": [
       {
         "text": "The system's security controls and policies",
-        "correct": true
+        "correct": false
       },
       {
         "text": "Organizational risk tolerance toward risk treatment and residual risk",
-        "correct": false
+        "correct": true
       },
       {
         "text": "Regulatory and legal compliance requirements",
@@ -215,8 +215,8 @@
   {
     "question": "Which document outlines the testing methods, criteria, and results for verifying the system's functionality and compliance?",
     "answers": [
-      { "text": "System test plan", "correct": true },
-      { "text": "System audit report", "correct": false },
+      { "text": "System test plan", "correct": false },
+      { "text": "System audit report", "correct": true },
       { "text": "System contingency plan", "correct": false },
       {
         "text": "Incident response and breach notification records",
@@ -342,8 +342,8 @@
     "question": "What element of risk documentation defines whether more treatment is needed to reduce the risk?",
     "answers": [
       { "text": "Risk identification", "correct": false },
-      { "text": "Residual risk rating", "correct": true },
-      { "text": "Residual risk acceptance", "correct": false },
+      { "text": "Residual risk rating", "correct": false },
+      { "text": "Residual risk acceptance", "correct": true },
       { "text": "Residual risk monitoring", "correct": false }
     ]
   },
@@ -352,8 +352,8 @@
     "answers": [
       { "text": "Risk analysis", "correct": false },
       { "text": "Risk treatment", "correct": false },
-      { "text": "Residual risk rating", "correct": true },
-      { "text": "Residual risk level", "correct": false }
+      { "text": "Residual risk rating", "correct": false },
+      { "text": "Residual risk level", "correct": true }
     ]
   },
   {
@@ -513,9 +513,9 @@
     "question": "What process helps create and update system compliance documentation?",
     "answers": [
       { "text": "Compliance framework", "correct": false },
-      { "text": "Authorization framework", "correct": true },
+      { "text": "Authorization framework", "correct": false },
       { "text": "Security controls framework", "correct": false },
-      { "text": "Risk management framework", "correct": false }
+      { "text": "Risk management framework", "correct": true }
     ]
   },
   {
@@ -545,11 +545,11 @@
       },
       {
         "text": "To ensure alignment with legal, regulatory, and security requirements",
-        "correct": true
+        "correct": false
       },
       {
         "text": "To provide formal guidance on handling risk within the system",
-        "correct": false
+        "correct": true
       },
       {
         "text": "To define the organization's incident response and security controls",
@@ -631,10 +631,10 @@
   },
   {
     "question": "Which role in an organization would be assigned the duties of remediating residual risk?",
-    "answers": [
-      { "text": "System owner", "correct": true },
+    "answers": [	
+      { "text": "System owner", "correct": false },
       { "text": "Common control provider", "correct": false },
-      { "text": "System administrator", "correct": false },
+      { "text": "System administrator", "correct": true },
       { "text": "System security office", "correct": false }
     ]
   },
@@ -652,24 +652,24 @@
     "answers": [
       { "text": "Transfer", "correct": false },
       { "text": "Mitigation", "correct": false },
-      { "text": "Avoidance", "correct": false },
-      { "text": "Acceptance", "correct": true }
+      { "text": "Avoidance", "correct": true },
+      { "text": "Acceptance", "correct": false }
     ]
   },
   {
     "question": "Which organizational role should approve the selected risk treatment?",
     "answers": [
-      { "text": "System owner", "correct": true },
+      { "text": "System owner", "correct": false },
       { "text": "System security officer", "correct": false },
       { "text": "System administrator", "correct": false },
-      { "text": "CIO", "correct": false }
+      { "text": "CIO", "correct": true }
     ]
   },
   {
     "question": "After the formal third-party security assessment is provided, where should identified residual risks be recorded if the organization is the U.S. State Department?",
     "answers": [
-      { "text": "Plan of Action and Milestones (POA&M)", "correct": false },
-      { "text": "Risk register", "correct": true },
+      { "text": "Plan of Action and Milestones (POA&M)", "correct": true },
+      { "text": "Risk register", "correct": false },
       { "text": "System security plan", "correct": false },
       { "text": "Configuration management plan", "correct": false }
     ]
@@ -734,9 +734,9 @@
   {
     "question": "What formal notification criteria are required for system compliance against ISO/IEC 27001?",
     "answers": [
-      { "text": "ISMS documentation", "correct": false },
+      { "text": "ISMS documentation", "correct": true },
       { "text": "Vendor documents", "correct": false },
-      { "text": "Stakeholder concurrence", "correct": true },
+      { "text": "Stakeholder concurrence", "correct": false },
       { "text": "Risk register", "correct": false }
     ]
   },
@@ -809,10 +809,10 @@
   {
     "question": "Which of the following ensures that the system meets relevant standards and regulations, communicates its compliance status to the appropriate authorities and stakeholders, and helps maintain consistent system compliance across the organization?",
     "answers": [
-      { "text": "Formal notification", "correct": true },
+      { "text": "Formal notification", "correct": false },
       { "text": "Risk register", "correct": false },
       { "text": "POA&M", "correct": false },
-      { "text": "System security plan", "correct": false }
+      { "text": "System security plan", "correct": true }
     ]
   },
   {
@@ -820,7 +820,7 @@
     "answers": [
       {
         "text": "Recommend commencement of an updated risk assessment and include a POA&M to address misconfigurations, allowing the system to remain operational under a conditional authorization.",
-        "correct": true
+        "correct": false
       },
       {
         "text": "Advise the senior leadership team that it should accept the residual risk, given that controls are in place and an incident response plan is being executed, focusing on preventing future breaches.",
@@ -832,7 +832,7 @@
       },
       {
         "text": "Recommend to senior leadership that the system's authorization should be revoked until a full security assessment is completed, a POA&M is established, and misconfigurations are remediated.",
-        "correct": false
+        "correct": true
       }
     ]
   },
@@ -862,7 +862,7 @@
     "answers": [
       {
         "text": "Immediately submit a system security plan (SSP); conduct a risk assessment; and ensure that encryption controls are updated following the risk assessment, while keeping the portal operational under a conditional authorization.",
-        "correct": true
+        "correct": false
       },
       {
         "text": "Accept the risk and focus on compensating controls, such as multi-factor authentication (MFA), to reduce the likelihood of unauthorized access while planning a long-term encryption upgrade.",
@@ -870,7 +870,7 @@
       },
       {
         "text": "Revoke the portal's authorization to operate; conduct a full risk assessment; document compliance gaps; and reauthorize only after encryption updates are fully implemented.",
-        "correct": false
+        "correct": true
       },
       {
         "text": "Transfer liability to the software vendor responsible for maintaining the encryption standards, requiring them to undergo independent security testing and provide certification of compliance.",
@@ -971,11 +971,11 @@
       },
       {
         "text": "Revoke system authorization until a full security assessment is conducted, ensuring that patch management processes align with compliance requirements.",
-        "correct": false
+        "correct": true
       },
       {
         "text": "Update the system security plan (SSP) to include stricter patch management controls, validate compliance through security audits, and submit a formal compliance report.",
-        "correct": true
+        "correct": false
       },
       {
         "text": "Transfer responsibility to the IT operations team, requiring them to maintain patching compliance while security leadership monitors regulatory obligations.",
@@ -1018,10 +1018,6 @@
       {
         "text": "Implement a system registry to maintain an accurate inventory of all data storage locations, classify research data appropriately, and document updates in a system risk assessment.",
         "correct": true
-      },
-      {
-        "text": "Transfer the risk to an external auditor, requiring them to manage data classification and system inventory, while internal teams focus on content delivery.",
-        "correct": false
       }
     ]
   },

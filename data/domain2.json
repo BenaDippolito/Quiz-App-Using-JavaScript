@@ -2,10 +2,22 @@
   {
     "question": "How does the system context shape the definition of a system's purpose and functionality?",
     "answers": [
-      { "text": "The internal components of the system and their roles", "correct": false },
-      { "text": "The external and internal factors that influence system behavior and design", "correct": true },
-      { "text": "The objectives and benefits the system aims to achieve within its context", "correct": false },
-      { "text": "The boundaries and limitations that define the system's operational scope", "correct": false }
+      {
+        "text": "The internal components of the system and their roles",
+        "correct": false
+      },
+      {
+        "text": "The external and internal factors that influence system behavior and design",
+        "correct": true
+      },
+      {
+        "text": "The objectives and benefits the system aims to achieve within its context",
+        "correct": false
+      },
+      {
+        "text": "The boundaries and limitations that define the system's operational scope",
+        "correct": false
+      }
     ]
   },
   {
@@ -68,11 +80,20 @@
   {
     "question": "What should be included in the system description during the risk management process?",
     "answers": [
-      { "text": "Only the system's security requirements and controls", "correct": false },
-      { "text": "Only the system's mission and business objectives", "correct": false },
-      { "text": "The system's boundaries, components, architectures, interfaces, data flows, security requirements, and security controls",
-        "correct": true },      
-      { "text": "The system categorization and the operational environment of the organization",
+      {
+        "text": "Only the system's security requirements and controls",
+        "correct": false
+      },
+      {
+        "text": "Only the system's mission and business objectives",
+        "correct": false
+      },
+      {
+        "text": "The system's boundaries, components, architectures, interfaces, data flows, security requirements, and security controls",
+        "correct": true
+      },
+      {
+        "text": "The system categorization and the operational environment of the organization",
         "correct": false
       }
     ]
@@ -99,11 +120,16 @@
     "question": "What is the primary purpose of system scoping in the context of the NIST Risk Management Framework (RMF)?",
     "answers": [
       {
-        "text": "To define the system's security controls and performance metrics", "correct": false },
+        "text": "To define the system's security controls and performance metrics",
+        "correct": false
+      },
       {
-        "text": "To establish the system's boundaries, interfaces, and dependencies with other systems", "correct": true },
+        "text": "To establish the system's boundaries, interfaces, and dependencies with other systems",
+        "correct": true
+      },
       {
-        "text": "To identify the system's components, such as hardware and software", "correct": false
+        "text": "To identify the system's components, such as hardware and software",
+        "correct": false
       },
       {
         "text": "To create the system's operational environment and business objectives",
@@ -244,8 +270,8 @@
     "question": "According to the ISO, how many types of information should organizations classify?",
     "answers": [
       { "text": "Two", "correct": false },
-      { "text": "Three", "correct": true },
-      { "text": "Four", "correct": false },
+      { "text": "Three", "correct": false },
+      { "text": "Four", "correct": true },
       { "text": "Five", "correct": false }
     ]
   },
@@ -396,8 +422,8 @@
   {
     "question": "What is the MAIN security objective for internal information?",
     "answers": [
-      { "text": "Ensuring confidentiality", "correct": true },
-      { "text": "Maintaining availability", "correct": false },
+      { "text": "Ensuring confidentiality", "correct": false },
+      { "text": "Maintaining availability", "correct": true },
       { "text": "Restricting access", "correct": false },
       { "text": "Meeting ethical standards", "correct": false }
     ]
@@ -465,14 +491,14 @@
   {
     "question": "What factors does ISO suggest should determine risk impact level?",
     "answers": [
-      { "text": "Sources, outcomes, time frame, resilience", "correct": true },
+      { "text": "Sources, outcomes, time frame, resilience", "correct": false },
       {
         "text": "Likelihood, duration, uncertainties, preferences",
         "correct": false
       },
       {
         "text": "Causes, consequences, probability, vulnerabilities",
-        "correct": false
+        "correct": true
       },
       {
         "text": "Interactions, assumptions, scales, judgments",
@@ -598,8 +624,8 @@
     "question": "Under NIST, what information categorization level would describe an impact level as having a serious adverse effect on organizational operations, organizational assets, or individuals?",
     "answers": [
       { "text": "Low", "correct": false },
-      { "text": "Moderate", "correct": false },
-      { "text": "High", "correct": true },
+      { "text": "Moderate", "correct": true },
+      { "text": "High", "correct": false },
       { "text": "Critical", "correct": false }
     ]
   },
@@ -656,11 +682,11 @@
     "answers": [
       {
         "text": "A control that compensates for a weakness in a system",
-        "correct": false
+        "correct": true
       },
       {
         "text": "A control that compensates for the ineffectiveness of another control",
-        "correct": true
+        "correct": false
       },
       {
         "text": "A control that compensates for a vulnerability in a system",
@@ -813,8 +839,8 @@
   {
     "question": "Financial data, intellectual property, or trade secrets could cause an organization or its stakeholders significant harm or damage if disclosed or modified without authorization. What type of information is this considered?",
     "answers": [
-      { "text": "Sensitive", "correct": false },
-      { "text": "Confidential", "correct": true },
+      { "text": "Sensitive", "correct": true },
+      { "text": "Confidential", "correct": false },
       { "text": "Business Information", "correct": false },
       { "text": "Secret", "correct": false }
     ]

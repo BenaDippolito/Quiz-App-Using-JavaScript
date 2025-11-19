@@ -92,9 +92,9 @@
   {
     "question": "Which step in the control implementation process involves testing, verifying, and validating the security controls to ensure they work as intended?",
     "answers": [
-      { "text": "Assessment", "correct": true },
+      { "text": "Assessment", "correct": false },
       { "text": "Selection", "correct": false },
-      { "text": "Implementation", "correct": false },
+      { "text": "Implementation", "correct": true },
       { "text": "Evaluation", "correct": false }
     ]
   },
@@ -103,8 +103,8 @@
     "answers": [
       { "text": "Common controls", "correct": false },
       { "text": "Management controls", "correct": false },
-      { "text": "Technical controls", "correct": true },
-      { "text": "Operational controls", "correct": false }
+      { "text": "Technical controls", "correct": false },
+      { "text": "Operational controls", "correct": true }
     ]
   },
   {
@@ -273,8 +273,8 @@
     "question": "What aspect of compensating controls makes them different from baseline controls?",
     "answers": [
       { "text": "Functionality", "correct": false },
-      { "text": "Assurance level", "correct": false },
-      { "text": "Implementation", "correct": true },
+      { "text": "Assurance level", "correct": true },
+      { "text": "Implementation", "correct": false },
       { "text": "Cost", "correct": false }
     ]
   },
@@ -301,11 +301,11 @@
     "answers": [
       {
         "text": "Encrypting data at rest to protect sensitive information",
-        "correct": true
+        "correct": false
       },
       {
         "text": "Using firewalls and network segmentation to restrict access to the system",
-        "correct": false
+        "correct": true
       },
       {
         "text": "Implementing multi-factor authentication for system login",
@@ -417,9 +417,9 @@
     "question": "Which organizational role has the primary responsibility of ensuring system controls comply with HIPAA compliance requirements?",
     "answers": [
       { "text": "System architect", "correct": false },
-      { "text": "System owner", "correct": false },
+      { "text": "System owner", "correct": true },
       { "text": "System security officer", "correct": false },
-      { "text": "System privacy officer", "correct": true }
+      { "text": "System privacy officer", "correct": false }
     ]
   },
   {
@@ -489,8 +489,8 @@
     "question": "Which role within the organization is primarily responsible for establishing the frequency of auditing controls implemented within a system?",
     "answers": [
       { "text": "Control assessor", "correct": false },
-      { "text": "Authorizing Official", "correct": true },
-      { "text": "System owner", "correct": false },
+      { "text": "Authorizing Official", "correct": false },
+      { "text": "System owner", "correct": true },
       { "text": "System administrator", "correct": false }
     ]
   },
@@ -608,8 +608,8 @@
   {
     "question": "Control implementation is important because it helps ensure that the information system or network meets the compliance requirements and standards of relevant laws, regulations, policies, and what else?",
     "answers": [
-      { "text": "Best practices", "correct": false },
-      { "text": "Mission goals", "correct": true },
+      { "text": "Best practices", "correct": true },
+      { "text": "Mission goals", "correct": false },
       { "text": "Control objectives", "correct": false },
       { "text": "Control baseline", "correct": false }
     ]
@@ -619,8 +619,8 @@
     "answers": [
       { "text": "Technical limitations", "correct": false },
       { "text": "Operational requirements", "correct": false },
-      { "text": "Control cost", "correct": false },
-      { "text": "Risk acceptance", "correct": true }
+      { "text": "Control cost", "correct": true },
+      { "text": "Risk acceptance", "correct": false }
     ]
   },
   {
@@ -653,8 +653,8 @@
   {
     "question": "A governance, risk, and compliance (GRC) team member is assigned to the U.S. State Department. Which document would the GRC team member record any residual risks in?",
     "answers": [
-      { "text": "Plan of Action and Milestones (POA&M)", "correct": false },
-      { "text": "Risk register", "correct": true },
+      { "text": "Plan of Action and Milestones (POA&M)", "correct": true },
+      { "text": "Risk register", "correct": false },
       { "text": "System security plan", "correct": false },
       { "text": "Authority to Operate (ATO) letter", "correct": false }
     ]
@@ -1866,6 +1866,591 @@
         "text": "Control implementation should be based solely on industry trends, not internal risk.",
         "correct": false
       }
+    ]
+  },
+  {
+    "question": "Which of the following is the MOST important initial step in developing the implementation strategy for security controls for a new EHR system handling PHI?",
+    "answers": [
+      { "text": "Purchasing the most expensive security software available", "correct": false },
+      { "text": "Conducting a thorough risk assessment to identify threats and vulnerabilities related to PHI", "correct": true },
+      { "text": "Hiring a security consultant to make all key decisions", "correct": false },
+      { "text": "Immediately implementing all controls recommended by the EHR vendor", "correct": false }
+    ]
+  },
+  {
+    "question": "Which combination of controls would BEST meet HIPAA's requirement for encryption of PHI both in transit and at rest?",
+    "answers": [
+      { "text": "Strong passwords for user accounts and physical security for the server room", "correct": false },
+      { "text": "Strong firewall rules and intrusion detection systems", "correct": false },
+      { "text": "TLS/SSL for data transmission and full-disk encryption for servers and databases", "correct": true },
+      { "text": "Security awareness training for staff and data loss prevention (DLP) software", "correct": false }
+    ]
+  },
+  {
+    "question": "After implementing an EHR system and its security controls, where should the configurations and procedures be documented?",
+    "answers": [
+      { "text": "In the organization's security policies, procedures, and system-specific documentation", "correct": true },
+      { "text": "In the vendor's user manual", "correct": false },
+      { "text": "In emails exchanged between the implementation team", "correct": false },
+      { "text": "They need not be documented if the system is running effectively", "correct": false }
+    ]
+  },
+  {
+    "question": "The implementation of multi-factor authentication (MFA) for accessing a cloud-based CRM system is an example of which type of control?",
+    "answers": [
+      { "text": "A technical control", "correct": true },
+      { "text": "A management control", "correct": false },
+      { "text": "An operational control", "correct": false },
+      { "text": "A common control", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the BEST course of action when a CSP's built-in encryption service does not meet a company's internal key management policy?",
+    "answers": [
+      { "text": "Use the CSP's encryption service and accept the risk of not fully meeting the company's key management policy", "correct": false },
+      { "text": "Do not encrypt the data, as the CSP is responsible for security", "correct": false },
+      { "text": "Implement a third-party encryption solution that meets the company's key management policy, even if it requires additional integration effort", "correct": true },
+      { "text": "Change the internal key management policy to match the CSP's capabilities", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the BEST course of action to ensure configured security controls for a new internal communications platform meet compliance standards?",
+    "answers": [
+      { "text": "Wait for a compliance audit to evaluate the controls", "correct": false },
+      { "text": "Begin the risk assessment process to evaluate potential threats", "correct": false },
+      { "text": "Move directly to the authorization process", "correct": false },
+      { "text": "Conduct a formal assessment of security controls to ensure they meet the required standards; if not, then implement supplemental controls", "correct": true }
+    ]
+  },
+  {
+    "question": "After configuring firewalls, encryption, and other security features for a communication platform, what should a company's security team prioritize next?",
+    "answers": [
+      { "text": "Test the system immediately and disregard documentation", "correct": false },
+      { "text": "Begin the assessment process without any documentation", "correct": false },
+      { "text": "Reconfigure the system and start over with the controls", "correct": false },
+      { "text": "Document the deployment of security controls for future reference and compliance purposes", "correct": true }
+    ]
+  },
+  {
+    "question": "What should be the FIRST step in developing a strategy for implementing security controls in line with a project's timeline for a new software version?",
+    "answers": [
+      { "text": "Proceed with implementation based on available resources and adjust as the project progresses", "correct": false },
+      { "text": "Develop a detailed implementation strategy that includes resource allocation, funding, and a timeline for the controls based on organizational priorities and compliance requirements", "correct": true },
+      { "text": "Focus on implementing only basic security measures to meet compliance requirements and expand the controls later", "correct": false },
+      { "text": "Defer the implementation of security controls until a compliance audit is required", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the BEST course of action for managing changes introduced by a new software version while ensuring system security?",
+    "answers": [
+      { "text": "Immediately apply the new software version to the system without testing or evaluating the changes to the controls", "correct": false },
+      { "text": "Review the changes to security controls introduced by the new software version; assess the impact of controls on the existing system; and perform a comprehensive testing and validation process before deployment", "correct": true },
+      { "text": "Wait for the next risk assessment cycle to evaluate the new software changes", "correct": false },
+      { "text": "Apply the changes in a live environment and monitor the system for vulnerabilities", "correct": false }
+    ]
+  },
+  {
+    "question": "How can an organization prevent configuration conflicts like those caused by undocumented firewall changes during a software update?",
+    "answers": [
+      { "text": "Introduce a formal change management process that includes proper documentation, testing, and approval of configuration changes before deployment", "correct": true },
+      { "text": "Increase the frequency of vulnerability assessments to detect such conflicts", "correct": false },
+      { "text": "Disable the firewall rule and wait for further issues to arise", "correct": false },
+      { "text": "Rely on continuous monitoring to detect configuration conflicts as they occur", "correct": false }
+    ]
+  },
+  {
+    "question": "Which international laws MUST be considered by a U.S.-based e-commerce company with customers in Canada, the U.K., and Italy when implementing new security measures?",
+    "answers": [
+      { "text": "General Data Protection Regulation (GDPR) and Payment Card Industry Data Security Standard (PCI DSS)", "correct": false },
+      { "text": "California Consumer Privacy Act (CCPA) and Federal Trade Commission Act (FTCA)", "correct": false },
+      { "text": "Health Insurance Portability and Accountability Act (HIPAA) and Sarbanes-Oxley (SOX) Act", "correct": false },
+      { "text": "GDPR and Personal Information Protection and Electronic Documents Act (PIPEDA)", "correct": true }
+    ]
+  },
+  {
+    "question": "A security team is tasked with categorizing various security measures used to protect system access. Access control measures are implemented to regulate and manage who can interact with a system, how, and under what conditions. In this context, how should the security team categorize access control measures?",
+    "answers": [
+      { "text": "Classify access control measures as only technical controls, as they involve system security configurations.", "correct": false },
+      { "text": "Classify access control measures as operational controls, as they relate to how users interact with the system.", "correct": false },
+      { "text": "Classify access control measures as both management and operational controls, as they require both policy and user action.", "correct": true },
+      { "text": "Classify access control measures as management controls, as they are part of organizational policy enforcement.", "correct": false }
+    ]
+  },
+  {
+    "question": "A U.S.-based e-commerce company that is implementing new security measures to protect sensitive customer data. Several technical, operational, and management security controls have been implemented. At what frequency should the organization consider reviewing and updating compliance documents?",
+    "answers": [
+      { "text": "Reviews and updates should be undertaken in accordance with organizational policies but at least once a year.", "correct": true },
+      { "text": "Reviews and updates should be performed only by system administrators when they have availability.", "correct": false },
+      { "text": "Continuous monitoring and review should update compliance documentation and training in real time.", "correct": false },
+      { "text": "Reviews should be performed only when required by an external audit or regulatory change.", "correct": false }
+    ]
+  },
+  {
+    "question": "A financial organization is configuring common controls across five of its data centers. These controls will be applied universally across the network to ensure baseline security. What approach should the organization take to ensure that sufficient controls are properly implemented and meet compliance requirements?",
+    "answers": [
+      { "text": "Focus only on the common controls and defer custom controls for future consideration.", "correct": false },
+      { "text": "Implement common controls first to establish baseline security, then prioritize hybrid and system-specific controls.", "correct": true },
+      { "text": "Apply all controls at once to minimize delays.", "correct": false },
+      { "text": "Implement custom controls first and address common controls later.", "correct": false }
+    ]
+  },
+  {
+    "question": "A financial organization is configuring common controls across five of its data centers. These controls are applied universally across the network to ensure baseline security. After testing the controls, the implementation team realizes that the role-based access control (RBAC) solution will take longer to fully integrate due to integration issues with an older legacy system. What should the team do to ensure the access control solution is implemented in a way that is consistent with compliance requirements?",
+    "answers": [
+      { "text": "Implement a temporary workaround such as requiring 2FA for all users until RBAC is integrated.", "correct": true },
+      { "text": "Delay the project until the legacy system is compatible with RBAC.", "correct": false },
+      { "text": "Use only basic password policies until RBAC is integrated.", "correct": false },
+      { "text": "Discontinue RBAC and revert to a previous access control mechanism.", "correct": false }
+    ]
+  },
+  {
+    "question": "A financial organization is configuring common controls across five of its data centers. These controls will be applied universally across the network to ensure baseline security. The project team is concerned about the residual risks that remain even after full implementation. What should the team do to ensure these residual risks are appropriately documented and tracked?",
+    "answers": [
+      { "text": "Include residual risks in the implementation report without a specific action plan.", "correct": false },
+      { "text": "Leave residual risks untracked and assume informal management.", "correct": false },
+      { "text": "Only document residual risks after a major security breach.", "correct": false },
+      { "text": "Document residual risks in a POA&M with mitigation steps and deadlines.", "correct": true }
+    ]
+  },
+  {
+    "question": "How should controls be captured to comply with CNSSI 1253 guidelines?",
+    "answers": [
+      { "text": "Document controls for national security compliance, include residual risks in POA&M, and ensure monitoring.", "correct": true },
+      { "text": "Create a high-level overview for the board without detailed documentation.", "correct": false },
+      { "text": "Document controls only in the compliance report without considering risk profile.", "correct": false },
+      { "text": "Document controls informally in an email to senior management.", "correct": false }
+    ]
+  },
+  {
+    "question": "A U.S. government agency is finalizing the security controls for its new intelligence system. The application will handle highly sensitive information and be managed by the U.S. Department of Homeland Security. The team is working to establish a process for reviewing the business continuity plan (BCP) and providing periodic training to relevant employees. How often should the organization review and provide training?",
+    "answers": [
+      { "text": "Review and train staff only after a disaster to ensure relevance.", "correct": false },
+      { "text": "Review monthly and train every six months for continuous readiness.", "correct": false },
+      { "text": "Review every two years and train only after major updates.", "correct": false },
+      { "text": "Review annually and train at least once per year for compliance and readiness.", "correct": true }
+    ]
+  },
+  {
+    "question": "A U.S. government agency is finalizing the security controls for its new intelligence system. The application will handle highly sensitive information managed by the U.S. Department of Homeland Security. During a third-party vendor risk assessment, the agency discovers that the vendor cannot meet the agency's required network segmentation controls due to limitations in their existing infrastructure. What would be an appropriate compensating control for this scenario? ",
+    "answers": [
+      { "text": "Conduct more frequent vulnerability scans on the vendor's systems.", "correct": false },
+      { "text": "Accept the risk of lacking network segmentation.", "correct": false },
+      { "text": "Restrict vendor access and implement robust monitoring of system activities.", "correct": true },
+      { "text": "Require the vendor to work remotely without internal network access.", "correct": false }
+    ]
+  },
+  {
+    "question": "A U.S. government agency is finalizing the security controls for its new intelligence system. The application will handle highly sensitive information and be managed by the U.S. Department of Homeland Security. During a third-party vendor risk assessment, the agency discovers that a cloud service provider (CSP) cannot meet the agency's required encryption controls due to incompatibilities in their existing application stack. Which of the following is the MOST appropriate compensating control the agency should implement to mitigate the risk introduced by the CSP's inability to implement the encryption control? ",
+    "answers": [
+      { "text": "Increase monitoring and review access logs more frequently.", "correct": false },
+      { "text": "Encrypt sensitive data before uploading using agency-managed tools.", "correct": true },
+      { "text": "Rely on the CSP's existing security measures.", "correct": false },
+      { "text": "Eliminate use of third-party cloud services and store data in-house.", "correct": false }
+    ]
+  },
+  {
+    "question": "A healthcare organization has implemented an Information Security Management System (ISMS) based on ISO/IEC 27001. During a routine internal audit, it is found that the organization's incident response plan (IRP) is not up-to-date, and there are no clear procedures for handling cybersecurity incidents. The organization has decided to update and implement a new IRP. Which of the following steps should the organization prioritize to ensure the updated IRP is effective in managing cybersecurity incidents?",
+    "answers": [
+      { "text": "Focus only on documenting types of cybersecurity incidents.", "correct": false },
+      { "text": "Skip training key personnel, relying solely on the written plan.", "correct": false },
+      { "text": "Update the IRP but do not document it in the ISMS.", "correct": false },
+      { "text": "Review and document roles and responsibilities, ensuring staff understand escalation procedures.", "correct": true }
+    ]
+  },
+  {
+    "question": "A healthcare organization has implemented an Information Security Management System (ISMS) based on ISO/IEC 27001. During a routine internal audit, it is found that the organization's incident response plan (IRP) is not up-to-date, and there are no clear procedures for handling cybersecurity incidents. The organization has decided to update and implement a new IRP. What steps should the organization take to ensure compliance with the ISO/IEC 27001 standard during the implementation of this new IRP?",
+    "answers": [
+      { "text": "Update the IRP, document it in the ISMS, and ensure that key personnel are trained on their roles in the event of a security incident.", "correct": true },
+      { "text": "Create an IRP, but avoid formal documentation, assuming it will be sufficient if the plan is known to key employees.", "correct": false },
+      { "text": "Update the IRP only after an external audit confirms the need for changes.", "correct": false },
+      { "text": "Create a new IRP, but keep it separate from the ISMS documentation to reduce overhead.", "correct": false }
+    ]
+  },
+  {
+    "question": "A healthcare organization has implemented an Information Security Management System (ISMS) based on ISO/IEC 27001. As part of audit preparations, the organization's security team needs to identify and classify various security controls implemented for the Major Incident Management Playbook. Which of the following would BEST describe the classification of a firewall used to block unauthorized access to the organization's network?",
+    "answers": [
+      { "text": "Management control", "correct": false },
+      { "text": "Technical control", "correct": true },
+      { "text": "Operational control", "correct": false },
+      { "text": "Common control", "correct": false }
+    ]
+  },
+  {
+    "question": "A large multinational corporation has recently implemented a new enterprise resource planning (ERP) system to streamline operations and improve financial tracking across all departments. The implementation team has followed a structured configuration management process, ensuring that all systems are configured according to the organization's security requirements. Which of the following actions should the security team prioritize in the Plan of Action and Millstones (POA&M) and risk register to address the residual security risk identified during the post-implementation review of the new ERP system?",
+    "answers": [
+      { "text": "Ignore the residual risk temporarily; proceed with the next phase of system implementation without documenting it in the POA&M.", "correct": false },
+      { "text": "Fully implement a workaround to eliminate the risk immediately, even if it requires altering the current system configurations.", "correct": false },
+      { "text": "Document the residual risk in the risk register, specifying the vulnerability and any compensating controls that have been implemented.", "correct": true },
+      { "text": "Defer the documentation of residual risks until the next audit is conducted.", "correct": false }
+    ]
+  },
+  {
+    "question": "A large multinational corporation has recently implemented a new enterprise resource planning (ERP) system to streamline operations and improve financial tracking across all departments. The implementation team has followed a structured configuration management process, ensuring that all systems are configured according to the organization's security requirements. In documenting the implemented security controls for the new ERP system, which of the following actions should be performed FIRST to ensure the controls are aligned with the organization's purpose, scope, and risk profile?",
+    "answers": [
+      { "text": "Focus on generic best practices for security controls and document them.", "correct": false },
+      { "text": "Prioritize documenting only the technical controls implemented because they're the most important controls.", "correct": false },
+      { "text": "Delay the documentation of implemented controls until the system undergoes its first security audit.", "correct": false },
+      { "text": "Ensure that the documented controls clearly reflect the organization's security policies, addressing the specific threats identified in company risk assessments.", "correct": true }
+    ]
+  },
+  {
+    "question": "A large multinational corporation has recently implemented a new enterprise resource planning (ERP) system to streamline operations and improve financial tracking across all departments. The implementation team has followed a structured configuration management process, ensuring that all systems are configured according to the organization's security requirements. In addition to technical controls, the organization has several other measures in place to protect its assets. These include CCTV cameras, video surveillance, locks, and security guards who monitor access to restricted areas. Which of the following BEST categorizes the security measures implemented?",
+    "answers": [
+      { "text": "Physical control", "correct": true },
+      { "text": "Management control", "correct": false },
+      { "text": "Technical control", "correct": false },
+      { "text": "Operational control", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following BEST describes the purpose of security and privacy controls in an organization?",
+    "answers": [
+      { "text": "To inconvenience employees", "correct": false },
+      { "text": "To meet regulatory requirements and protect assets", "correct": true },
+      { "text": "To avoid security audits", "correct": false },
+      { "text": "To minimize software costs", "correct": false }
+    ]
+  },
+  {
+    "question": "What does the principle of least privilege mean in access control?",
+    "answers": [
+      { "text": "Giving all employees administrator rights", "correct": false },
+      { "text": "Restricting access to only what is necessary for job functions", "correct": true },
+      { "text": "Allowing open access to all data", "correct": false },
+      { "text": "Encrypting all user credentials", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is required for compliance with GDPR?",
+    "answers": [
+      { "text": "Encryption of all files", "correct": false },
+      { "text": "Regular employee satisfaction surveys", "correct": false },
+      { "text": "Ensuring user consent for data collection", "correct": true },
+      { "text": "Unlimited data collection practices", "correct": false }
+    ]
+  },
+  {
+    "question": "ISO 27001 primarily focuses on which of these?",
+    "answers": [
+      { "text": "Employee satisfaction", "correct": false },
+      { "text": "Building secure software applications", "correct": false },
+      { "text": "Establishing an information security management system (ISMS)", "correct": true },
+      { "text": "Restricting internet access", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a security control type?",
+    "answers": [
+      { "text": "Administrative controls", "correct": false },
+      { "text": "Physical controls", "correct": false },
+      { "text": "Financial controls", "correct": true },
+      { "text": "Technical controls", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY function of encryption in privacy compliance?",
+    "answers": [
+      { "text": "Preventing software piracy", "correct": false },
+      { "text": "Hiding data from employees", "correct": false },
+      { "text": "Protecting sensitive data from unauthorized access", "correct": true },
+      { "text": "Increasing processing speed", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following BEST describes a compliance audit?",
+    "answers": [
+      { "text": "A general review of IT operations", "correct": false },
+      { "text": "An investigation into employee productivity", "correct": false },
+      { "text": "An independent formal assessment of security and privacy controls against regulations", "correct": true },
+      { "text": "A casual discussion with stakeholders", "correct": false }
+    ]
+  },
+  {
+    "question": "Which security measure strengthens password-based authentication?",
+    "answers": [
+      { "text": "Using a single password for all accounts", "correct": false },
+      { "text": "Implementing two-factor authentication", "correct": true },
+      { "text": "Removing password protection", "correct": false },
+      { "text": "Using short, easy-to-guess passwords", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of role-based access control (RBAC)?",
+    "answers": [
+      { "text": "Blocking all external users", "correct": false },
+      { "text": "Controlling access based on user roles", "correct": true },
+      { "text": "Eliminating login credentials", "correct": false },
+      { "text": "Granting full access to all employees", "correct": false }
+    ]
+  },
+  {
+    "question": "Which control helps detect unauthorized access attempts?",
+    "answers": [
+      { "text": "Incident response plan", "correct": false },
+      { "text": "Audit logs", "correct": true },
+      { "text": "Data retention policy", "correct": false },
+      { "text": "Password expiration policies", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following BEST describes a security control assessment (SCA)?",
+    "answers": [
+      { "text": "A method to evaluate the effectiveness of implemented controls", "correct": true },
+      { "text": "A simple checklist review", "correct": false },
+      { "text": "An employee survey", "correct": false },
+      { "text": "A financial audit", "correct": false }
+    ]
+  },
+  {
+    "question": "Which cybersecurity principle ensures system reliability?",
+    "answers": [
+      { "text": "Confidentiality", "correct": false },
+      { "text": "Availability", "correct": true },
+      { "text": "Anonymity", "correct": false },
+      { "text": "Surveillance", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following helps mitigate insider threats?",
+    "answers": [
+      { "text": "Continuous monitoring", "correct": true },
+      { "text": "Routine password expiration without activity logging", "correct": false },
+      { "text": "General cybersecurity awareness posters in public areas", "correct": false },
+      { "text": "Annual security audits without user behavior analyis", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following BEST describes compliance requirements for security controls?",
+    "answers": [
+      { "text": "Guidelines suggested by employees", "correct": false },
+      { "text": "Standards set by regulatory bodies", "correct": true },
+      { "text": "Optional security measures", "correct": false },
+      { "text": "Internal company preferences", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of a compensating control?",
+    "answers": [
+      { "text": "Firewall installation instead of employee training", "correct": false },
+      { "text": "Implementing multi-factor authentication when strong passwords are not feasible", "correct": true },
+      { "text": "Removing security patches to speed up performance", "correct": false },
+      { "text": "Using basic file permissions instead of data encryption", "correct": false }
+    ]
+  }, 
+  {
+    "question": "What is the purpose of implementing compensating controls?",
+    "answers": [
+      { "text": "To weaken security policies", "correct": false },
+      { "text": "To meet compliance when primary controls are infeasible", "correct": true },
+      { "text": "To avoid audits altogether", "correct": false },
+      { "text": "To eliminate encryption requirements", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following BEST illustrates compensating controls in access management when direct supervision isn't feasible?",
+    "answers": [
+      { "text": "Allowing universal access to all systems", "correct": false },
+      { "text": "Implementing role-based access control when direct supervision isn't feasible", "correct": true },
+      { "text": "Removing authentication checks to save time", "correct": false },
+      { "text": "Disabling all administrative privileges", "correct": false }
+    ]
+  },
+  {
+    "question": "Which security measure helps organizations comply with data protection regulations?",
+    "answers": [
+      { "text": "Permitting unrestricted access to sensitive systems", "correct": false },
+      { "text": "Enforcing role-based access restrictions", "correct": true },
+      { "text": "Disabling system audit logs to improve performance", "correct": false },
+      { "text": "Eliminating documentation for regulatory audits", "correct": false }
+    ]
+  },
+  {
+    "question": "If an organization cannot apply encryption to certain legacy systems, what compensating control could be used?",
+    "answers": [
+      { "text": "Increasing physical security measures", "correct": false },
+      { "text": "Using secure VPNs and network segmentation", "correct": true },
+      { "text": "Removing security controls altogether", "correct": false },
+      { "text": "Allowing all users unrestricted access", "correct": false }
+    ]
+  },
+  {
+    "question": "Which compensating control can help maintain compliance when multi-factor authentication is unavailable?",
+    "answers": [
+      { "text": "Strengthening password complexity requirements", "correct": true },
+      { "text": "Removing all access restrictions", "correct": false },
+      { "text": "Allowing anonymous logins", "correct": false },
+      { "text": "Eliminating security monitoring", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the role of auditing in compliance security controls?",
+    "answers": [
+      { "text": "Assessing control effectiveness and adherence to regulations", "correct": true },
+      { "text": "Reducing the number of security controls", "correct": false },
+      { "text": "Encouraging minimal security implementation", "correct": false },
+      { "text": "Eliminating the need for security frameworks", "correct": false }
+    ]
+  },
+  {
+    "question": "If physical security controls are difficult to enforce, which compensating control could be applied?",
+    "answers": [
+      { "text": "Adding enhanced electronic surveillance", "correct": true },
+      { "text": "Relying on employee self-reporting of suspicious activity", "correct": false },
+      { "text": "Posting general security guidelines near entrances", "correct": false },
+      { "text": "Using visitor sign-in sheets without verification", "correct": false }
+    ]
+  },
+  {
+    "question": "Which compliance measure ensures organizations follow GDPR rules for data protection?",
+    "answers": [
+      { "text": "Ensuring explicit user consent for data collection", "correct": true },
+      { "text": "Relying on implied consent for routine data processing", "correct": false },
+      { "text": "Sharing user data with partners under verbal agreements", "correct": false },
+      { "text": "Providing opt-out only after data is collected", "correct": false }
+    ]
+  },
+  {
+    "question": "Which alternative security measure enhances endpoint protection when patching is not immediately available?",
+    "answers": [
+      { "text": "Enabling endpoint monitoring and threat detection", "correct": true },
+      { "text": "Isolating vulnerable systems within a segmented network", "correct": false },
+      { "text": "Relying on user training to avoid malicious links", "correct": false },
+      { "text": "Scheduling patches for the next regular maintenance cycle", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following ensures compensating controls meet compliance standards?",
+    "answers": [
+      { "text": "Validating effectiveness through regular assessments", "correct": true },
+      { "text": "Documenting control intent without testing functionality", "correct": false },
+      { "text": "Relying on outdated audit results for compliance evidence", "correct": false },
+      { "text": "Assuming control effectiveness based on vendor claims", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the BEST approach when an organization lacks encryption but must protect sensitive data?",
+    "answers": [
+      { "text": "Implementing strict access controls and monitoring", "correct": true },
+      { "text": "Limiting data access only during business hours", "correct": false },
+      { "text": "Using complex file naming conventions to obscure data", "correct": false },
+      { "text": "Relocating sensitive data to a less visible network folder", "correct": false }
+    ]
+  },
+  {
+    "question": "Which control BEST compensates for weak physical access restrictions?",
+    "answers": [
+      { "text": "Multi-factor authentication for system access", "correct": true },
+      { "text": "Security camera monitoring with access logs", "correct": false },
+      { "text": "Visitor sign-in and badge issuance procedures", "correct": false },
+      { "text": "Locked server cabinets in unsecured areas", "correct": false }
+    ]
+  },
+  {
+    "question": "What is residual security risk?",
+    "answers": [
+      { "text": "Risk eliminated by security controls", "correct": false },
+      { "text": "Risk remaining after security measures are applied", "correct": true },
+      { "text": "Risk ignored by the organization", "correct": false },
+      { "text": "Risk unrelated to cybersecurity", "correct": false }
+    ]
+  },
+  {
+    "question": "Which document is used to track planned security implementations and mitigation actions?",
+    "answers": [
+      { "text": "Employee handbook", "correct": false },
+      { "text": "Risk register", "correct": true },
+      { "text": "Marketing strategy", "correct": false },
+      { "text": "Financial reports", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the PRIMARY purpose of a Plan of Action & Milestones (POA&M)?",
+    "answers": [
+      { "text": "To define penalties for security failures", "correct": false },
+      { "text": "To guide security control implementation and risk mitigation steps", "correct": true },
+      { "text": "To eliminate the need for security documentation", "correct": false },
+      { "text": "To create budgets for IT investments", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following BEST ensures security controls align with an organization's purpose and risk profile?",
+    "answers": [
+      { "text": "Defining security controls based on historical data and organizational practices", "correct": false },
+      { "text": "Regularly reviewing controls against organizational objectives and risks", "correct": true },
+      { "text": "Focusing primarily on meeting regulatory requirements", "correct": false },
+      { "text": "Applying a uniform set of security controls across all departments", "correct": false }
+    ]
+  },
+  {
+    "question": "Which document outlines the formal rules for security implementation?",
+    "answers": [
+      { "text": "Business strategy report", "correct": false },
+      { "text": "Security policy", "correct": true },
+      { "text": "Customer service guidelines", "correct": false },
+      { "text": "Organizational chart", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a KEY component of risk mitigation planning?",
+    "answers": [
+      { "text": "Eliminating discretionary cybersecurity investments", "correct": false },
+      { "text": "Identifying risks and tracking mitigation actions", "correct": true },
+      { "text": "Prioritizing operational convenience over control enforcement", "correct": false },
+      { "text": "Relying solely on historical incident trends", "correct": false }
+    ]
+  },
+  {
+    "question": "What is a PRIMARY benefit of maintaining a risk register?",
+    "answers": [
+      { "text": "Shifting security responsibilities to third-party vendors", "correct": false },
+      { "text": "Tracking identified risks and documenting mitigation strategies", "correct": true },
+      { "text": "Reducing the frequency of internal audits", "correct": false },
+      { "text": "Focusing resources only on high-impact threats", "correct": false }
+    ]
+  },
+  {
+    "question": "Which security document outlines steps for handling security incidents?",
+    "answers": [
+      { "text": "Security procedures", "correct": false },
+      { "text": "Incident response plan", "correct": true },
+      { "text": "Training manuals", "correct": false },
+      { "text": "Employee compensation guide", "correct": false }
+    ]
+  },
+  {
+    "question": "How do organizations BEST address residual security risks?",
+    "answers": [
+      { "text": "By documenting and applying compensating controls", "correct": true },
+      { "text": "By accepting and monitoring remaining risks", "correct": false },
+      { "text": "By relying solely on automated security tools", "correct": false },
+      { "text": "By focusing on high-probability threats", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of security control assessments?",
+    "answers": [
+      { "text": "To validate the effectiveness of implemented security controls", "correct": true },
+      { "text": "To increase security-related spending", "correct": false },
+      { "text": "To eliminate security policies", "correct": false },
+      { "text": "To avoid regulatory oversight", "correct": false }
+    ]
+  },
+  {
+    "question": "Why is documenting security controls essential for compliance?",
+    "answers": [
+      { "text": "It ensures regulatory requirements are met", "correct": true },
+      { "text": "It reduces security costs", "correct": false },
+      { "text": "It eliminates the need for cybersecurity training", "correct": false },
+      { "text": "It allows unrestricted access to sensitive data", "correct": false }
+    ]
+  },
+  {
+    "question": "Which approach ensures security control documentation reflects an organization's risk profile?",
+    "answers": [
+      { "text": "Aligning security policies with risk assessments", "correct": true },
+      { "text": "Defining security controls based solely on past incident trends", "correct": false },
+      { "text": "Applying generic security templates across all systems", "correct": false },
+      { "text": "Prioritizing operational efficiency over formal documentation", "correct": false }
     ]
   }
 ]

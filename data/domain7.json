@@ -38,11 +38,11 @@
       },
       {
         "text": "Failing to shut down interconnection or switchover to replacement systems",
-        "correct": false
+        "correct": true
       },
       {
         "text": "Notifying end users about upcoming maintenance windows",
-        "correct": true
+        "correct": false
       },
       {
         "text": "Scheduling security awareness training for system administrators",
@@ -143,9 +143,9 @@
   {
     "question": "Which phase of the change deployment process involves preparing release notes, documentation, and training materials for changes?",
     "answers": [
-      { "text": "Planning and preparation", "correct": true },
+      { "text": "Planning and preparation", "correct": false },
       { "text": "Development and testing", "correct": false },
-      { "text": "Approval and release", "correct": false },
+      { "text": "Approval and release", "correct": true },
       { "text": "Deployment and verification", "correct": false }
     ]
   },
@@ -206,8 +206,8 @@
   {
     "question": "Who must present the change proposal to the change control board (CCB) and technical review board (TRB) for review and approval?",
     "answers": [
-      { "text": "Project manager", "correct": true },
-      { "text": "System owner or developer", "correct": false },
+      { "text": "Project manager", "correct": false },
+      { "text": "System owner or developer", "correct": true },
       { "text": "Quality assurance manager", "correct": false },
       { "text": "Customer representative", "correct": false }
     ]
@@ -335,9 +335,9 @@
   {
     "question": "Which of the following is an example of an internal change that can affect an organization's risk, operations, and compliance?",
     "answers": [
-      { "text": "Employee turnover", "correct": true },
+      { "text": "Employee turnover", "correct": false },
       { "text": "Changes in legal obligations", "correct": false },
-      { "text": "System upgrades", "correct": false },
+      { "text": "System upgrades", "correct": true },
       { "text": "Changes in stakeholder expectations", "correct": false }
     ]
   },
@@ -346,10 +346,10 @@
     "answers": [
       { "text": "To restrict emergency changes", "correct": false },
       { "text": "To bypass testing requirements", "correct": false },
-      { "text": "To implement changes faster", "correct": false },
+      { "text": "To implement changes faster", "correct": true },
       {
         "text": "To ensure adaptability for different situations",
-        "correct": true
+        "correct": false
       }
     ]
   },
@@ -455,8 +455,8 @@
   {
     "question": "Which of the following documents is included in the documentation of a decommissioned system?",
     "answers": [
-      { "text": "System design and architecture documents", "correct": false },
-      { "text": "Data destruction certificates", "correct": true },
+      { "text": "System design and architecture documents", "correct": true },
+      { "text": "Data destruction certificates", "correct": false },
       { "text": "Risk management plans", "correct": false },
       { "text": "Employee performance reviews", "correct": false }
     ]
@@ -506,8 +506,8 @@
   {
     "question": "Which of the following is included in ongoing assessments for risk remediation?",
     "answers": [
-      { "text": "Configuration scanning", "correct": false },
-      { "text": "Vulnerability assessments", "correct": true },
+      { "text": "Configuration scanning", "correct": true },
+      { "text": "Vulnerability assessments", "correct": false },
       { "text": "Risk mitigation planning", "correct": false },
       { "text": "Incident response reviews", "correct": false }
     ]
@@ -709,7 +709,7 @@
     "answers": [
       {
         "text": "Reviewing the change request form and supporting documentation",
-        "correct": true
+        "correct": false
       },
       {
         "text": "Evaluating the business and operational aspects of the change",
@@ -717,7 +717,7 @@
       },
       {
         "text": "Ensuring the change follows best practices and standards for system development",
-        "correct": false
+        "correct": true
       },
       {
         "text": "Communicating the outcome of the review to the system owner or developer",
@@ -788,9 +788,9 @@
   {
     "question": "What process follows the response to findings from the ISCM program?",
     "answers": [
-      { "text": "System reauthorization", "correct": false },
+      { "text": "System reauthorization", "correct": true },
       { "text": "Compliance auditing", "correct": false },
-      { "text": "Implementing compliance controls", "correct": true },
+      { "text": "Implementing compliance controls", "correct": false },
       { "text": "Redefining the ISCM strategy", "correct": false }
     ]
   },
@@ -1107,11 +1107,11 @@
       { "text": "To design, execute, and test controls", "correct": false },
       {
         "text": "To avoid, reduce, transfer, or accept risks",
-        "correct": true
+        "correct": false
       },
       {
         "text": "To modify risks affecting system compliance",
-        "correct": false
+        "correct": true
       }
     ]
   },
@@ -1228,11 +1228,11 @@
     "answers": [
       {
         "text": "Reviewing training content to reflect current industry threats",
-        "correct": true
+        "correct": false
       },
       {
         "text": "Monitoring feedback from employees on training effectiveness",
-        "correct": false
+        "correct": true
       },
       {
         "text": "Reviewing and updating user password policies",
@@ -1321,8 +1321,8 @@
     "answers": [
       { "text": "Yearly", "correct": false },
       { "text": "Every six months", "correct": false },
-      { "text": "Based on authorized package", "correct": false },
-      { "text": "Based on the monitoring strategy", "correct": true }
+      { "text": "Based on authorized package", "correct": true },
+      { "text": "Based on the monitoring strategy", "correct": false }
     ]
   },
   {
@@ -1564,11 +1564,11 @@
     "answers": [
       {
         "text": "Transfer the software licenses to another system",
-        "correct": true
+        "correct": false
       },
       { "text": "Update the software to the latest version", "correct": false },
       { "text": "Implement new systems features", "correct": false },
-      { "text": "Uninstall the software", "correct": false }
+      { "text": "Uninstall the software", "correct": true }
     ]
   },
   {
@@ -1825,7 +1825,7 @@
     "answers": [
       {
         "text": "To confirm accuracy and completeness of system documentation",
-        "correct": false
+        "correct": true
       },
       {
         "text": "To evaluate the understanding of security policies and procedures",
@@ -1833,7 +1833,7 @@
       },
       {
         "text": "To identify potential security risks and vulnerabilities",
-        "correct": true
+        "correct": false
       },
       {
         "text": "To assess the effectiveness of existing security controls",
