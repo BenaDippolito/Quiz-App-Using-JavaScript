@@ -405,6 +405,9 @@ const nextButton = document.getElementById("next-btn");
 let currentQuestionIndex = 0;
 let score = 0;
 
+// Track incorrect answers with their domains for review
+let incorrectAnswers = [];
+
 // Timer defaults and runtime state
 const DEFAULT_TIME_PER_QUESTION = 15; // seconds
 let timerId = null;
@@ -436,6 +439,7 @@ window.setActiveQuestions = setActiveQuestions;
 function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
+  incorrectAnswers = []; // Reset incorrect answers tracking
   nextButton.innerHTML = "Next";
   // start the overall exam countdown and then show the first question
   startExamTimer();
@@ -537,6 +541,18 @@ function stopTimer() {
 }
 
 function handleTimeout() {
+  // Track timeout as incorrect answer
+  const currentQuestion = activeQuestions[currentQuestionIndex];
+  const correctAnswer = currentQuestion.answers.find(a => a.correct);
+  
+  incorrectAnswers.push({
+    questionNumber: currentQuestionIndex + 1,
+    question: currentQuestion.question,
+    domain: currentQuestion.__domain || 'unknown',
+    selectedAnswer: '(No answer - timed out)',
+    correctAnswer: correctAnswer ? correctAnswer.text : 'N/A'
+  });
+  
   // reveal correct answer(s) and disable buttons
   Array.from(answerButtons.children).forEach((button) => {
     if (button.dataset.correct === "true") {
@@ -572,11 +588,23 @@ function selectAnswer(e) {
 
   const selectedBtn = e.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
+  const currentQuestion = activeQuestions[currentQuestionIndex];
+  
   if (isCorrect) {
     selectedBtn.classList.add("correct");
     score++;
   } else {
     selectedBtn.classList.add("incorrect");
+    
+    // Track incorrect answer with details
+    const correctAnswer = currentQuestion.answers.find(a => a.correct);
+    incorrectAnswers.push({
+      questionNumber: currentQuestionIndex + 1,
+      question: currentQuestion.question,
+      domain: currentQuestion.__domain || 'unknown',
+      selectedAnswer: selectedBtn.innerHTML,
+      correctAnswer: correctAnswer ? correctAnswer.text : 'N/A'
+    });
   }
   // reveal correct answer(s) and disable all choices
   Array.from(answerButtons.children).forEach((button) => {
@@ -624,9 +652,55 @@ function showScore() {
   const elapsedSeconds = Math.max(0, Math.floor(elapsedMs / 1000));
   const elapsedStr = formatTime(elapsedSeconds);
 
-  questionElement.innerHTML =
-    `You scored ${score} out of ${activeQuestions.length}!` +
-    `<div style="margin-top:8px;font-weight:600;">Time taken: ${elapsedStr}</div>`;
+  // Build results display with incorrect answers breakdown
+  let resultsHTML = `You scored ${score} out of ${activeQuestions.length}!`;
+  resultsHTML += `<div style="margin-top:8px;font-weight:600;">Time taken: ${elapsedStr}</div>`;
+  
+  // Add incorrect answers section if there are any
+  if (incorrectAnswers.length > 0) {
+    resultsHTML += `
+      <div style="margin-top:24px;">
+        <h3 style="color:#b02a37;margin-bottom:12px;">📋 Review Incorrect Answers (${incorrectAnswers.length})</h3>
+        <p style="font-size:14px;color:#666;margin-bottom:16px;">Focus on these domains for further study:</p>
+    `;
+    
+    // Group by domain
+    const byDomain = incorrectAnswers.reduce((acc, item) => {
+      const domain = item.domain;
+      if (!acc[domain]) acc[domain] = [];
+      acc[domain].push(item);
+      return acc;
+    }, {});
+    
+    // Display by domain
+    Object.keys(byDomain).sort().forEach(domain => {
+      const domainQuestions = byDomain[domain];
+      resultsHTML += `
+        <div style="background:#f8f9fa;border-left:4px solid #4a90e2;padding:12px;margin-bottom:12px;border-radius:4px;">
+          <div style="font-weight:700;color:#042532;margin-bottom:8px;text-transform:uppercase;font-size:13px;">
+            ${domain.replace('domain', 'Domain ')} - ${domainQuestions.length} incorrect
+          </div>
+      `;
+      
+      domainQuestions.forEach(item => {
+        resultsHTML += `
+          <div style="margin-bottom:12px;padding:8px;background:white;border-radius:4px;">
+            <div style="font-weight:600;color:#042532;margin-bottom:6px;font-size:14px;">Q${item.questionNumber}: ${item.question}</div>
+            <div style="margin-left:12px;font-size:13px;">
+              <div style="color:#b02a37;margin-bottom:4px;">❌ Your answer: ${item.selectedAnswer}</div>
+              <div style="color:#51cf66;">✓ Correct answer: ${item.correctAnswer}</div>
+            </div>
+          </div>
+        `;
+      });
+      
+      resultsHTML += `</div>`;
+    });
+    
+    resultsHTML += `</div>`;
+  }
+  
+  questionElement.innerHTML = resultsHTML;
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
 
@@ -695,6 +769,7 @@ function showScore() {
       timestamp: Date.now(),
       activeQuestions: activeQuestions,
       currentQuestionIndex: currentQuestionIndex,
+      incorrectAnswers: incorrectAnswers, // Save incorrect answers for later review
     };
     localStorage.setItem("lastQuiz", JSON.stringify(last));
   } catch (e) {}
@@ -817,6 +892,48 @@ window.stopTimer = stopTimer;
         li.textContent = `${d}: ${c}`;
         listEl.appendChild(li);
       }
+    }
+    
+    // Display incorrect answers by domain
+    const incorrectSection = document.getElementById("trackerIncorrectAnswers");
+    const incorrectListEl = document.getElementById("trackerIncorrectList");
+    if (incorrectSection && incorrectListEl && Array.isArray(last.incorrectAnswers) && last.incorrectAnswers.length > 0) {
+      incorrectSection.style.display = "";
+      incorrectListEl.innerHTML = "";
+      
+      // Group by domain
+      const byDomain = last.incorrectAnswers.reduce((acc, item) => {
+        const domain = item.domain || 'unknown';
+        if (!acc[domain]) acc[domain] = [];
+        acc[domain].push(item);
+        return acc;
+      }, {});
+      
+      // Display each domain with its incorrect questions
+      Object.keys(byDomain).sort().forEach(domain => {
+        const domainDiv = document.createElement("div");
+        domainDiv.style.cssText = "background:#f8f9fa;border-left:4px solid #b02a37;padding:10px;margin-bottom:8px;border-radius:4px;";
+        
+        const domainHeader = document.createElement("div");
+        domainHeader.style.cssText = "font-weight:700;color:#042532;margin-bottom:6px;text-transform:uppercase;font-size:12px;";
+        domainHeader.textContent = `${domain.replace('domain', 'Domain ')} - ${byDomain[domain].length} incorrect`;
+        domainDiv.appendChild(domainHeader);
+        
+        const questionList = document.createElement("ul");
+        questionList.style.cssText = "margin:0;padding-left:20px;font-size:13px;color:#042532;";
+        
+        byDomain[domain].forEach(item => {
+          const li = document.createElement("li");
+          li.style.marginBottom = "4px";
+          li.textContent = `Q${item.questionNumber}: ${item.question.substring(0, 60)}${item.question.length > 60 ? '...' : ''}`;
+          questionList.appendChild(li);
+        });
+        
+        domainDiv.appendChild(questionList);
+        incorrectListEl.appendChild(domainDiv);
+      });
+    } else if (incorrectSection) {
+      incorrectSection.style.display = "none";
     }
 
     if (resumeBtn) {
